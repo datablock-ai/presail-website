@@ -16,23 +16,20 @@ export default function Example() {
               >
                 Chat with me on Telegram     
               </a>
+              <img
+                className="mx-auto mt-20 mb-10 h-44 w-44 rounded-full"
+                src="/team/hamza.webp"
+                alt="Hamza Nebolsi"
+              />
             </div>
             <footer className="mt-8">
               <div className="md:flex md:items-center md:justify-center">
-                <div className="md:flex-shrink-0">
-                  <img
-                    className="mx-auto h-44 w-44 rounded-full"
-                    src="/team/hamza.webp"
-                    alt="Hamza Nebolsi"
-                  />
-                </div>
                 <div className="mt-3 text-center md:mt-0 md:ml-4 md:flex md:items-center">
                   <div className="text-base font-medium text-white">Hamza Nebolsi</div>
                   <svg className="hidden md:block mx-1 h-5 w-5 text-indigo-600" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M11 0h3L9 20H6l5-20z" />
                   </svg>
-
-                  <div className="text-base font-medium text-white">Head of Product, Presail</div>
+                  <div className="text-base font-medium text-white">Head of Product</div>
                 </div>
               </div>
             </footer>
