@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 const people = [
   {
     name: 'Sebastian',
@@ -61,10 +63,16 @@ export default function Example() {
           </div>
           <ul role="list" className="space-y-4 sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0 lg:grid-cols-3 lg:gap-8">
             {people.map((person) => (
-              <li key={person.name} className="py-10 px-6 bg-gray-900 text-center rounded-lg xl:px-10 xl:text-left">
+              <li key={person.name} className="py-10 px-6 bg-gray-900 flex place-content-center text-center rounded-lg xl:px-10 xl:text-left">
                 <div className="space-y-6 xl:space-y-10">
-                  <img className="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56" src={person.imageUrl} alt="" />
-                  <div className="space-y-2 xl:flex xl:items-center xl:justify-between">
+                  <Image
+                    src={person.imageUrl}
+                    height="224"
+                    width="224"
+                    className="h-40 w-40 rounded-full xl:w-56 xl:h-56"
+                  >
+                  </Image>
+                  <div className="space-y-2 xl:flex xl:items-center">
                     <div className="font-medium text-lg leading-6 space-y-1">
                       <h3 className="text-white">{person.name}</h3>
                       <p className="text-indigo-400">{person.role}</p>
