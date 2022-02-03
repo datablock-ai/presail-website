@@ -6,7 +6,7 @@ export default function Example() {
         <div className="h-full w-full xl:grid xl:grid-cols-2">
           <div className="h-full xl:relative xl:col-start-2">
             <img
-              className="h-full w-auto xl:absolute xl:inset-0"
+              className="h-full  xl:absolute xl:inset-0"
               src="/platform2.webp"
               alt="Presail platform"
             />

@@ -24,7 +24,7 @@ const features = [
 export default function Example() {
   return (
     <div className="relative bg-background py-16 sm:py-24 lg:py-32">
-      <div className="mx-auto max-w-md px-4 text-left md:text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
+      <div className="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
         <h2 className="text-base font-semibold tracking-wider text-indigo-400 uppercase">Deploy faster</h2>
         <p className="mt-2 text-3xl font-extrabold text-white tracking-tight sm:text-4xl">
           Everything you need to deploy your app
