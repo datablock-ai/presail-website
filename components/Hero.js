@@ -36,7 +36,7 @@ export default function Example() {
                     href="https://presail.recruitee.com/"
                     className="inline-flex items-center text-white bg-gray-900 rounded-full p-1 pr-2 sm:text-base lg:text-sm xl:text-base hover:text-gray-200"
                   >
-                    <span className="px-3 py-0.5 text-white text-xs font-semibold leading-5 uppercase tracking-wide bg-indigo-500 rounded-full">
+                    <span className="px-3 py-0.5 text-white text-xs font-semibold leading-5 uppercase tracking-wide bg-indigo-400 rounded-full">
                       We're hiring
                     </span>
                     <span className="ml-4 text-sm">Visit our careers page</span>
@@ -88,7 +88,7 @@ export default function Example() {
                       <p className="mb-20 text-gray-300 text-base">Want to know how we can implement Presail for you? Let's chat!</p>
                       <a
                         href="https://t.me/zerocap"
-                        className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-700 hover:bg-indigo-900 md:py-4 md:text-lg md:px-10"
+                        className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-400 hover:bg-indigo-900 md:py-4 md:text-lg md:px-10"
                       >
                         Schedule a demo
                       </a>

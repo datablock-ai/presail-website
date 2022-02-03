@@ -2,7 +2,7 @@ export default function Hamza() {
   return (
     <div className="relative py-16 bg-gray-800">
       <div className="hidden absolute top-0 inset-x-0 h-1/2 bg-gray-800 lg:block" aria-hidden="true" />
-      <div className="max-w-7xl mx-auto bg-indigo-600 lg:bg-transparent lg:px-8">
+      <div className="max-w-7xl mx-auto bg-indigo-400 lg:bg-transparent lg:px-8">
         <div className="lg:grid lg:grid-cols-12">
           <div className="relative z-10 lg:col-start-1 lg:row-start-1 lg:col-span-4 lg:py-16 lg:bg-transparent">
             <div className="absolute inset-x-0 h-1/2 bg-gray-800 lg:hidden" aria-hidden="true" />
@@ -17,7 +17,7 @@ export default function Hamza() {
             </div>
           </div>
 
-          <div className="relative bg-indigo-600 lg:col-start-3 lg:row-start-1 lg:col-span-10 lg:rounded-3xl lg:grid lg:grid-cols-10 lg:items-center">
+          <div className="relative bg-indigo-400 lg:col-start-3 lg:row-start-1 lg:col-span-10 lg:rounded-3xl lg:grid lg:grid-cols-10 lg:items-center">
             <div className="hidden absolute inset-0 overflow-hidden rounded-3xl lg:block" aria-hidden="true">
               <svg
                 className="absolute bottom-full left-full transform translate-y-1/3 -translate-x-2/3 xl:bottom-auto xl:top-0 xl:translate-y-0"
@@ -72,7 +72,7 @@ export default function Hamza() {
                Want to know how we can implement Presail for you?
               </p>
               <a
-                className="block w-full py-3 px-5 text-center bg-white border border-transparent rounded-md shadow-md text-base font-medium text-indigo-700 hover:bg-gray-50 sm:inline-block sm:w-auto"
+                className="block w-full py-3 px-5 text-center bg-white border border-transparent rounded-md shadow-md text-base font-medium text-indigo-400 hover:bg-gray-50 sm:inline-block sm:w-auto"
                 href="https://t.me/zerocap"
               >
                 Contact me on Telegram

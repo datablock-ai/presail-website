@@ -70,13 +70,13 @@ export default function Example() {
                 <div className="px-5 pt-4 flex items-center justify-between">
                   <div>
                     <img
-                      className="h-8 w-auto"
-                      src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
-                      alt=""
+                      className="h-8 w-auto invert"
+                      src="/presail-mark-logo.png"
+                      alt="Presail"
                     />
                   </div>
                   <div className="-mr-2">
-                    <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                    <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-400">
                       <span className="sr-only">Close menu</span>
                       <XIcon className="h-6 w-6" aria-hidden="true" />
                     </Popover.Button>
@@ -84,18 +84,19 @@ export default function Example() {
                 </div>
                 <div className="px-2 pt-2 pb-3 space-y-1">
                   {navigation.map((item) => (
+                    <Link href={item.href}>
                     <a
                       key={item.name}
-                      href={item.href}
                       className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
                     >
                       {item.name}
                     </a>
+                    </Link>
                   ))}
                 </div>
                 <a
                   href="https://portal.presail.com"
-                  className="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100"
+                  className="block w-full px-5 py-3 text-center font-medium text-indigo-400 bg-gray-50 hover:bg-gray-100"
                 >
                   Log into Investor Portal
                 </a>

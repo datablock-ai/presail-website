@@ -18,7 +18,7 @@ export default function Example() {
       </div>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8 xl:grid xl:grid-cols-2 xl:grid-flow-col-dense xl:gap-x-8">
         <div className="relative pt-12 pb-64 sm:pt-24 sm:pb-64 xl:col-start-1 xl:pb-24">
-          <h2 className="text-sm font-semibold text-indigo-300 tracking-wide uppercase">Move to Presail</h2>
+          <h2 className="text-sm font-semibold text-indigo-400 tracking-wide uppercase">Move to Presail</h2>
           <p className="mt-3 text-3xl font-extrabold text-white">
             Direct the time Presail saves you into sourcing investments, winning new deals, and helping projects grow
           </p>
