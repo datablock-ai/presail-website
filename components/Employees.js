@@ -70,6 +70,8 @@ export default function Example() {
                     height="224"
                     width="224"
                     className="h-40 w-40 rounded-full xl:w-56 xl:h-56"
+                    placeholder="blur"
+                    blurDataURL="iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNcWw8AAd8BLiy87+IAAAAASUVORK5CYII="
                   >
                   </Image>
                   <div className="space-y-2 xl:flex xl:items-center">
