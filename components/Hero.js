@@ -87,7 +87,7 @@ export default function Example() {
                     <div className="mt-6 relative">
                       <p className="mb-20 text-gray-300 text-base">Want to know how we can implement Presail for you? Let's chat!</p>
                       <a
-                        href="#"
+                        href="https://t.me/zerocap"
                         className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-700 hover:bg-indigo-900 md:py-4 md:text-lg md:px-10"
                       >
                         Schedule a demo

@@ -18,14 +18,16 @@ export default function Example() {
           >
             <div className="flex items-center flex-1">
               <div className="flex items-center justify-between w-full md:w-auto">
-                <a href="/">
+                <Link href="/">
+                <a>
                   <span className="sr-only">Workflow</span>
                   <img
                     className="h-8 w-auto sm:h-10"
-                    src="/presail-logo.svg"
+                    src="/presail-mark-logo.png"
                     alt=""
                   />
                 </a>
+                </Link>
                 <div className="-mr-2 flex items-center md:hidden">
                   <Popover.Button className="bg-gray-800 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:bg-gray-700 focus:outline-none focus:ring-2 focus-ring-inset focus:ring-white">
                     <span className="sr-only">Open main menu</span>
@@ -43,10 +45,10 @@ export default function Example() {
             </div>
             <div className="hidden md:flex">
               <a
-                href="#"
+                href="https://portal.presail.com"
                 className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-gray-600 hover:bg-gray-700"
               >
-                Log in
+                Log into Investor Portal
               </a>
             </div>
           </nav>
@@ -92,10 +94,10 @@ export default function Example() {
                   ))}
                 </div>
                 <a
-                  href="#"
+                  href="https://portal.presail.com"
                   className="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100"
                 >
-                  Log in
+                  Log into Investor Portal
                 </a>
               </div>
             </Popover.Panel>

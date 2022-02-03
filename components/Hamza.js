@@ -10,7 +10,7 @@ export default function Hamza() {
               <div className="aspect-w-10 aspect-h-6 sm:aspect-w-2 sm:aspect-h-1 lg:aspect-w-1">
                 <img
                   className="object-cover object-center rounded-3xl shadow-2xl"
-                  src="/hamza.jpg"
+                  src="/team/hamza.jpg"
                   alt=""
                 />
               </div>
