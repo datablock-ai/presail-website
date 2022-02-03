@@ -65,15 +65,7 @@ export default function Example() {
             {people.map((person) => (
               <li key={person.name} className="py-10 px-6 bg-gray-900 flex place-content-center text-center rounded-lg xl:px-10 xl:text-left">
                 <div className="space-y-6 xl:space-y-10">
-                  <Image
-                    src={person.imageUrl}
-                    height="224"
-                    width="224"
-                    className="h-40 w-40 rounded-full xl:w-56 xl:h-56"
-                    placeholder="blur"
-                    blurDataURL="iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNcWw8AAd8BLiy87+IAAAAASUVORK5CYII="
-                  >
-                  </Image>
+                  <img className="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56" src={person.imageUrl} alt="" />
                   <div className="space-y-2 xl:flex xl:items-center">
                     <div className="font-medium text-lg leading-6 space-y-1">
                       <h3 className="text-white">{person.name}</h3>
