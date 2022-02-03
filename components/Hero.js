@@ -33,7 +33,7 @@ export default function Example() {
                 </div>
               </div>
               <div className="mt-16 sm:mt-24 lg:mt-0 lg:col-span-6">
-                <img src="platform.png" className="" />
+                <img src="platform1.webp" />
               </div>
             </div>
           </div>
