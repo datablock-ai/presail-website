@@ -32,7 +32,7 @@ export default function Example() {
                     <path d="M11 0h3L9 20H6l5-20z" />
                   </svg>
 
-                  <div className="text-base font-medium text-slate-300">Head of Product, Presail</div>
+                  <div className="text-base font-medium text-white">Head of Product, Presail</div>
                 </div>
               </div>
             </footer>

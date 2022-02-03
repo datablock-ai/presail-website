@@ -9,7 +9,7 @@ export default function Example() {
           <p className="mt-1 text-4xl font-extrabold text-white sm:text-5xl sm:tracking-tight lg:text-6xl">
             Get on top of everything.
           </p>
-          <p className="max-w-xl mt-5 mx-auto text-xl text-gray-300">
+          <p className="max-w-xl mt-5 mx-auto text-xl text-slate-300">
             Presail grows with you. Whether you're just getting started, or PAMPING.
           </p>
 
@@ -22,7 +22,7 @@ export default function Example() {
                       <SpeakerphoneIcon className="h-6 w-6 text-white" aria-hidden="true" />
                     </span>
                     <p className="ml-3 font-medium text-white truncate">
-                      <span className="md:hidden">We announced a new product!</span>
+                      <span className="md:hidden">Contact us for custom quote</span>
                       <span className="hidden md:inline">Are you a project, DAO or need to do a one-time deal? Get in touch with us for a custom quote.</span>
                     </p>
                   </div>

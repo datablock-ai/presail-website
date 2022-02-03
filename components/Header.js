@@ -38,7 +38,7 @@ export default function Example() {
               <div className="hidden space-x-10 md:flex md:ml-10">
                 {navigation.map((item) => (
                   <Link key={item.name} href={item.href}>
-                    <a className="font-medium text-white hover:text-gray-300">{item.name}</a>
+                    <a className="font-medium text-white hover:text-slate-300">{item.name}</a>
                   </Link>
                 ))}
               </div>
@@ -46,7 +46,7 @@ export default function Example() {
             <div className="hidden md:flex">
               <a
                 href="https://portal.presail.com"
-                className="inline-flex items-center px-4 py-2 text-sm font-medium rounded-md text-white bg-gradient-to-r from-teal-500 to-cyan-600 hover:bg-gray-700"
+                className="inline-flex items-center px-4 py-2 text-sm font-medium rounded-md text-white bg-gradient-to-r from-indigo-400 to-blue-400 hover:bg-gray-700"
               >
                 Log into Investor Portal
               </a>
@@ -70,15 +70,15 @@ export default function Example() {
                 <div className="px-5 pt-4 flex items-center justify-between">
                   <div>
                     <img
-                      className="h-8 w-auto invert"
-                      src="/presail-mark-logo.png"
+                      className="h-8 w-auto"
+                      src="/presail-logo-dark.svg"
                       alt="Presail"
                     />
                   </div>
                   <div className="-mr-2">
-                    <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-400">
+                    <Popover.Button className="bg-indigo-400 rounded-md p-2 inline-flex items-center justify-center text-slate-300 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-400">
                       <span className="sr-only">Close menu</span>
-                      <XIcon className="h-6 w-6" aria-hidden="true" />
+                      <XIcon className="h-6 w-6 text-white" aria-hidden="true" />
                     </Popover.Button>
                   </div>
                 </div>
@@ -96,7 +96,7 @@ export default function Example() {
                 </div>
                 <a
                   href="https://portal.presail.com"
-                  className="block w-full px-5 py-3 text-center font-medium text-indigo-400 bg-gray-50 hover:bg-gray-100"
+                  className="block w-full px-5 py-3 text-center font-medium text-white bg-indigo-400"
                 >
                   Log into Investor Portal
                 </a>

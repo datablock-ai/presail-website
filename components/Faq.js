@@ -29,7 +29,7 @@ const faqs = [
 
 export default function Example() {
   return (
-    <div className="bg-indigo-400">
+    <div className="bg-background">
       <div className="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
         <h2 className="text-3xl font-extrabold text-white">Frequently asked questions</h2>
         <div className="mt-6 border-t border-indigo-900 border-opacity-25 pt-10">
@@ -37,7 +37,7 @@ export default function Example() {
             {faqs.map((faq) => (
               <div key={faq.id}>
                 <dt className="text-lg leading-6 font-medium text-white">{faq.question}</dt>
-                <dd className="mt-2 text-base text-gray-300">{faq.answer}</dd>
+                <dd className="mt-2 text-base text-slate-300">{faq.answer}</dd>
               </div>
             ))}
           </dl>
