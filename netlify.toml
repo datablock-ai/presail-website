@@ -1,0 +1,9 @@
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    frame-ancestors = "none"
+    X-Download-Options = "noopen"
+    Strict-Transport-Security = "max-age=63072000; includeSubDomains"
