@@ -13,6 +13,7 @@
         indigo: colors.indigo,
         yellow: colors.yellow,
         cyan: colors.cyan,
+        background: '#0a2540'
       }
     },
     plugins: [

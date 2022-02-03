@@ -2,7 +2,7 @@ import { ChevronRightIcon } from '@heroicons/react/solid'
 
 export default function Example() {
   return (
-    <div className="relative bg-gray-800 overflow-hidden">
+    <div className="relative bg-background overflow-hidden">
       <div className="hidden sm:block sm:absolute sm:inset-0" aria-hidden="true">
         <svg
           className="absolute bottom-0 right-0 transform translate-x-1/2 mb-48 text-gray-700 lg:top-0 lg:mt-28 lg:mb-0 xl:transform-none xl:translate-x-0"
@@ -53,27 +53,7 @@ export default function Example() {
                 </div>
               </div>
               <div className="mt-16 sm:mt-24 lg:mt-0 lg:col-span-6">
-                <div className="bg-gray-900 sm:max-w-md sm:w-full sm:mx-auto sm:rounded-lg sm:overflow-hidden">
-                  <div className="px-4 py-8 sm:px-10">
-                    <div>
-                      <h2 className="text-3xl font-extrabold tracking-tight text-white sm:text-4xl">Book a demo</h2>
-                    </div>
-
-                    <div className="mt-6 relative">
-                      <p className="mb-20 text-gray-300 text-base">Want to know how we can implement Presail for you? Let's chat!</p>
-                      <a
-                        href="https://t.me/zerocap"
-                        className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-400 hover:bg-indigo-900 md:py-4 md:text-lg md:px-10"
-                      >
-                        Schedule a demo
-                      </a>
-                    </div>
-
-            
-                  </div>
-                  <div className="px-4 py-6 bg-gray-900 border-t-2 border-gray-900 sm:px-10">
-                  </div>
-                </div>
+                <img src="platform.png" className="" />
               </div>
             </div>
           </div>

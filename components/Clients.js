@@ -78,7 +78,7 @@ const logos = [
 
 export default function Clients() {
   return (
-    <div className="bg-gray-800">
+    <div className="bg-background">
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
         <p className="text-center text-base font-semibold uppercase text-white tracking-wider">
           You'll be in good company

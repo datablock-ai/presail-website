@@ -2,7 +2,7 @@ import { SpeakerphoneIcon, XIcon } from '@heroicons/react/outline'
 
 export default function Example() {
   return (
-    <div className="bg-gray-800">
+    <div className="bg-background">
       <div className="max-w-7xl mx-auto py-16 px-4 sm:py-16 sm:px-6 lg:px-8">
         <div className="text-center">
           <h2 className="text-base font-semibold text-indigo-400 tracking-wide uppercase">Pricing</h2>

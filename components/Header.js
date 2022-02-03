@@ -11,7 +11,7 @@ const navigation = [
 
 export default function Example() {
   return (
-  <Popover className="bg-gray-800 py-3">
+  <Popover className="bg-background py-3">
           <nav
             className="relative max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6 "
             aria-label="Global"
@@ -29,7 +29,7 @@ export default function Example() {
                 </a>
                 </Link>
                 <div className="-mr-2 flex items-center md:hidden">
-                  <Popover.Button className="bg-gray-800 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:bg-gray-700 focus:outline-none focus:ring-2 focus-ring-inset focus:ring-white">
+                  <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-indigo-400 hover:bg-white focus:outline-none focus:ring-2 focus-ring-inset focus:ring-white">
                     <span className="sr-only">Open main menu</span>
                     <MenuIcon className="h-6 w-6" aria-hidden="true" />
                   </Popover.Button>

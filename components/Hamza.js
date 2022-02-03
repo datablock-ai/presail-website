@@ -1,11 +1,11 @@
 export default function Hamza() {
   return (
-    <div className="relative py-16 bg-gray-800">
-      <div className="hidden absolute top-0 inset-x-0 h-1/2 bg-gray-800 lg:block" aria-hidden="true" />
+    <div className="relative py-16 bg-background">
+      <div className="hidden absolute top-0 inset-x-0 h-1/2 bg-background lg:block" aria-hidden="true" />
       <div className="max-w-7xl mx-auto bg-indigo-400 lg:bg-transparent lg:px-8">
         <div className="lg:grid lg:grid-cols-12">
           <div className="relative z-10 lg:col-start-1 lg:row-start-1 lg:col-span-4 lg:py-16 lg:bg-transparent">
-            <div className="absolute inset-x-0 h-1/2 bg-gray-800 lg:hidden" aria-hidden="true" />
+            <div className="absolute inset-x-0 h-1/2 bg-background lg:hidden" aria-hidden="true" />
             <div className="max-w-md mx-auto px-4 sm:max-w-3xl sm:px-6 lg:max-w-none lg:p-0">
               <div className="aspect-w-10 aspect-h-6 sm:aspect-w-2 sm:aspect-h-1 lg:aspect-w-1">
                 <img
