@@ -1,79 +1,58 @@
 /* This example requires Tailwind CSS v2.0+ */
-import { UserGroupIcon, HeartIcon, BadgeCheckIcon, EmojiHappyIcon } from '@heroicons/react/outline'
+import {
+  CloudUploadIcon,
+  CogIcon,
+  LockClosedIcon,
+  RefreshIcon,
+  ServerIcon,
+  ShieldCheckIcon,
+  EmojiHappyIcon,
+  BadgeCheckIcon,
+  HeartIcon,
+  UserGroupIcon,
+} from '@heroicons/react/outline'
 
 const features = [
-  {
-    name: 'Feel in control',
-    description: 
-      'We let you create, manage and distribute your deals. Enjoy a single place for all your tasks.',
-    icon: EmojiHappyIcon,
-  },
-  {
-    name: 'On brand',
-    description:
-      'Your brand matters. Use Presail from your own domain.',
-    icon: BadgeCheckIcon,
-  },
-  {
-    name: 'Loved by your users',
-    description:
-      'Join the ecosystem, and give them access to have all their deals in one place.',
-    icon: HeartIcon,
-  },
-  {
-    name: 'Collaboration',
-    description:
-      'Every action that gets changed is logged and visible in the system. Invite your teammates to help out.',
-    icon: UserGroupIcon,
-  },
+  { name: 'Feel in control', icon: EmojiHappyIcon, description: 'We let you create, manage and distribute your deals. Enjoy a single place for all your tasks.' },
+  { name: 'On brand', icon: BadgeCheckIcon, description: 'Your brand matters. Use Presail from your own domain.' },
+  { name: 'Loved by your users', icon: HeartIcon, description: 'Join the ecosystem, and give them access to have all their deals in one place.' },
+  { name: 'Advanced Security', icon: ShieldCheckIcon, description: "Audited and approved by Hacken. Simply put, we're secure." },
+  { name: 'Collaboration', icon: UserGroupIcon, description: 'Every action that gets changed is logged and visible in the system. Invite your teammates to help out.' },
+  { name: 'Database Backups', icon: ServerIcon, description: 'maamam' },
 ]
 
 export default function Example() {
   return (
-    <div className="bg-background overflow-hidden">
-      <div className="relative max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-        <svg
-          className="absolute top-0 left-full transform -translate-x-1/2 -translate-y-3/4 lg:left-auto lg:right-full lg:translate-x-2/3 lg:translate-y-1/4"
-          width={404}
-          height={784}
-          fill="none"
-          viewBox="0 0 404 784"
-          aria-hidden="true"
-        >
-          <defs>
-            <pattern
-              id="8b1b5f72-e944-4457-af67-0c6d15a99f38"
-              x={0}
-              y={0}
-              width={20}
-              height={20}
-              patternUnits="userSpaceOnUse"
-            >
-              <rect x={0} y={0} width={4} height={4} className="text-gray-700" fill="currentColor" />
-            </pattern>
-          </defs>
-          <rect width={404} height={784} fill="url(#8b1b5f72-e944-4457-af67-0c6d15a99f38)" />
-        </svg>
-
-        <div className="relative lg:grid lg:grid-cols-3 lg:gap-x-8">
-          <div className="lg:col-span-1">
-            <h2 className="text-3xl font-extrabold tracking-tight text-indigo-400 sm:text-4xl">
-              Presail benefits
-            </h2>
-          </div>
-          <dl className="mt-10 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-8 sm:gap-y-10 lg:mt-0 lg:col-span-2">
+    <div className="relative bg-background py-16 sm:py-24 lg:py-32">
+      <div className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
+        <h2 className="text-base font-semibold tracking-wider text-indigo-400 uppercase">Deploy faster</h2>
+        <p className="mt-2 text-3xl font-extrabold text-white tracking-tight sm:text-4xl">
+          Everything you need to deploy your app
+        </p>
+        <p className="mt-5 max-w-prose mx-auto text-xl text-slate-300">
+          Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper
+          malesuada. Eleifend condimentum id viverra nulla.
+        </p>
+        <div className="mt-12">
+          <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {features.map((feature) => (
-              <div key={feature.name}>
-                <dt>
-                  <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-400 text-white">
-                    <feature.icon className="h-6 w-6" aria-hidden="true" />
+              <div key={feature.name} className="pt-6">
+                <div className="flow-root bg-deepbackground rounded-lg px-6 pb-8">
+                  <div className="-mt-6">
+                    <div>
+                      <span className="inline-flex items-center justify-center p-3 bg-indigo-400 rounded-md shadow-lg">
+                        <feature.icon className="h-6 w-6 text-white" aria-hidden="true" />
+                      </span>
+                    </div>
+                    <h3 className="mt-8 text-lg font-medium text-white tracking-tight">{feature.name}</h3>
+                    <p className="mt-5 text-base text-slate-300">
+                     {feature.description}
+                    </p>
                   </div>
-                  <p className="mt-5 text-lg leading-6 font-medium text-white">{feature.name}</p>
-                </dt>
-                <dd className="mt-2 text-base text-gray-500">{feature.description}</dd>
+                </div>
               </div>
             ))}
-          </dl>
+          </div>
         </div>
       </div>
     </div>

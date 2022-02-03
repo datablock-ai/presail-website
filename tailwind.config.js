@@ -8,12 +8,19 @@
         transparent: 'transparent',
         current: 'currentColor',
         black: colors.black,
+        slate: colors.slate,
         white: colors.white,
         gray: colors.gray,
-        indigo: colors.indigo,
         yellow: colors.yellow,
         cyan: colors.cyan,
-        background: '#0a2540'
+        teal: colors.teal,
+        green: colors.green,
+        blue: colors.blue,
+        indigo: {
+          400: '#00D8FF'
+        },
+        background: '#0a2440',
+        deepbackground: '#081C33'
       }
     },
     plugins: [

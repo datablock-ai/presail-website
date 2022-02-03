@@ -23,7 +23,7 @@ export default function Example() {
                   <span className="sr-only">Workflow</span>
                   <img
                     className="h-8 w-auto sm:h-10"
-                    src="/presail-mark-logo.png"
+                    src="/presail-logo.svg"
                     alt=""
                   />
                 </a>
@@ -46,7 +46,7 @@ export default function Example() {
             <div className="hidden md:flex">
               <a
                 href="https://portal.presail.com"
-                className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-gray-600 hover:bg-gray-700"
+                className="inline-flex items-center px-4 py-2 text-sm font-medium rounded-md text-white bg-gradient-to-r from-teal-500 to-cyan-600 hover:bg-gray-700"
               >
                 Log into Investor Portal
               </a>
