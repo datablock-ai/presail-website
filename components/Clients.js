@@ -81,7 +81,7 @@ export default function Clients() {
     <div className="bg-deepbackground">
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-36 lg:px-8">
         <p className="text-center text-base font-semibold uppercase text-white tracking-wider">
-          You'll be in good company
+          The most innovative communities trust Presail
         </p>
         <div className="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-5 lg:mt-8">
           {logos.map(({ logo }, i) => (

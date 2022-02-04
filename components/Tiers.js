@@ -80,6 +80,9 @@ export default function Tiers() {
             </div>
           ))}
         </div>
+        <p className="text-slate-300 text-center mt-5">
+          Are you a project, DAO or need to do a one-time deal? Get in touch with us for a custom quote.
+        </p>
       </div>
     </div>
   )
