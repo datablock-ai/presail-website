@@ -4,14 +4,12 @@ import { CheckIcon } from '@heroicons/react/solid'
 const tiers = [
   {
     name: 'Basic',
-    href: '#',
     priceMonthly: 1500,
     description: 'All the basics for starting a new business',
     includedFeatures: ['Potenti felis, in cras at at ligula nunc.', 'Orci neque eget pellentesque.'],
   },
   {
     name: 'Essential',
-    href: '#',
     priceMonthly: 2500,
     description: 'All the basics for starting a new business',
     includedFeatures: [
@@ -22,7 +20,6 @@ const tiers = [
   },
   {
     name: 'Scale',
-    href: '#',
     priceMonthly: 4000,
     description: 'All the basics for starting a new business',
     includedFeatures: [
@@ -34,7 +31,6 @@ const tiers = [
   },
   {
     name: 'Premium',
-    href: '#',
     priceMonthly: 6000,
     description: 'All the basics for starting a new business',
     includedFeatures: [
@@ -60,15 +56,9 @@ export default function Example() {
                 <h2 className="text-lg leading-6 font-medium text-indigo-400">{tier.name}</h2>
                 <p className="mt-4 text-sm text-slate-300">{tier.description}</p>
                 <p className="mt-8">
-                  <span className="text-4xl font-extrabold text-transparent bg-gradient-to-r from-indigo-400 to-blue-50 bg-clip-text">${tier.priceMonthly}</span>{' '}
+                  <span className="text-4xl font-extrabold text-indigo-400">${tier.priceMonthly}</span>{' '}
                   <span className="text-base font-medium text-gray-300">/mo</span>
                 </p>
-                <a
-                  href={tier.href}
-                  className="mt-8 block w-full bg-indigo-400 border border-indigo-400 rounded-md py-2 text-sm font-semibold text-white text-center hover:bg-indigo-900"
-                >
-                  Buy {tier.name}
-                </a>
               </div>
               <div className="pt-6 pb-8 px-6">
                 <h3 className="text-xs font-medium text-white tracking-wide uppercase">What's included</h3>

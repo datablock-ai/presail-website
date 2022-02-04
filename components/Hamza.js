@@ -6,7 +6,7 @@ export default function Example() {
         <div className="relative">
           <blockquote className="mt-10">
             <div className="max-w-3xl mx-auto text-center text-2xl leading-9 font-medium text-gray-900">
-              <p className="text-4xl tracking-tight font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 to-blue-50">Hello, I'm Hamza!</p>
+              <p className="text-4xl tracking-tight font-extrabold text-indigo-400">Hello, I'm Hamza!</p>
               <p className="text-white mb-5">
                 Want to know how we can implement Presail for you?
               </p>
@@ -26,7 +26,7 @@ export default function Example() {
               <div className="md:flex md:items-center md:justify-center">
                 <div className="mt-3 text-center md:mt-0 md:ml-4 md:flex md:items-center">
                   <div className="text-base font-medium text-white">Hamza Nebolsi</div>
-                  <svg className="hidden md:block mx-1 h-5 w-5 text-indigo-600" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="hidden md:block mx-1 h-5 w-5 text-indigo-400" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M11 0h3L9 20H6l5-20z" />
                   </svg>
                   <div className="text-base font-medium text-white">Head of Product</div>

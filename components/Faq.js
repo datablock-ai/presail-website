@@ -2,27 +2,27 @@
 const faqs = [
   {
     id: 1,
-    question: "What's the best thing about Switzerland?",
+    question: "Can we do distributions through Presail?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "For now we provide you with all the data needed for exporting e.g cap table to use for disperse, bulksender or any other service for token issuance. Our goal is to make this process much simpler and smoother through Presail.",
   },
   {
     id: 2,
-    question: "What's the best thing about Switzerland?",
+    question: "What is the process and how long does it take to get started?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "Presail can get you onboarded within 1-2 days after signing agreement. The steps include setting up a private group, adding accounts to your team in the Presail system. Adding your logo and setting up the DNS settings for your custom domain.",
   },
   {
     id: 3,
-    question: "What's the best thing about Switzerland?",
+    question: "Is Presail based on smart contracts?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "No we are not. Solutions like Presail needs certain flexibility that smart contracts can’t provide. There are many factors as well as potential risks when using smart contracts – but we do intend on experimenting for better automation in the future.",
   },
   {
     id: 4,
-    question: "What's the best thing about Switzerland?",
+    question: "Can we get a trial?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "Presail can offer you a 2 week trial for $1000 with a 100% money back guarantee. Reach out to us to discuss.",
   },
   // More questions...
 ]

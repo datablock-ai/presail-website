@@ -22,7 +22,7 @@ export default function Example() {
                   </a>
                   <h1 className="mt-4 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:leading-none lg:mt-6 lg:text-4xl xl:text-5xl">
                     <span className="md:block">Management platform for</span>{' '}
-                    <span className="pb-3 block bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 to-blue-50 md:block">community-driven funding</span>
+                    <span className="pb-3 block text-indigo-400 md:block">community-driven funding</span>
 
                   </h1>
 

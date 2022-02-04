@@ -1,37 +1,30 @@
 /* This example requires Tailwind CSS v2.0+ */
 import {
-  CloudUploadIcon,
-  CogIcon,
-  LockClosedIcon,
-  RefreshIcon,
   ServerIcon,
   ShieldCheckIcon,
   EmojiHappyIcon,
   BadgeCheckIcon,
   HeartIcon,
   UserGroupIcon,
+  IdentificationIcon,
 } from '@heroicons/react/outline'
 
 const features = [
-  { name: 'Feel in control', icon: EmojiHappyIcon, description: 'We let you create, manage and distribute your deals. Enjoy a single place for all your tasks.' },
-  { name: 'On brand', icon: BadgeCheckIcon, description: 'Your brand matters. Use Presail from your own domain.' },
-  { name: 'Loved by your users', icon: HeartIcon, description: 'Join the ecosystem, and give them access to have all their deals in one place.' },
-  { name: 'Advanced Security', icon: ShieldCheckIcon, description: "Audited and approved by Hacken. Simply put, we're secure." },
-  { name: 'Collaboration', icon: UserGroupIcon, description: 'Every action that gets changed is logged and visible in the system. Invite your teammates to help out.' },
-  { name: 'Database Backups', icon: ServerIcon, description: 'maamam' },
+  { name: 'Feel in control', icon: EmojiHappyIcon, description: 'We let you create, manage and distribute your deals to your community. Enjoy a single place for all your tasks.' },
+  { name: 'Reduce workload', icon: BadgeCheckIcon, description: 'No need for manual checkups, we use the blockchain to verify transactions and mitigate human error.' },
+  { name: 'Collaboration', icon:UserGroupIcon, description: 'Invite your teammates to help out. Every action that gets changed is logged and visible in the system.' },
+  { name: 'Stay on brand', icon: IdentificationIcon, description: "Use your own domain and logo across the platform, let your users know they are part of your community." },
+  { name: 'Security', icon: ShieldCheckIcon, description: 'C-level experience handling security at international companies. All data is AES-GCM encrypted. Audited by Hacken.' },
+  { name: 'Compliance', icon: ServerIcon, description: 'We give you the tools you need to stay compliant under regulatory requirements through KYC/AML.' },
 ]
 
 export default function Example() {
   return (
     <div className="relative bg-background py-16 sm:py-24 lg:py-32">
-      <div className="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
-        <h2 className="text-base font-semibold tracking-wider text-indigo-400 uppercase">Deploy faster</h2>
+      <div className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
+        <h2 className="text-base font-semibold tracking-wider text-indigo-400 uppercase">improve your workflow</h2>
         <p className="mt-2 text-3xl font-extrabold text-white tracking-tight sm:text-4xl">
-          Everything you need to deploy your app
-        </p>
-        <p className="mt-5 max-w-prose mx-auto text-xl text-slate-300">
-          Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper
-          malesuada. Eleifend condimentum id viverra nulla.
+          Everything you need to create, manage and distribute deals
         </p>
         <div className="mt-12">
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">

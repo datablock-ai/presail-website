@@ -46,7 +46,7 @@ export default function Example() {
             <div className="hidden md:flex">
               <a
                 href="https://portal.presail.com"
-                className="inline-flex items-center px-4 py-2 text-sm font-medium rounded-md text-white bg-gradient-to-r from-indigo-400 to-blue-400 hover:bg-gray-700"
+                className="inline-flex items-center px-4 py-2 text-sm font-medium rounded-md text-white bg-indigo-400"
               >
                 Log into Investor Portal
               </a>
