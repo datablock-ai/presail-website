@@ -10,7 +10,7 @@ const navigation = [
 ]
 
 
-export default function Example() {
+export default function Header() {
   return (
   <Popover className="bg-background py-3">
           <nav

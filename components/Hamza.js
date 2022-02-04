@@ -1,5 +1,4 @@
-/* This example requires Tailwind CSS v2.0+ */
-export default function Example() {
+export default function Hamza() {
   return (
     <section className="py-12 bg-background overflow-hidden md:py-20 lg:py-24">
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

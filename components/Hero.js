@@ -1,6 +1,6 @@
 import { ChevronRightIcon } from '@heroicons/react/solid'
 
-export default function Example() {
+export default function Hero() {
   return (
     <div className="relative bg-background overflow-hidden">
 

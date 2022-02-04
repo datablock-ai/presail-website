@@ -1,4 +1,3 @@
-/* This example requires Tailwind CSS v2.0+ */
 import { CheckIcon } from '@heroicons/react/solid'
 
 const tiers = [
@@ -52,7 +51,7 @@ const tiers = [
   },
 ]
 
-export default function Example() {
+export default function Tiers() {
   return (
     <div className="bg-deepbackground">
       <div className="max-w-7xl mx-auto py-24 px-4 sm:px-6 lg:px-8">
