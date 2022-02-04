@@ -46,10 +46,10 @@ export default function Header() {
             </div>
             <div className="hidden md:flex">
               <a
-                href="https://portal.presail.com"
+                href="https://t.me/presailcom"
                 className="inline-flex items-center px-4 py-2 text-sm font-medium rounded-md text-white bg-indigo-400"
               >
-                Log into Investor Portal
+                Join our Telegram
               </a>
             </div>
           </nav>
@@ -85,7 +85,7 @@ export default function Header() {
                 </div>
                 <div className="px-2 pt-2 pb-3 space-y-1">
                   {navigation.map((item) => (
-                    <Link href={item.href}>
+                    <Link key={item.name} href={item.href}>
                     <a
                       key={item.name}
                       className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
@@ -96,10 +96,10 @@ export default function Header() {
                   ))}
                 </div>
                 <a
-                  href="https://portal.presail.com"
+                  href="https://t.me/presailcom"
                   className="block w-full px-5 py-3 text-center font-medium text-white bg-indigo-400"
                 >
-                  Log into Investor Portal
+                  Join our Telegram
                 </a>
               </div>
             </Popover.Panel>
