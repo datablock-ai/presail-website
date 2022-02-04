@@ -27,7 +27,7 @@ export default function Hero() {
                   </h1>
 
                   <p className="mt-3 text-base text-slate-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                    Goodbye Google Forms. Hello security, collaboration and ease-of-use.
+                    Presail makes it easy for companies and investors to manage investments in web 3.0. Create deals, manage cap-tables & distribute assets - all in one app.
                   </p>
              
                 </div>

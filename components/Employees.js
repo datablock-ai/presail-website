@@ -56,9 +56,12 @@ export default function Employees() {
         <div className="space-y-12">
           <div className="space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none">
             <h2 className="text-3xl font-extrabold text-white tracking-tight sm:text-4xl">Meet our team</h2>
-            <p className="text-xl text-slate-300">
-              Community-driven funding allows anyone, anywhere, to come together and raise capital towards a common goal.  Be it an early-stage web3 project in return for tokens or owning a copy of the US constitution. 
-              Presail is about enabling these communities. And if we succeed it will be game-changing.
+            <p className="text-xl text-slate-300 max-w-4xl">
+              Community-driven funding allows anyone, anywhere, to come together and raise capital towards a common goal. 
+              Be it investing in an early-stage web 3.0 project in return for tokens or pooling funds to bid on a copy of the US constitution. 
+            </p>
+            <p className="text-xl text-slate-300 max-w-4xl pt-10">
+              Presail is about enabling these communities. Meet the team that aims to make early-stage investments more accessible than ever before.
             </p>
           </div>
           <ul role="list" className="space-y-4 sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0 lg:grid-cols-3 lg:gap-8">
