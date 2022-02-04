@@ -10,7 +10,7 @@ import {
 } from '@heroicons/react/outline'
 
 const features = [
-  { name: 'Feel in control', icon: EmojiHappyIcon, description: 'We let you create, manage and distribute your deals to your community. Enjoy a single place for all your tasks.' },
+  { name: 'Be in control', icon: EmojiHappyIcon, description: 'Say bye to feeling scattered. Create, fundraise and distribute, all in one place. Presail tracks all your tasks.' },
   { name: 'Reduce workload', icon: BadgeCheckIcon, description: 'No need for manual checkups, we use the blockchain to verify transactions and mitigate human error.' },
   { name: 'Collaboration', icon:UserGroupIcon, description: 'Invite your teammates to help out. Every action that gets changed is logged and visible in the system.' },
   { name: 'Stay on brand', icon: IdentificationIcon, description: "Use your own domain and logo across the platform, let your users know they are part of your community." },

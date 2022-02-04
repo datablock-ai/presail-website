@@ -17,10 +17,10 @@ export default function Example() {
         <div className="relative pt-12 pb-64 sm:pt-24 sm:pb-64 xl:col-start-1 xl:pb-24">
           <h2 className="text-sm font-semibold text-indigo-400 tracking-wide uppercase">Move to Presail</h2>
           <p className="mt-3 text-3xl font-extrabold text-white">
-            Direct the time Presail saves you into sourcing investments, winning new deals, and helping projects grow
+            Use the time Presail saves you, to source investments, win new deals, and help grow projects grow
           </p>
           <p className="mt-5 lg:mt-20 text-xl text-slate-300">
-            Managing presales is very time-consuming, error-prone, and doesn’t directly contribute to returns. Presail is operationalizing this workflow with software, and as a result, dramatically improving the workflow for community owners and investors.
+            Running a single presale involves a lot of time-consuming and error-prone paperwork, that doesn’t contribute directly to your returns. Managing many deals at once can be a nightmare. Presail gives you a simple, more automated workflow, that makes life better for community owners and investors alike.
           </p>
         </div>
       </div>

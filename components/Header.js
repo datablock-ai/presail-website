@@ -6,6 +6,7 @@ const navigation = [
   { name: 'About us', href: '/about' },
   { name: 'Pricing', href: '/pricing' },
   { name: 'Blog', href: 'https://blog.presail.com' },
+  { name: 'Careers', href: 'https://presail.recruitee.com/' }
 ]
 
 

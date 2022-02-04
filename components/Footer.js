@@ -37,7 +37,7 @@ export default function Example() {
           ))}
         </div>
         <div className="mt-8 md:mt-0 md:order-1">
-          <p className="text-center text-base text-white">&copy; 2022 Presail a registered Norwegian entity under Datablock AS. All rights reserved.</p>
+          <p className="text-center text-base text-white">&copy; 2022 Presail is operated by the registered Norwegian entity Datablock AS. All rights reserved.</p>
         </div>
       </div>
     </footer>
