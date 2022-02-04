@@ -5,42 +5,49 @@ const tiers = [
   {
     name: 'Basic',
     priceMonthly: 1500,
-    description: 'All the basics for starting a new business',
-    includedFeatures: ['Potenti felis, in cras at at ligula nunc.', 'Orci neque eget pellentesque.'],
+    description: 'Volume $100K/m',
+    includedFeatures: [
+      'Contributions',
+      'Deal exports',
+      'Investor portal',
+      'Cap table',
+      '5-day support'
+    ],
   },
   {
     name: 'Essential',
     priceMonthly: 2500,
-    description: 'All the basics for starting a new business',
+    description: 'Volume > $250K/m',
     includedFeatures: [
-      'Potenti felis, in cras at at ligula nunc. ',
-      'Orci neque eget pellentesque.',
-      'Donec mauris sit in eu tincidunt etiam.',
+      'Everything in basic +',
+      'Whitelisting',
+      'Custom domain',
+      'Tokenized access',
+      '7-day support'
     ],
   },
   {
     name: 'Scale',
     priceMonthly: 4000,
-    description: 'All the basics for starting a new business',
+    description: 'Volume $500K/m',
     includedFeatures: [
-      'Potenti felis, in cras at at ligula nunc. ',
-      'Orci neque eget pellentesque.',
-      'Donec mauris sit in eu tincidunt etiam.',
-      'Faucibus volutpat magna.',
+      'Everything in basic +',
+      'Whitelisting',
+      'Custom domain',
+      'Tokenized access',
+      '7-day support',
+      'Dedicated support agent'
     ],
   },
   {
     name: 'Premium',
     priceMonthly: 6000,
-    description: 'All the basics for starting a new business',
+    description: 'All Access',
     includedFeatures: [
-      'Potenti felis, in cras at at ligula nunc. ',
-      'Orci neque eget pellentesque.',
-      'Donec mauris sit in eu tincidunt etiam.',
-      'Faucibus volutpat magna.',
-      'Id sed tellus in varius quisque.',
-      'Risus egestas faucibus.',
-      'Risus cursus ullamcorper.',
+      'Everything in scale +',
+      'Distribution calendar',
+      'Custom branding',
+      'AML & KYC'
     ],
   },
 ]
