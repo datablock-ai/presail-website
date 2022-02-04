@@ -27,7 +27,7 @@ const people = [
   },
   {
     name: 'Milad',
-    role: 'Head of Community',
+    role: 'Head of Communications',
     imageUrl:
       '/team/milad.webp',
     twitterUrl: '#',

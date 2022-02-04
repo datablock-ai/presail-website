@@ -10,7 +10,7 @@ export default function PricingHero() {
             4 plans that cover all bases.
           </p>
           <p className="max-w-3xl mt-5 mx-auto text-xl text-slate-300">
-            Some of the biggest Web 3.0 investment-communities use Presail’s management platform.
+            The biggest Web 3.0 investment-communities use Presail’s management platform.
           </p>
           <p className="max-w-3xl mt-5 mx-auto text-xl text-slate-300">
           Whether your organization is established or you are just getting started, our 4 plan model lets you choose the features that fit your needs.
