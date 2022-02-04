@@ -18,7 +18,7 @@ export default function Pricing() {
         <Header />
         <PricingHero />
         <PricingCTA />
-        <Tiers />
+        
         <Faq />
         <Footer />
       </div>
