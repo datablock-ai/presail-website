@@ -9,7 +9,7 @@ export default function AboutHero() {
               Community-driven funding allows anyone, anywhere, to come together and raise capital towards a common goal. 
               Be it investing in an early-stage web 3.0 project in return for tokens or pooling funds to bid on a copy of the US constitution. 
             </p>
-            <p className="text-xl text-slate-300 max-w-4xl pt-10">
+            <p className="text-xl text-slate-300 max-w-4xl">
               Presail is about enabling these communities.
             </p>
           </div>

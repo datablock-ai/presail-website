@@ -1,5 +1,5 @@
 import Image from 'next/image'
-
+import { ChevronRightIcon } from '@heroicons/react/solid'
 const people = [
   {
     name: 'Sebastian',
@@ -56,6 +56,18 @@ export default function Employees() {
         <div className="space-y-12">
           <div className="space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none">
             <h2 className="text-3xl font-extrabold text-white tracking-tight sm:text-4xl">Meet our team</h2>
+
+            <a
+              href="https://presail.recruitee.com/"
+              className="inline-flex items-center text-white bg-gray-900 rounded-full p-1 pr-2 sm:text-base lg:text-sm xl:text-base hover:text-gray-200"
+            >
+              <span className="px-3 py-0.5 text-white text-xs font-semibold leading-5 uppercase tracking-wide bg-indigo-400 rounded-full">
+                We're hiring
+              </span>
+              <span className="ml-4 text-sm">Visit our careers page</span>
+              <ChevronRightIcon className="ml-2 w-5 h-5 text-gray-500" aria-hidden="true" />
+            </a>
+
             <p className="text-xl text-slate-300 max-w-4xl">
               We're a remote-first company motivated by working on complex problems.
             </p>
