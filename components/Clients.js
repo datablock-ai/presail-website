@@ -87,7 +87,7 @@ export default function Clients() {
         <div className="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-5 lg:mt-8">
           {logos.map(({ logo }, i) => (
           <div className="col-span-1 flex justify-center py-8 px-8 bg-white/[.025]" key={i}>
-            <img className="max-h-9" src={`/clients/${logo}-logo.png`} alt={logo} />
+            <img className="max-h-10 max-w-none" src={`/clients/${logo}-logo.png`} alt={logo} />
           </div>
           ))}
         </div>
