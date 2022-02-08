@@ -6,19 +6,23 @@ const logos = [
         logo: 'master'
     },
     {
+        logo: 'vespertine'
+    },
+
+    {
+        logo: 'duckdao'
+    },
+    {
         logo: 'dutch-crypto'
+    },
+    {
+        logo: 'legion-ventures'
     },
     {
         logo: 'mars-dao'
     },
     {
         logo: 'game-station'
-    },
-    {
-        logo: 'legion-ventures'
-    },
-    {
-        logo: 'vespertine'
     },
     {
         logo: 'chateau'
@@ -28,9 +32,6 @@ const logos = [
     },
     {
         logo: '316vc'
-    },
-    {
-        logo: 'alpha'
     },
     {
         logo: 'skyx'
@@ -86,10 +87,13 @@ export default function Clients() {
         <div className="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-5 lg:mt-8">
           {logos.map(({ logo }, i) => (
           <div className="col-span-1 flex justify-center py-8 px-8 bg-white/[.025]" key={i}>
-            <img className="max-h-12" src={`/clients/${logo}-logo.png`} alt={logo} />
+            <img className="max-h-9" src={`/clients/${logo}-logo.png`} alt={logo} />
           </div>
           ))}
         </div>
+        <p className="text-center text-base font-semibold uppercase text-white tracking-wider mt-10">
+          + many more
+        </p>
       </div>
     </div>
   )
