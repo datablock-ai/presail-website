@@ -8,7 +8,6 @@ const logos = [
     {
         logo: 'vespertine'
     },
-
     {
         logo: 'duckdao'
     },
@@ -74,6 +73,9 @@ const logos = [
     },
     {
         logo: 'tlh'
+    },
+    {
+      logo: 'cryptopia'
     }
 ]
 
