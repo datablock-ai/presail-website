@@ -6,32 +6,28 @@ const people = [
     role: 'CEO',
     imageUrl:
       '/team/sebastian.webp',
-    twitterUrl: '#',
-    linkedinUrl: 'https://www.linkedin.com/in/sebastianalmnes/',
+    email: 'sebastian@presail.com'
   },
   {
     name: 'Tomas',
     role: 'CTO',
     imageUrl:
       '/team/tomas.webp',
-    twitterUrl: '#',
-    linkedinUrl: 'https://www.linkedin.com/in/sebastianalmnes/',
+    email: 'tomas@presail.com',
   },
   {
     name: 'Hamza',
     role: 'Head of Product',
     imageUrl:
       '/team/hamza.webp',
-    twitterUrl: '#',
-    linkedinUrl: 'https://www.linkedin.com/in/sebastianalmnes/',
+    email: 'hamza@presail.com',
   },
   {
     name: 'Milad',
     role: 'Head of Communications',
     imageUrl:
       '/team/milad.webp',
-    twitterUrl: '#',
-    linkedinUrl: 'https://www.linkedin.com/in/sebastianalmnes/',
+    email: 'milad@presail.com',
   },
   {
     name: 'Jacob',
@@ -45,7 +41,6 @@ const people = [
     imageUrl:
       '/team/august.webp',
     twitterUrl: '#',
-    linkedinUrl: 'https://www.linkedin.com/in/sebastianalmnes/',
   },
 ]
 
@@ -81,6 +76,7 @@ export default function Employees() {
                     <div className="font-medium text-lg leading-6 space-y-1">
                       <h3 className="text-white">{person.name}</h3>
                       <p className="text-indigo-400">{person.role}</p>
+                      <p className="text-white text-sm">{person.email}</p>
                     </div>
                   </div>
                 </div>
