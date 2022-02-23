@@ -10,7 +10,7 @@ export default function Pricing() {
   return (
     <div>
       <Head>
-        <title>Pricing - Presail</title>
+        <title>About us - Presail</title>
       </Head>
       <div className="antialiased">
         <Header />
