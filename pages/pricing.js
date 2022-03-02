@@ -19,7 +19,6 @@ export default function Pricing() {
         <PricingHero />
         <PricingCTA />
         
-        <Faq />
         <Footer />
       </div>
     </div>
