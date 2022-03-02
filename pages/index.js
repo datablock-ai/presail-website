@@ -1,5 +1,6 @@
 import Head from 'next/head'
 
+import Banner from '../components/Banner'
 import Header from '../components/Header'
 import Hero from '../components/Hero'
 import Clients from '../components/Clients'
@@ -15,6 +16,7 @@ export default function Home() {
         <title>Presail</title>
       </Head> 
       <div className="antialiased">
+        <Banner />
         <Header />
         <Hero />
         <Clients />
