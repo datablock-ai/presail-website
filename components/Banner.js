@@ -16,7 +16,7 @@ export default function Example() {
           </div>
           <div className="order-3 mt-2 flex-shrink-0 w-full sm:order-2 sm:mt-0 sm:w-auto">
             <a
-              href="https://blog.presail.com/presail-closes-1-6m-seed-round-to-revolutionize-web-3-0-investments-e4aa26cf2a37"
+              href="https://blog.presail.com/presail-closes-1-6m-seed-round-to-simplify-web-3-0-investments-12324160dc4c"
               target="_blank"
               className="flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-indigo-600 bg-white hover:bg-indigo-50"
             >
