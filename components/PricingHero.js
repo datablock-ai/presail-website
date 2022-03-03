@@ -6,7 +6,7 @@ const tiers = [
     href: 'https://t.me/zerocap',
     priceDescription: 'of funds raised',
     priceMonthly: '0.25%',
-    description: '+$250K in free raise credits. All you need to get started. The best deal in the space.',
+    description: 'Promotional offer. The best deal in the space.',
     features: [
       'Self service onboarding',
       'Create deals',
