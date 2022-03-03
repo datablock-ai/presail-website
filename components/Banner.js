@@ -10,8 +10,8 @@ export default function Example() {
               <SpeakerphoneIcon className="h-6 w-6 text-white" aria-hidden="true" />
             </span>
             <p className="ml-3 font-medium text-white truncate">
-              <span className="md:hidden">Presail raises $1.6 million seed investment round</span>
-              <span className="hidden md:inline">Presail announces $1.6 million seed investment round, led by Skyfall Ventures</span>
+              <span className="md:hidden">Presail raises $1.6 million equity seed investment</span>
+              <span className="hidden md:inline">Presail announces $1.6 million equity seed investment, led by Skyfall Ventures</span>
             </p>
           </div>
           <div className="order-3 mt-2 flex-shrink-0 w-full sm:order-2 sm:mt-0 sm:w-auto">
