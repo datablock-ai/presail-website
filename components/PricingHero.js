@@ -6,7 +6,7 @@ const tiers = [
     href: 'https://t.me/zerocap',
     priceDescription: 'of funds raised',
     priceMonthly: '0.25%',
-    description: 'Promotional offer. The best deal in the space.',
+    description: "Promotional offer. The best deal in the space. Contact us to check if you're eligible.",
     features: [
       'Self service onboarding',
       'Create deals',
@@ -28,7 +28,7 @@ const tiers = [
     href: 'https://t.me/zerocap',
     priceDescription: '',
     priceMonthly: 'Contact us',
-    description: 'Doing large deals? We know your business & brand is everything.',
+    description: 'Reputable VC, or doing large deals/volume? We know your business & brand is everything.',
     features: [
       'Everything in base +',
       'Custom Branding',
