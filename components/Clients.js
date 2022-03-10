@@ -60,9 +60,6 @@ const logos = [
         logo: 'ysc'
     },
     {
-        logo: 'spidersilk'
-    },
-    {
         logo: 'sors'
     },
     {
