@@ -33,7 +33,7 @@ const tiers = [
       'Everything in base +',
       'Custom Branding',
       'Custom Domain',
-      'Dedicated customer success agent 24/7',
+      'Dedicated customer success agent',
       'KYC / AML',
       'SAFT and Docusign integration',
       'Scheduling & Calendar',
