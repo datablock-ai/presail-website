@@ -1,4 +1,4 @@
-import { CheckIcon } from '@heroicons/react/outline'
+import { CheckIcon, CheckCircleIcon } from '@heroicons/react/outline'
 
 const tiers = [
   {
@@ -57,9 +57,13 @@ export default function PricingHero() {
             <p className="text-xl text-gray-300">
               The biggest web 3.0 investment-communities use Presail’s management platform.
             </p>
-            <p className="text-xl p-10 text-gray-300">
-              No minimum fee. You pay as you go.
-            </p>
+            <div className="flex justify-center pt-6">
+              <ul className="text-white text-xl text-left">
+                <li><CheckCircleIcon className="h-6 w-6 text-white inline-block" aria-hidden="true" /> No setup/maintenance fee</li>
+                <li><CheckCircleIcon className="h-6 w-6 text-white inline-block" aria-hidden="true" /> No minimum fee</li>
+                <li><CheckCircleIcon className="h-6 w-6 text-white inline-block" aria-hidden="true" /> Pay only for what you use</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
