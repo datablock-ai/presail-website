@@ -35,7 +35,7 @@ const tiers = [
       'Custom Domain',
       'Dedicated customer success agent',
       'KYC / AML',
-      'SAFT and Docusign integration',
+      'SAFT and Docusign integration (coming)',
       'Scheduling & Calendar',
       'Advanced analytics & reports',
       'Tier based access through tokens or NFT (coming)',
