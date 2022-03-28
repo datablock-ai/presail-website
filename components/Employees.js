@@ -42,6 +42,13 @@ const people = [
       '/team/august.webp',
     twitterUrl: '#',
   },
+  {
+    name: 'Even',
+    role: 'Account Executive',
+    imageUrl:
+      '/team/even.webp',
+    twitterUrl: '#',
+  },
 ]
 
 export default function Employees() {
