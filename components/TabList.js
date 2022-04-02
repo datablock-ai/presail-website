@@ -16,15 +16,14 @@ export default ({ defaultSelected, list }) => {
   return (
     <div className="p-3">
       <div
-        className={`lg:grid lg:grid-cols-${list.length} lg:gap-8 p-3`}
-        style={{ textAlign: 'center' }}
+        className={`lg:grid lg:grid-cols-${list.length} lg:gap-8 p-3 text-center`}
       >
         {list.map((item, index) => {
           const style =
             selected === item.tabText ? { borderBottom: '1px solid' } : null;
           return (
             <div key={`${item.tabText}--${index}`}>
-              <div className="lg:col-span-1">
+              <div className="col-span-1">
                 <button
                   onClick={() => {
                     const selectedIndex = list.findIndex(
