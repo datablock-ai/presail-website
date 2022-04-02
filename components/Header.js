@@ -2,30 +2,19 @@ import Link from 'next/link'
 import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import {
-  BookmarkAltIcon,
-  BriefcaseIcon,
   ChartBarIcon,
-  CheckCircleIcon,
   CursorClickIcon,
-  DesktopComputerIcon,
-  GlobeAltIcon,
-  InformationCircleIcon,
   MenuIcon,
-  NewspaperIcon,
-  OfficeBuildingIcon,
   ChatIcon,
-  PlayIcon,
-  ShieldCheckIcon,
-  UserGroupIcon,
-  ViewGridIcon,
-  XIcon,
+  SupportIcon,
+  XIcon
 } from '@heroicons/react/outline'
 import { ChevronDownIcon } from '@heroicons/react/solid'
 
 const solutions = [
   {
     name: 'Public community',
-    description: 'Setup, raise and manage all your deals.',
+    description: 'Thousand of members, with a lot of deals? No problem.',
     href: '#',
     icon: ChartBarIcon,
   },
@@ -37,7 +26,7 @@ const solutions = [
   },
   {
     name: 'Web3 Projects',
-    description: 'Easy cap-table  management and token distributions with vesting',
+    description: 'Cap-table management, KYC & AML, and vested token distribution.',
     href: '#',
     icon: CursorClickIcon,
   },
@@ -45,27 +34,13 @@ const solutions = [
     name: 'Launchpads', 
     description: "Your customers' data will be safe and secure.", 
     href: '#', 
-    icon: ShieldCheckIcon
+    icon: ChartBarIcon
   },
 ]
 const callsToAction = [
-  { name: 'Watch Demo', href: '#', icon: PlayIcon },
-  { name: 'Chat with sales', href: '#', icon: ChatIcon },
+  { name: 'Knowledge base', href: 'https://help.presail.com', icon: SupportIcon },
+  { name: 'Chat with sales', href: 'https://t.me/zerocap', icon: ChatIcon },
 ]
-const company = [
-  { name: 'About', href: '#', icon: InformationCircleIcon },
-  { name: 'Customers', href: '#', icon: OfficeBuildingIcon },
-  { name: 'Press', href: '#', icon: NewspaperIcon },
-  { name: 'Careers', href: '#', icon: BriefcaseIcon },
-  { name: 'Privacy', href: '#', icon: ShieldCheckIcon },
-]
-const resources = [
-  { name: 'Community', href: '#', icon: UserGroupIcon },
-  { name: 'Partners', href: '#', icon: GlobeAltIcon },
-  { name: 'Guides', href: '#', icon: BookmarkAltIcon },
-  { name: 'Webinars', href: '#', icon: DesktopComputerIcon },
-]
-
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -90,7 +65,7 @@ export default function Example() {
             </Link>
           </div>
           <div className="-mr-2 -my-2 md:hidden">
-            <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-indigo-400 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+            <Popover.Button className="bg-blue-800 rounded-md p-2 inline-flex items-center justify-center text-white focus:outline-none focus:ring-2 focus:ring-inset">
               <span className="sr-only">Open menu</span>
               <MenuIcon className="h-6 w-6" aria-hidden="true" />
             </Popover.Button>
@@ -158,6 +133,7 @@ export default function Example() {
                               <div key={item.name} className="flow-root">
                                 <a
                                   href={item.href}
+                                  target="_blank"
                                   className="-m-3 p-3 flex items-center rounded-md text-base font-medium text-blue-800 bg-indigo-400"
                                 >
                                   <item.icon className="flex-shrink-0 h-6 w-6 text-blue-800" aria-hidden="true" />
@@ -219,7 +195,7 @@ export default function Example() {
                   />
                 </div>
                 <div className="-mr-2">
-                  <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-indigo-400 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                  <Popover.Button className="bg-blue-800 rounded-md p-2 inline-flex items-center justify-center text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                     <span className="sr-only">Close menu</span>
                     <XIcon className="h-6 w-6" aria-hidden="true" />
                   </Popover.Button>
@@ -227,7 +203,8 @@ export default function Example() {
               </div>
               <div className="mt-6 sm:mt-8">
                 <nav>
-                  <div className="grid gap-7 sm:grid-cols-2 sm:gap-y-8 sm:gap-x-4">
+                  <span className="text-blue-800 font-bold">Use cases</span>
+                  <div className="grid gap-7 sm:grid-cols-2 sm:gap-y-8 sm:gap-x-4 pt-2">
                     {solutions.map((item) => (
                       <a
                         key={item.name}
@@ -241,54 +218,29 @@ export default function Example() {
                       </a>
                     ))}
                   </div>
-                  <div className="mt-8 text-base">
-                    <a href="#" className="font-medium text-indigo-600 hover:text-indigo-500">
-                      {' '}
-                      View all products <span aria-hidden="true">&rarr;</span>
-                    </a>
-                  </div>
                 </nav>
               </div>
             </div>
             <div className="py-6 px-5">
               <div className="grid grid-cols-2 gap-4">
-                <a href="#" className="rounded-md text-base font-medium text-gray-900 hover:text-gray-700">
-                  Pricing
-                </a>
-
-                <a href="#" className="rounded-md text-base font-medium text-gray-900 hover:text-gray-700">
-                  Docs
-                </a>
-
-                <a href="#" className="rounded-md text-base font-medium text-gray-900 hover:text-gray-700">
-                  Company
-                </a>
-
-                <a href="#" className="rounded-md text-base font-medium text-gray-900 hover:text-gray-700">
-                  Resources
-                </a>
-
-                <a href="#" className="rounded-md text-base font-medium text-gray-900 hover:text-gray-700">
-                  Blog
-                </a>
-
-                <a href="#" className="rounded-md text-base font-medium text-gray-900 hover:text-gray-700">
-                  Chat with sales
-                </a>
+                <Link href="/pricing">
+                  <a className="rounded-md text-base font-medium text-gray-900 hover:text-gray-700">
+                    Pricing
+                  </a>
+                </Link>
+                <Link href="/about">
+                  <a className="rounded-md text-base font-medium text-gray-900 hover:text-gray-700">
+                    About us
+                  </a>
+                </Link>
               </div>
               <div className="mt-6">
                 <a
-                  href="#"
-                  className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-blue-800 bg-indigo-600 hover:bg-indigo-700"
+                  href="https://app.presail.com/onboarding"
+                  className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md text-base font-medium text-white bg-blue-800"
                 >
                   Sign up
                 </a>
-                <p className="mt-6 text-center text-base font-medium text-gray-500">
-                  Get started for free: {' '}
-                  <a href="#" className="text-indigo-600 hover:text-indigo-500">
-                    Sign in
-                  </a>
-                </p>
               </div>
             </div>
           </div>

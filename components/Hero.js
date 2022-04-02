@@ -17,7 +17,7 @@ export default function Example() {
           <main className="mx-auto max-w-7xl px-4">
             <div className="sm:text-center lg:text-left">
               <div className="inline-flex items-center text-white bg-blue-800 rounded-lg p-1 px-3 sm:text-base lg:text-sm xl:text-base">
-                <span className="p-1 text-sm">📣 Sign up and get 250,000 in free raise credits</span> 
+                <span className="p-1 text-sm">📣 Sign up to get 250,000 in free raise credits</span> 
               </div>
               <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-5xl">
                 <span className="block xl:inline">Raise funds, manage and</span>{' '}
