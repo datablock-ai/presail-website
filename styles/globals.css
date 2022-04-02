@@ -25,7 +25,7 @@ a {
 
 .slide-right-enter-active {
   transform: translateX(0%);
-  transition: transform 1000ms ease-in-out;
+  transition: transform 300ms ease-in-out;
 }
 
 .slide-right-exit {
@@ -34,7 +34,7 @@ a {
 
 .slide-right-exit-active {
   transform: translateX(-100%);
-  transition: transform 1000ms ease-in-out;
+  transition: transform 300ms ease-in-out;
 }
 
 .slide-left-enter {
@@ -43,7 +43,7 @@ a {
 
 .slide-left-enter-active {
   transform: translateX(0%);
-  transition: transform 1000ms ease-in-out;
+  transition: transform 300ms ease-in-out;
 }
 
 .slide-left-exit {
@@ -52,7 +52,7 @@ a {
 
 .slide-left-exit-active {
   transform: translateX(100%);
-  transition: transform 1000ms ease-in-out;
+  transition: transform 300ms ease-in-out;
 }
 
 ul.blue-bullet {

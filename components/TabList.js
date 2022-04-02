@@ -53,16 +53,13 @@ export default ({ defaultSelected, list }) => {
         <TransitionGroup childFactory={childFactory(direction)}>
           <CSSTransition
             key={`tab-content--${selectedItem.tabText}`}
-            timeout={1000}
+            timeout={300}
             classNames={direction}
           >
             <div className="tab-content">
               <div className="lg:grid lg:grid-cols-12 lg:gap-8">
                 <div className="lg:col-span-6 p-3">
-                  <p
-                    className="mt-2 text-3xl font-extrabold text-white tracking-tight sm:text-4xl"
-                    style={{ color: 'rgb(10, 36, 64)' }}
-                  >
+                  <p className="mt-2 text-3xl font-extrabold text-blue-800 tracking-tight sm:text-4xl">
                     {selectedItem.title}
                   </p>
                   <ul className="blue-bullet">

@@ -44,14 +44,8 @@ const list = [
 
 export default () => {
   return (
-    <div
-      className="mx-auto pt-12 px-4 max-w-7xl sm:px-6 lg:px-8 mt-10"
-      style={{ border: '1px solid lightgray', borderRadius: '5px' }}
-    >
-      <p
-        className="mt-2 text-3xl font-extrabold text-white tracking-tight sm:text-4xl text-center text-blue-800"
-        style={{ color: 'rgb(10, 36, 64)' }}
-      >
+    <div className="mx-auto pt-12 px-4 max-w-7xl sm:px-6 lg:px-8 mt-10 rounded border border-slate-300">
+      <p className="mt-2 text-3xl font-extrabold sm:text-4xl text-center text-blue-800">
         See what's inside
       </p>
       <TabList defaultSelected={defaultSelected} list={list} />
