@@ -1,5 +1,4 @@
 import React, { useState, cloneElement } from 'react';
-import Image from 'next/image';
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
 
 const childFactory = (direction) => (child) =>
@@ -20,7 +19,7 @@ export default ({ defaultSelected, list }) => {
       >
         {list.map((item, index) => {
           const style =
-            selected === item.tabText ? { borderBottom: '1px solid' } : null;
+            selected === item.tabText ? { borderBottom: '3px solid' } : null;
           return (
             <div key={`${item.tabText}--${index}`}>
               <div className="col-span-1">
@@ -40,7 +39,7 @@ export default ({ defaultSelected, list }) => {
                     );
                   }}
                   style={style}
-                  className="p-3"
+                  className="p-3 text-blue-800 font-bold"
                 >
                   {item.tabText}
                 </button>
@@ -62,7 +61,7 @@ export default ({ defaultSelected, list }) => {
                   <p className="mt-2 text-3xl font-extrabold text-blue-800 tracking-tight sm:text-4xl">
                     {selectedItem.title}
                   </p>
-                  <ul className="blue-bullet">
+                  <ul className="list-disc list-inside">
                     {selectedItem.bullets.map((bullet, index) => {
                       return (
                         <li key={`bullet--${selectedItem.title}--${index}`}>
@@ -73,7 +72,7 @@ export default ({ defaultSelected, list }) => {
                   </ul>
                 </div>
                 <div className="lg:col-span-6 p-3">
-                  <Image src={selectedItem.image} />
+                  <img src={selectedItem.image} />
                 </div>
               </div>
             </div>

@@ -1,10 +1,6 @@
 import React from 'react';
 import TabList from './TabList';
 
-import Tab1 from '../assets/tab1.png';
-import Tab2 from '../assets/tab2.png';
-import Tab3 from '../assets/tab3.png';
-
 const defaultSelected = 'Fundraise';
 const list = [
   {
@@ -16,7 +12,7 @@ const list = [
       'Mitigate human errors',
       'No need to reconcile with etherscan/bscscan',
     ],
-    image: Tab1,
+    image: 'tab1.png',
   },
   {
     tabText: 'Organize',
@@ -27,7 +23,7 @@ const list = [
       'Set up your own tier groups',
       'User NFTs or Tokens for access',
     ],
-    image: Tab2,
+    image: 'tab2.png',
   },
   {
     tabText: 'Distribute',
@@ -38,7 +34,7 @@ const list = [
       'No need for spreadsheets or CSV',
       'Lorem ipsum dipsum',
     ],
-    image: Tab3,
+    image: 'tab2.png',
   },
 ];
 

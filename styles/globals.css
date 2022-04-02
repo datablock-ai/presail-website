@@ -55,18 +55,6 @@ a {
   transition: transform 300ms ease-in-out;
 }
 
-ul.blue-bullet {
-  list-style: circle !important;
-  margin: 1em !important;
-  padding: 1em !important;
-}
-
-ul.blue-bullet li::marker {
-  color: darkblue;
-  font-size: 2em;
-  font-weight: bold;
-}
-
 div.tab-item-wrapper {
   position: relative;
   min-height: 500px;
