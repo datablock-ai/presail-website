@@ -1,98 +1,58 @@
-const logos = [
-    {
-        logo: 'ferrum'
-    },
-    {
-        logo: 'master'
-    },
-    {
-        logo: 'vespertine'
-    },
-    {
-        logo: 'duckdao'
-    },
-    {
-        logo: 'dutch-crypto'
-    },
-    {
-        logo: 'legion-ventures'
-    },
-    {
-        logo: 'mars-dao'
-    },
-    {
-        logo: 'game-station'
-    },
-    {
-        logo: 'chateau'
-    },
-    {
-        logo: 'chihua'
-    },
-    {
-        logo: '316vc'
-    },
-    {
-        logo: 'skyx'
-    },
-    {
-        logo: 'emerald'
-    },
-    {
-        logo: 'company'
-    },
-    {
-        logo: 'trust'
-    },
-    {
-        logo: '0xcap'
-    },
-    {
-        logo: 'moongems'
-    },
-    {
-        logo: 'gamesta'
-    },
-    {
-        logo: 'lepricon'
-    },
-    {
-        logo: 'ysc'
-    },
-    {
-        logo: 'sors'
-    },
-    {
-        logo: 'contango'
-    },
-    {
-        logo: 'uoc'
-    },
-    {
-        logo: 'tlh'
-    },
-    {
-      logo: 'cryptopia'
-    }
-]
-
-export default function Clients() {
+/* This example requires Tailwind CSS v2.0+ */
+export default function Example() {
   return (
-    <div className="bg-deepbackground">
-      <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-36 lg:px-8">
-        <p className="text-center text-base font-semibold uppercase text-white tracking-wider">
-          The most innovative communities trust Presail
-        </p>
-        <div className="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-5 lg:mt-8">
-          {logos.map(({ logo }, i) => (
-          <div className="col-span-1 flex justify-center py-8 px-8 bg-white/[.025]" key={i}>
-            <img className="max-h-10 max-w-none" src={`/clients/${logo}-logo.png`} alt={logo} />
+    <div className="bg-white">
+      <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+        <div className="lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
+          <div>
+            <h2 className="text-3xl font-extrabold text-blue-800 sm:text-4xl">
+              Trusted by the best organizations
+            </h2>
+            <p className="mt-3 max-w-3xl text-lg text-gray-500">
+              We're used by everyone: from new projects, to some of the biggest players in the space. Presail is compliant, audited and a public team with a registered entity.
+            </p>
+            <p className="mt-3 max-w-3xl text-lg text-gray-500">
+              Presail recently raised an equity seed round of $1.6M, and are backed by Skyfall, Global Founders Capital & Kraken Ventures to new a few.
+            </p>
+            <img src="audited.png" className="h-20 mt-3" alt="Audited by Hacken" />
           </div>
-          ))}
+          <div className="mt-8 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-0 lg:grid-cols-2">
+            <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+              <img
+                className="max-h-12 invert-[.25]"
+                src="/clients/legion-ventures-logo.png"
+                alt="Legion Ventures"
+              />
+            </div>
+            <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+              <img className="max-h-12 invert-[.25]" src="/clients/vespertine-logo.png" alt="Vespertine" />
+            </div>
+            <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+              <img className="max-h-12 invert-[.25]" src="/clients/dutch-crypto-logo.png" alt="DCI" />
+            </div>
+            <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+              <img
+                className="max-h-12 invert-[.25]"
+                src="/clients/ferrum-logo.png"
+                alt="Ferrum Network"
+              />
+            </div>
+            <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+              <img
+                className="max-h-12 invert-[.25]"
+                src="/clients/duckdao-logo.png"
+                alt="DuckDAO"
+              />
+            </div>
+            <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+              <img
+                className="max-h-12 invert-[.25]"
+                src="/clients/master-logo.png"
+                alt="Master Ventures"
+              />
+            </div>
+          </div>
         </div>
-        <p className="text-center text-base font-semibold uppercase text-white tracking-wider mt-10">
-          + many more
-        </p>
       </div>
     </div>
   )

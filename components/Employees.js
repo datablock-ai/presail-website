@@ -41,12 +41,33 @@ const people = [
     imageUrl:
       '/team/august.webp',
     twitterUrl: '#',
+  },
+  {
+    name: 'Even',
+    role: 'Account Executive',
+    imageUrl:
+      '/team/august.webp',
+    twitterUrl: '#',
+  },
+  {
+    name: 'Bue',
+    role: 'Senior Developer',
+    imageUrl:
+      '/team/august.webp',
+    twitterUrl: '#',
+  },
+  {
+    name: 'Aleksander',
+    role: 'Head of Design',
+    imageUrl:
+      '/team/august.webp',
+    twitterUrl: '#',
   }
 ]
 
 export default function Employees() {
   return (
-    <div className="bg-background">
+    <div className="bg-white">
       <div className="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:pb-24">
         <div className="space-y-12">
           <div className="space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none">

@@ -1,40 +1,43 @@
+import { Fragment } from 'react'
+import { Tab } from '@headlessui/react'
+
+const categories = [
+  {
+    name: 'Tab 1'
+  },
+  {
+    name: 'Tab 2'
+  },
+  {
+    name: 'Tab 3'
+  }
+]
+
 export default function Hamza() {
   return (
-    <section className="py-12 bg-background overflow-hidden md:py-20 lg:py-24">
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="relative">
-          <blockquote className="mt-10">
-            <div className="max-w-3xl mx-auto text-center text-2xl leading-9 font-medium text-gray-900">
-              <p className="text-4xl tracking-tight font-extrabold text-indigo-400">Hello, I'm Hamza!</p>
-              <p className="text-white mb-5">
-                Want to know how we can implement Presail for you?
-              </p>
-              <a
-                href="https://t.me/zerocap"
-                className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-400"
-              >
-                Chat with me on Telegram     
-              </a>
-              <img
-                className="mx-auto mt-20 mb-10 h-44 w-44 rounded-full"
-                src="/team/hamza.webp"
-                alt="Hamza Nebolsi"
-              />
-            </div>
-            <footer className="mt-8">
-              <div className="md:flex md:items-center md:justify-center">
-                <div className="mt-3 text-center md:mt-0 md:ml-4 md:flex md:items-center">
-                  <div className="text-base font-medium text-white">Hamza Nebolsi</div>
-                  <svg className="hidden md:block mx-1 h-5 w-5 text-indigo-400" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M11 0h3L9 20H6l5-20z" />
-                  </svg>
-                  <div className="text-base font-medium text-white">Head of Product</div>
-                </div>
-              </div>
-            </footer>
-          </blockquote>
-        </div>
-      </div>
-    </section>
+    <Tab.Group>
+      <Tab.List>
+        {categories.map((item) => (
+          <Tab
+            key={item.name}
+className={({ selected }) =>
+                className(
+                  'w-full py-2.5 text-sm leading-5 font-medium text-blue-700 rounded-lg',
+                  'focus:outline-none focus:ring-2 ring-offset-2 ring-offset-blue-400 ring-white ring-opacity-60',
+                  selected
+                    ? 'bg-white shadow'
+                    : 'text-blue-100 hover:bg-white/[0.12] hover:text-white'
+                )
+              }
+          >
+          {item.name}</Tab>
+        ))}
+      </Tab.List>
+      <Tab.Panels>
+        <Tab.Panel>Content 1</Tab.Panel>
+        <Tab.Panel>Content 2</Tab.Panel>
+        <Tab.Panel>Content 3</Tab.Panel>
+      </Tab.Panels>
+    </Tab.Group>
   )
 }

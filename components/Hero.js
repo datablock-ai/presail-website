@@ -1,43 +1,54 @@
-import { ChevronRightIcon } from '@heroicons/react/solid'
+/* This example requires Tailwind CSS v2.0+ */
+import { Fragment } from 'react'
+import { Popover, Transition } from '@headlessui/react'
+import { MenuIcon, XIcon } from '@heroicons/react/outline'
 
-export default function Hero() {
+const navigation = [
+  { name: 'Pricing', href: '/pricing' },
+]
+
+export default function Example() {
   return (
-    <div className="relative bg-background overflow-hidden">
+    <div className="relative bg-white overflow-hidden mt-20">
+      <div className="max-w-7xl mx-auto">
+        <div className="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
 
-      <div className="relative pt-6 pb-16 sm:pb-24">
-        <main className="mt-16 mb-16 sm:mb-16 sm:mt-24">
-          <div className="mx-auto max-w-7xl">
-            <div className="lg:grid lg:grid-cols-12 lg:gap-8">
-              <div className="px-4 sm:px-6 sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left lg:flex lg:items-center">
-                <div>
+
+          <main className="mx-auto max-w-7xl px-4">
+            <div className="sm:text-center lg:text-left">
+              <div className="inline-flex items-center text-white bg-blue-800 rounded-lg p-1 px-3 sm:text-base lg:text-sm xl:text-base">
+                <span className="p-1 text-sm">📣 Sign up and get 250,000 in free raise credits</span> 
+              </div>
+              <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-5xl">
+                <span className="block xl:inline">Raise funds, manage and</span>{' '}
+                <span className="block xl:inline">distribute - <span className="text-blue-800">all in one place.</span></span>
+              </h1>
+              <p className="mt-3 text-base text-slate-300 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+                Presail is a fundraising and management tool for facilitating early stage web3.0 investments. Whether you're a project, launchpad, VC or public community.
+              </p>
+              <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+                <div className="">
                   <a
-                    href="https://presail.recruitee.com/"
-                    className="inline-flex items-center text-white bg-gray-900 rounded-full p-1 pr-2 sm:text-base lg:text-sm xl:text-base hover:text-gray-200"
+                    href="https://app.presail.com/onboarding"
+                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-800 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"
                   >
-                    <span className="px-3 py-0.5 text-white text-xs font-semibold leading-5 uppercase tracking-wide bg-indigo-400 rounded-full">
-                      We're hiring
-                    </span>
-                    <span className="ml-4 text-sm">Visit our careers page</span>
-                    <ChevronRightIcon className="ml-2 w-5 h-5 text-gray-500" aria-hidden="true" />
+                    Get started for free
                   </a>
-                  <h1 className="mt-4 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:leading-none lg:mt-6 lg:text-4xl xl:text-5xl">
-                    <span className="md:block">Management platform for</span>{' '}
-                    <span className="pb-3 block text-indigo-400 md:block">community-driven funding</span>
-
-                  </h1>
-
-                  <p className="mt-3 text-base text-slate-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                    Presail makes it easy for companies and investors to manage investments in web 3.0. Create deals, manage cap-tables & distribute assets - all in one app.
-                  </p>
-             
                 </div>
               </div>
-              <div className="mt-16 sm:mt-24 lg:mt-0 lg:col-span-6">
-                <img src="platform.webp" className="md:h-[450px] md:w-[unset] md:max-w-none" />
+              <div className="">
+                <p className="mt-3 text-base text-slate-300 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">No committments. No hidden costs.</p>
               </div>
             </div>
-          </div>
-        </main>
+          </main>
+        </div>
+      </div>
+      <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+        <img
+          className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
+          src="platform2.webp"
+          alt=""
+        />
       </div>
     </div>
   )

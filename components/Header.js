@@ -1,110 +1,299 @@
-import { Fragment } from 'react'
 import Link from 'next/link'
+import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
-import { MenuIcon, XIcon } from '@heroicons/react/outline'
-const navigation = [
-  { name: 'About us', href: '/about' },
-  { name: 'Pricing', href: '/pricing' },
-  { name: 'Blog', href: 'https://blog.presail.com' },
-  { name: 'FAQ', href: 'https://help.presail.com' },
-  { name: 'Careers', href: 'https://presail.recruitee.com/' }
+import {
+  BookmarkAltIcon,
+  BriefcaseIcon,
+  ChartBarIcon,
+  CheckCircleIcon,
+  CursorClickIcon,
+  DesktopComputerIcon,
+  GlobeAltIcon,
+  InformationCircleIcon,
+  MenuIcon,
+  NewspaperIcon,
+  OfficeBuildingIcon,
+  ChatIcon,
+  PlayIcon,
+  ShieldCheckIcon,
+  UserGroupIcon,
+  ViewGridIcon,
+  XIcon,
+} from '@heroicons/react/outline'
+import { ChevronDownIcon } from '@heroicons/react/solid'
+
+const solutions = [
+  {
+    name: 'Public community',
+    description: 'Setup, raise and manage all your deals.',
+    href: '#',
+    icon: ChartBarIcon,
+  },
+  {
+    name: 'Private syndicates',
+    description: 'Setup, raise and manage all your deals.',
+    href: '#',
+    icon: ChartBarIcon,
+  },
+  {
+    name: 'Web3 Projects',
+    description: 'Easy cap-table  management and token distributions with vesting',
+    href: '#',
+    icon: CursorClickIcon,
+  },
+  { 
+    name: 'Launchpads', 
+    description: "Your customers' data will be safe and secure.", 
+    href: '#', 
+    icon: ShieldCheckIcon
+  },
+]
+const callsToAction = [
+  { name: 'Watch Demo', href: '#', icon: PlayIcon },
+  { name: 'Chat with sales', href: '#', icon: ChatIcon },
+]
+const company = [
+  { name: 'About', href: '#', icon: InformationCircleIcon },
+  { name: 'Customers', href: '#', icon: OfficeBuildingIcon },
+  { name: 'Press', href: '#', icon: NewspaperIcon },
+  { name: 'Careers', href: '#', icon: BriefcaseIcon },
+  { name: 'Privacy', href: '#', icon: ShieldCheckIcon },
+]
+const resources = [
+  { name: 'Community', href: '#', icon: UserGroupIcon },
+  { name: 'Partners', href: '#', icon: GlobeAltIcon },
+  { name: 'Guides', href: '#', icon: BookmarkAltIcon },
+  { name: 'Webinars', href: '#', icon: DesktopComputerIcon },
 ]
 
 
-export default function Header() {
+function classNames(...classes) {
+  return classes.filter(Boolean).join(' ')
+}
+
+export default function Example() {
   return (
-  <Popover className="bg-background py-3">
-          <nav
-            className="relative max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6 "
-            aria-label="Global"
-          >
-            <div className="flex items-center flex-1">
-              <div className="flex items-center justify-between w-full md:w-auto">
-                <Link href="/">
-                <a>
-                  <span className="sr-only">Workflow</span>
-                  <img
-                    className="h-8 w-auto sm:h-10"
-                    src="/presail-logo.svg"
-                    alt=""
-                  />
+    <Popover className="relative bg-white">
+      <div className="absolute inset-0 shadow z-30 pointer-events-none" aria-hidden="true" />
+      <div className="relative z-20">
+        <div className="max-w-7xl mx-auto flex justify-between items-center px-4 py-5 sm:px-6 sm:py-4 lg:px-8 md:justify-start md:space-x-10">
+          <div>
+            <Link href="/">
+              <a className="flex">
+                <span className="sr-only">Presail</span>
+                <img
+                  className="h-8 w-auto sm:h-10"
+                  src="/presail-logo.svg"
+                  alt=""
+                />
+              </a>
+            </Link>
+          </div>
+          <div className="-mr-2 -my-2 md:hidden">
+            <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-indigo-400 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+              <span className="sr-only">Open menu</span>
+              <MenuIcon className="h-6 w-6" aria-hidden="true" />
+            </Popover.Button>
+          </div>
+          <div className="hidden md:flex-1 md:flex md:items-center md:justify-between">
+            <Popover.Group as="nav" className="flex space-x-10">
+              <Popover>
+                {({ open }) => (
+                  <>
+                    <Popover.Button
+                      className={classNames(
+                        open ? 'text-blue-800' : 'text-blue-800',
+                        'group bg-white rounded-md inline-flex items-center text-base font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500'
+                      )}
+                    >
+                      <span>Use cases</span>
+                      <ChevronDownIcon
+                        className={classNames(
+                          open ? 'text-blue-800' : 'text-blue-800',
+                          'ml-2 h-5 w-5'
+                        )}
+                        aria-hidden="true"
+                      />
+                    </Popover.Button>
+
+                    <Transition
+                      as={Fragment}
+                      enter="transition ease-out duration-200"
+                      enterFrom="opacity-0 -translate-y-1"
+                      enterTo="opacity-100 translate-y-0"
+                      leave="transition ease-in duration-150"
+                      leaveFrom="opacity-100 translate-y-0"
+                      leaveTo="opacity-0 -translate-y-1"
+                    >
+                      <Popover.Panel className="hidden md:block absolute z-10 top-full inset-x-0 transform shadow-lg bg-white">
+                        <div className="max-w-7xl mx-auto grid gap-y-6 px-4 py-6 sm:grid-cols-2 sm:gap-8 sm:px-6 sm:py-8 lg:grid-cols-4 lg:px-8 lg:py-12 xl:py-16">
+                          {solutions.map((item) => (
+                            <a
+                              key={item.name}
+                              href={item.href}
+                              className="-m-3 p-3 flex flex-col justify-between rounded-lg hover:bg-background"
+                            >
+                              <div className="flex md:h-full lg:flex-col">
+                                <div className="flex-shrink-0">
+                                  <span className="inline-flex items-center justify-center h-10 w-10 rounded-md bg-indigo-400 text-blue-800 sm:h-12 sm:w-12">
+                                    <item.icon className="h-6 w-6" aria-hidden="true" />
+                                  </span>
+                                </div>
+                                <div className="ml-4 md:flex-1 md:flex md:flex-col md:justify-between lg:ml-0 lg:mt-4">
+                                  <div>
+                                    <p className="text-base font-medium text-blue-800">{item.name}</p>
+                                    <p className="mt-1 text-sm text-indigo-400">{item.description}</p>
+                                  </div>
+                                  <p className="mt-2 text-sm font-medium text-indigo-400 lg:mt-4">
+                                    Learn more <span aria-hidden="true">&rarr;</span>
+                                  </p>
+                                </div>
+                              </div>
+                            </a>
+                          ))}
+                        </div>
+                        <div className="bg-blue-800">
+                          <div className="max-w-7xl mx-auto space-y-6 px-4 py-5 sm:flex sm:space-y-0 sm:space-x-10 sm:px-6 lg:px-8">
+                            {callsToAction.map((item) => (
+                              <div key={item.name} className="flow-root">
+                                <a
+                                  href={item.href}
+                                  className="-m-3 p-3 flex items-center rounded-md text-base font-medium text-blue-800 bg-indigo-400"
+                                >
+                                  <item.icon className="flex-shrink-0 h-6 w-6 text-blue-800" aria-hidden="true" />
+                                  <span className="ml-3">{item.name}</span>
+                                </a>
+                              </div>
+                            ))}
+                          </div>
+                        </div>
+                      </Popover.Panel>
+                    </Transition>
+                  </>
+                )}
+              </Popover>
+              <Link href="/pricing">
+                <a className="text-base font-medium text-blue-800">
+                  Pricing
                 </a>
-                </Link>
-                <div className="-mr-2 flex items-center md:hidden">
-                  <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-indigo-400 hover:bg-white focus:outline-none focus:ring-2 focus-ring-inset focus:ring-white">
-                    <span className="sr-only">Open main menu</span>
-                    <MenuIcon className="h-6 w-6" aria-hidden="true" />
+              </Link>
+              <Link href="/about">
+                <a className="text-base font-medium text-blue-800">
+                  About us
+                </a>
+              </Link>
+            </Popover.Group>
+            <div className="flex items-center md:ml-12">
+              <a
+                href="https://app.presail.com/onboarding"
+                className="ml-8 inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-blue-800"
+              >
+                Sign up
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <Transition
+        as={Fragment}
+        enter="duration-200 ease-out"
+        enterFrom="opacity-0 scale-95"
+        enterTo="opacity-100 scale-100"
+        leave="duration-100 ease-in"
+        leaveFrom="opacity-100 scale-100"
+        leaveTo="opacity-0 scale-95"
+      >
+        <Popover.Panel
+          focus
+          className="absolute z-30 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden"
+        >
+          <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
+            <div className="pt-5 pb-6 px-5 sm:pb-8">
+              <div className="flex items-center justify-between">
+                <div>
+                  <img
+                    className="h-8 w-auto"
+                    src="/presail-logo.svg"
+                    alt="Presail"
+                  />
+                </div>
+                <div className="-mr-2">
+                  <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-indigo-400 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                    <span className="sr-only">Close menu</span>
+                    <XIcon className="h-6 w-6" aria-hidden="true" />
                   </Popover.Button>
                 </div>
               </div>
-              <div className="hidden space-x-10 md:flex md:ml-10">
-                {navigation.map((item) => (
-                  <Link key={item.name} href={item.href}>
-                    <a className="font-medium text-white hover:text-slate-300">{item.name}</a>
-                  </Link>
-                ))}
+              <div className="mt-6 sm:mt-8">
+                <nav>
+                  <div className="grid gap-7 sm:grid-cols-2 sm:gap-y-8 sm:gap-x-4">
+                    {solutions.map((item) => (
+                      <a
+                        key={item.name}
+                        href={item.href}
+                        className="-m-3 flex items-center p-3 rounded-lg hover:bg-background"
+                      >
+                        <div className="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-400 text-blue-800 sm:h-12 sm:w-12">
+                          <item.icon className="h-6 w-6" aria-hidden="true" />
+                        </div>
+                        <div className="ml-4 text-base font-medium text-gray-900">{item.name}</div>
+                      </a>
+                    ))}
+                  </div>
+                  <div className="mt-8 text-base">
+                    <a href="#" className="font-medium text-indigo-600 hover:text-indigo-500">
+                      {' '}
+                      View all products <span aria-hidden="true">&rarr;</span>
+                    </a>
+                  </div>
+                </nav>
               </div>
             </div>
-            <div className="hidden md:flex">
-              <a
-                href="https://t.me/presailcom"
-                className="inline-flex items-center px-4 py-2 text-sm font-medium rounded-md text-white bg-indigo-400"
-              >
-                Join our Telegram
-              </a>
-            </div>
-          </nav>
+            <div className="py-6 px-5">
+              <div className="grid grid-cols-2 gap-4">
+                <a href="#" className="rounded-md text-base font-medium text-gray-900 hover:text-gray-700">
+                  Pricing
+                </a>
 
-          <Transition
-            as={Fragment}
-            enter="duration-150 ease-out"
-            enterFrom="opacity-0 scale-95"
-            enterTo="opacity-100 scale-100"
-            leave="duration-100 ease-in"
-            leaveFrom="opacity-100 scale-100"
-            leaveTo="opacity-0 scale-95"
-          >
-            <Popover.Panel
-              focus
-              className="absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden"
-            >
-              <div className="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
-                <div className="px-5 pt-4 flex items-center justify-between">
-                  <div>
-                    <img
-                      className="h-8 w-auto"
-                      src="/presail-logo-dark.svg"
-                      alt="Presail"
-                    />
-                  </div>
-                  <div className="-mr-2">
-                    <Popover.Button className="bg-indigo-400 rounded-md p-2 inline-flex items-center justify-center text-slate-300 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-400">
-                      <span className="sr-only">Close menu</span>
-                      <XIcon className="h-6 w-6 text-white" aria-hidden="true" />
-                    </Popover.Button>
-                  </div>
-                </div>
-                <div className="px-2 pt-2 pb-3 space-y-1">
-                  {navigation.map((item) => (
-                    <Link key={item.name} href={item.href}>
-                    <a
-                      key={item.name}
-                      className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
-                    >
-                      {item.name}
-                    </a>
-                    </Link>
-                  ))}
-                </div>
-                <a
-                  href="https://t.me/presailcom"
-                  className="block w-full px-5 py-3 text-center font-medium text-white bg-indigo-400"
-                >
-                  Join our Telegram
+                <a href="#" className="rounded-md text-base font-medium text-gray-900 hover:text-gray-700">
+                  Docs
+                </a>
+
+                <a href="#" className="rounded-md text-base font-medium text-gray-900 hover:text-gray-700">
+                  Company
+                </a>
+
+                <a href="#" className="rounded-md text-base font-medium text-gray-900 hover:text-gray-700">
+                  Resources
+                </a>
+
+                <a href="#" className="rounded-md text-base font-medium text-gray-900 hover:text-gray-700">
+                  Blog
+                </a>
+
+                <a href="#" className="rounded-md text-base font-medium text-gray-900 hover:text-gray-700">
+                  Chat with sales
                 </a>
               </div>
-            </Popover.Panel>
-          </Transition>
-        </Popover>
+              <div className="mt-6">
+                <a
+                  href="#"
+                  className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-blue-800 bg-indigo-600 hover:bg-indigo-700"
+                >
+                  Sign up
+                </a>
+                <p className="mt-6 text-center text-base font-medium text-gray-500">
+                  Get started for free: {' '}
+                  <a href="#" className="text-indigo-600 hover:text-indigo-500">
+                    Sign in
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </Popover.Panel>
+      </Transition>
+    </Popover>
   )
 }
