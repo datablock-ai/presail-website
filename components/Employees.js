@@ -4,64 +4,47 @@ const people = [
   {
     name: 'Sebastian',
     role: 'CEO',
-    imageUrl:
-      '/team/sebastian.webp',
-    email: 'sebastian@presail.com'
+    imageUrl: '/team/sebastian.webp',
   },
   {
     name: 'Tomas',
     role: 'CTO',
-    imageUrl:
-      '/team/tomas.webp',
-    email: 'tomas@presail.com',
+    imageUrl: '/team/tomas.webp'
   },
   {
     name: 'Hamza',
     role: 'Head of Product',
-    imageUrl:
-      '/team/hamza.webp',
-    email: 'hamza@presail.com',
+    imageUrl: '/team/hamza.webp'
   },
   {
     name: 'Milad',
     role: 'Head of Communications',
-    imageUrl:
-      '/team/milad.webp',
-    email: 'milad@presail.com',
+    imageUrl: '/team/milad.webp'
   },
   {
     name: 'Jacob',
     role: 'Junior Developer',
-    imageUrl:
-      '/team/jacob.webp',
+    imageUrl: '/team/jacob.webp',
   },
   {
     name: 'August',
     role: 'Senior Developer',
-    imageUrl:
-      '/team/august.webp',
-    twitterUrl: '#',
+    imageUrl: '/team/august.webp'
   },
   {
     name: 'Even',
     role: 'Account Executive',
-    imageUrl:
-      '/team/august.webp',
-    twitterUrl: '#',
+    imageUrl: '/team/even.webp'
   },
   {
     name: 'Bue',
     role: 'Senior Developer',
-    imageUrl:
-      '/team/august.webp',
-    twitterUrl: '#',
+    imageUrl: '/team/bue.webp'
   },
   {
     name: 'Aleksander',
     role: 'Head of Design',
-    imageUrl:
-      '/team/august.webp',
-    twitterUrl: '#',
+    imageUrl: '/team/aleksander.webp',
   }
 ]
 
@@ -75,7 +58,7 @@ export default function Employees() {
 
             <a
               href="https://presail.recruitee.com/"
-              className="inline-flex items-center text-white bg-gray-900 rounded-full p-1 pr-2 sm:text-base lg:text-sm xl:text-base hover:text-gray-200"
+              className="inline-flex items-center text-white bg-blue-800 rounded-full p-1 pr-2 sm:text-base lg:text-sm xl:text-base hover:text-gray-200"
             >
               <span className="px-3 py-0.5 text-white text-xs font-semibold leading-5 uppercase tracking-wide bg-indigo-400 rounded-full">
                 We're hiring
@@ -84,13 +67,13 @@ export default function Employees() {
               <ChevronRightIcon className="ml-2 w-5 h-5 text-gray-500" aria-hidden="true" />
             </a>
 
-            <p className="text-xl text-slate-300 max-w-4xl">
+            <p className="text-xl text-black max-w-4xl">
               We're a remote-first company motivated by working on complex problems.
             </p>
           </div>
           <ul role="list" className="space-y-4 sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0 lg:grid-cols-3 lg:gap-8">
             {people.map((person) => (
-              <li key={person.name} className="py-10 px-6 bg-deepbackground flex place-content-center text-center rounded-lg xl:px-10 xl:text-left">
+              <li key={person.name} className="py-10 px-6 bg-blue-800 flex place-content-center text-center rounded-lg xl:px-10 xl:text-left">
                 <div className="space-y-6 xl:space-y-10">
                   <img className="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56 grayscale" src={person.imageUrl} alt="" />
                   <div className="space-y-2 place-content-center text-center xl:flex xl:items-center">

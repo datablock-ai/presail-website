@@ -58,10 +58,10 @@ export default function PricingHero() {
               The biggest web 3.0 investment-communities use Presail’s management platform.
             </p>
             <div className="flex justify-center pt-6">
-              <ul className="text-white text-xl text-left">
-                <li><CheckCircleIcon className="h-6 w-6 text-white inline-block" aria-hidden="true" /> No setup/maintenance fee</li>
-                <li><CheckCircleIcon className="h-6 w-6 text-white inline-block" aria-hidden="true" /> No minimum fee</li>
-                <li><CheckCircleIcon className="h-6 w-6 text-white inline-block" aria-hidden="true" /> Pay only for what you use</li>
+              <ul className="text-blue-800 text-xl text-left">
+                <li><CheckCircleIcon className="h-6 w-6 text-blue-800 inline-block" aria-hidden="true" /> No setup/maintenance fee</li>
+                <li><CheckCircleIcon className="h-6 w-6 text-blue-800 inline-block" aria-hidden="true" /> No minimum fee</li>
+                <li><CheckCircleIcon className="h-6 w-6 text-blue-800 inline-block" aria-hidden="true" /> Pay only for what you use</li>
               </ul>
             </div>
           </div>
@@ -97,9 +97,9 @@ export default function PricingHero() {
                       {tier.features.map((feature) => (
                         <li key={feature} className="flex items-start">
                           <div className="flex-shrink-0">
-                            <CheckIcon className="h-6 w-6 text-green-500" aria-hidden="true" />
+                            <CheckIcon className="h-6 w-6 text-indigo-400" aria-hidden="true" />
                           </div>
-                          <p className="ml-3 text-base text-slate-300">{feature}</p>
+                          <p className="ml-3 text-base text-white">{feature}</p>
                         </li>
                       ))}
                     </ul>
@@ -125,7 +125,7 @@ export default function PricingHero() {
               <div className="mt-6 rounded-md shadow lg:mt-0 lg:ml-10 lg:flex-shrink-0">
                 <a
                   href="https://t.me/zerocap"
-                  className="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-gray-900 bg-white hover:bg-gray-50"
+                  className="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-blue-800 bg-indigo-400"
                 >
                   Chat with us
                 </a>

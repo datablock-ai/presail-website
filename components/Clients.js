@@ -1,5 +1,4 @@
-/* This example requires Tailwind CSS v2.0+ */
-export default function Example() {
+export default function Clients() {
   return (
     <div className="bg-white">
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
@@ -8,10 +7,10 @@ export default function Example() {
             <h2 className="text-3xl font-extrabold text-blue-800 sm:text-4xl">
               Trusted by the best organizations
             </h2>
-            <p className="mt-3 max-w-3xl text-lg text-slate-300">
+            <p className="mt-3 max-w-3xl text-lg text-black">
               Useful to everyone. From new projects, to some of the biggest players in the space. Presail is compliant, audited and a public team with a registered entity.
             </p>
-            <p className="mt-3 max-w-3xl text-lg text-slate-300">
+            <p className="mt-3 max-w-3xl text-lg text-black">
               Presail recently raised an equity seed round of $1.6M, and are backed by Skyfall, Weekend Fund, Global Founders Capital & Kraken Ventures to new a few.
             </p>
             <img src="audited.png" className="h-20 mt-3" alt="Audited by Hacken" />

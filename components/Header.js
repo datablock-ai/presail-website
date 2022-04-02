@@ -58,7 +58,7 @@ export default function Example() {
                 <span className="sr-only">Presail</span>
                 <img
                   className="h-8 w-auto sm:h-10"
-                  src="/presail-logo.svg"
+                  src="/presail-logo-dark.svg"
                   alt=""
                 />
               </a>
@@ -78,7 +78,7 @@ export default function Example() {
                     <Popover.Button
                       className={classNames(
                         open ? 'text-blue-800' : 'text-blue-800',
-                        'group bg-white rounded-md inline-flex items-center text-base font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500'
+                        'group bg-white rounded-md inline-flex items-center text-base font-medium focus:outline-none'
                       )}
                     >
                       <span>Use cases</span>
@@ -190,7 +190,7 @@ export default function Example() {
                 <div>
                   <img
                     className="h-8 w-auto"
-                    src="/presail-logo.svg"
+                    src="/presail-logo-dark.svg"
                     alt="Presail"
                   />
                 </div>

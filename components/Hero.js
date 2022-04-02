@@ -17,14 +17,14 @@ export default function Example() {
           <main className="mx-auto max-w-7xl px-4">
             <div className="sm:text-center lg:text-left">
               <div className="inline-flex items-center text-white bg-blue-800 rounded-lg p-1 px-3 sm:text-base lg:text-sm xl:text-base">
-                <span className="p-1 text-sm">📣 Sign up to get 250,000 in free raise credits</span> 
+                <span className="p-1 text-sm">📣 Sign up now to get 250,000 in free raise credits</span> 
               </div>
               <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-5xl">
                 <span className="block xl:inline">Raise funds, manage and</span>{' '}
                 <span className="block xl:inline">distribute - <span className="text-blue-800">all in one place.</span></span>
               </h1>
-              <p className="mt-3 text-base text-slate-300 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                Presail is a fundraising and management tool for facilitating early stage web3.0 investments. Whether you're a project, launchpad, VC or public community.
+              <p className="mt-3 text-base text-black sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+                Fundraising and management tool for early-stage web3.0 investments. Whether you're a project, launchpad, VC or public community.
               </p>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="">
@@ -37,7 +37,7 @@ export default function Example() {
                 </div>
               </div>
               <div className="">
-                <p className="mt-3 text-base text-slate-300 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">No committments. No hidden costs.</p>
+                <p className="mt-3 text-base text-black sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">No committments. No hidden costs.</p>
               </div>
             </div>
           </main>

@@ -3,7 +3,6 @@ import Head from 'next/head'
 import Header from '../components/Header'
 import Hero from '../components/Hero'
 import Clients from '../components/Clients'
-import Hamza from '../components/Hamza'
 import Footer from '../components/Footer'
 
 export default function Home() {

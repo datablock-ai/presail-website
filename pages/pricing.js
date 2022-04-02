@@ -3,8 +3,6 @@ import Head from 'next/head'
 import Header from '../components/Header'
 import PricingHero from '../components/PricingHero'
 import PricingCTA from '../components/PricingCTA'
-import Tiers from '../components/Tiers'
-import Faq from '../components/Faq'
 import Footer from '../components/Footer'
 
 
