@@ -8,10 +8,10 @@ export default function Clients() {
               Trusted by the best organizations
             </h2>
             <p className="mt-3 max-w-3xl text-lg text-black">
-              Useful to everyone. From new projects, to some of the biggest players in the space. Presail is compliant, audited and a public team with a registered entity.
+              Our users have facilitated $100M through Presail. We're compliant, audited, and a public team with a registered entity. That's why the serious actors use us.
             </p>
             <p className="mt-3 max-w-3xl text-lg text-black">
-              Presail recently raised an equity seed round of $1.6M, and are backed by Skyfall, Weekend Fund, Global Founders Capital & Kraken Ventures to new a few.
+              Presail recently raised an equity seed round of $1.6M, and are backed by Skyfall, Weekend Fund, Global Founders Capital & Kraken Ventures to name a few.
             </p>
             <img src="audited.png" className="h-20 mt-3" alt="Audited by Hacken" />
           </div>

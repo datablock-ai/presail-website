@@ -2,22 +2,22 @@ import Image from 'next/image'
 import { ChevronRightIcon } from '@heroicons/react/solid'
 const people = [
   {
-    name: 'Sebastian',
+    name: 'Sebastian Almnes',
     role: 'CEO',
     imageUrl: '/team/sebastian.webp',
   },
   {
-    name: 'Tomas',
+    name: 'Tomas Veiden',
     role: 'CTO',
     imageUrl: '/team/tomas.webp'
   },
   {
-    name: 'Hamza',
+    name: 'Hamza Nebolsi',
     role: 'Head of Product',
     imageUrl: '/team/hamza.webp'
   },
   {
-    name: 'Milad',
+    name: 'Milad Mirshahi',
     role: 'Head of Communications',
     imageUrl: '/team/milad.webp'
   },

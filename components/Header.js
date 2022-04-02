@@ -3,6 +3,9 @@ import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import {
   ChartBarIcon,
+  FireIcon,
+  LockClosedIcon,
+  UserGroupIcon,
   CursorClickIcon,
   MenuIcon,
   ChatIcon,
@@ -13,26 +16,26 @@ import { ChevronDownIcon } from '@heroicons/react/solid'
 
 const solutions = [
   {
-    name: 'Public community',
+    name: 'Public communities',
     description: 'Thousand of members, with a lot of deals? No problem.',
     href: '#',
-    icon: ChartBarIcon,
+    icon: UserGroupIcon,
   },
   {
     name: 'Private syndicates',
-    description: 'Setup, raise and manage all your deals.',
+    description: 'Setup, raise and manage dealflow with your investors.',
     href: '#',
-    icon: ChartBarIcon,
+    icon: LockClosedIcon,
   },
   {
     name: 'Web3 Projects',
     description: 'Cap-table management, KYC & AML, and vested token distribution.',
     href: '#',
-    icon: CursorClickIcon,
+    icon: FireIcon,
   },
   { 
     name: 'Launchpads', 
-    description: "Your customers' data will be safe and secure.", 
+    description: "Showcase your deals, and let people invest", 
     href: '#', 
     icon: ChartBarIcon
   },

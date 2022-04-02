@@ -20,8 +20,8 @@ export default function Example() {
                 <span className="p-1 text-sm">📣 Sign up now to get 250,000 in free raise credits</span> 
               </div>
               <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-5xl">
-                <span className="block xl:inline">Raise funds, manage and</span>{' '}
-                <span className="block xl:inline">distribute - <span className="text-blue-800">all in one place.</span></span>
+                <span className="block xl:inline">Raise, manage, and</span>{' '}
+                <span className="block xl:inline">distribute funds - <span className="text-blue-800">all in one place.</span></span>
               </h1>
               <p className="mt-3 text-base text-black sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                 Fundraising and management tool for early-stage web3.0 investments. Whether you're a project, launchpad, VC or public community.

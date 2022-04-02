@@ -6,7 +6,7 @@ const tiers = [
     href: 'https://t.me/zerocap',
     priceDescription: 'of funds raised',
     priceMonthly: '0.25%',
-    description: "Promotional offer. The best deal in the space. Contact us to check if you're eligible.",
+    description: "Promotional price, for a limited time only.",
     features: [
       'Self service onboarding',
       'Create deals',
@@ -52,13 +52,13 @@ export default function PricingHero() {
           <div className="max-w-3xl mx-auto space-y-2 lg:max-w-none">
             <h2 className="text-lg leading-6 font-semibold text-blue-800 uppercase tracking-wider">Pricing</h2>
             <p className="text-3xl font-extrabold text-blue-800 sm:text-4xl lg:text-5xl">
-              The right price, for new and large groups
+              The right price for all sizes
             </p>
             <p className="text-xl text-black">
-              The biggest web 3.0 investment-communities use Presail’s management platform.
+              Join the hundreds of organizations already using Presail
             </p>
             <div className="flex justify-center pt-6">
-              <ul className="text-blue-800 text-xl text-left">
+              <ul className="text-black text-xl text-left">
                 <li><CheckCircleIcon className="h-6 w-6 text-blue-800 inline-block" aria-hidden="true" /> No setup/maintenance fee</li>
                 <li><CheckCircleIcon className="h-6 w-6 text-blue-800 inline-block" aria-hidden="true" /> No minimum fee</li>
                 <li><CheckCircleIcon className="h-6 w-6 text-blue-800 inline-block" aria-hidden="true" /> Pay only for what you use</li>
@@ -114,7 +114,7 @@ export default function PricingHero() {
             <div className="rounded-lg bg-blue-800 px-6 py-8 sm:p-10 lg:flex lg:items-center">
               <div className="flex-1">
                 <div>
-                  <h3 className="inline-flex px-4 py-1 rounded-full text-sm font-semibold tracking-wide uppercase bg-background text-slate-300">
+                  <h3 className="inline-flex px-4 py-1 rounded-full text-sm font-semibold tracking-wide uppercase bg-background text-indigo-400">
                     Need something else?
                   </h3>
                 </div>
