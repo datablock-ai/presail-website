@@ -3,7 +3,7 @@ export default function Hamza() {
     <div className="fixed bottom-5 right-5">
       <span className="inline-block relative">
         <a href="https://t.me/zerocap" target="_blank">
-        <span className="absolute -top-10 w-25 bg-main rounded text-white -left-20 text-center p-2">Questions?</span>
+        <span className="absolute -top-10 w-25 bg-main rounded text-white -left-20 text-center px-3 py-2 font-bold">Questions?</span>
         <img
           className="h-20 w-20 rounded-full shadow-xl"
           src="/team/hamza.webp"

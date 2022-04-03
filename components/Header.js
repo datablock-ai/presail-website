@@ -19,7 +19,7 @@ const solutions = [
   {
     name: 'Public communities',
     description: 'Thousand of members, with a lot of deals? No problem.',
-    href: '#',
+    href: '/communities',
     icon: UserGroupIcon,
   },
   {

@@ -22,7 +22,8 @@
         main: '#0F20E9',
         deep: '#081065',
         subgray: '#6B70A3',
-        secondary: '#E7E9FD'
+        secondary: '#E7E9FD',
+        wtf: '#6B70A3'
       },
       borderRadius: {
         'none': '0',
