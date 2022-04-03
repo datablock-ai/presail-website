@@ -1,25 +1,26 @@
 import Head from 'next/head'
 
 import Header from '../components/Header'
-import Hero from '../components/pricing/Hero'
-import CTA from '../components/pricing/CTA'
-import Premium from '../components/pricing/Premium'
+import Hero from '../components/launchpad/Hero'
 import SmallClients from '../components/SmallClients'
+import Explainer from '../components/launchpad/Explainer'
+import Faq from '../components/launchpad/Faq'
+import CTA from '../components/launchpad/CTA'
 import Footer from '../components/Footer'
 import Hamza from '../components/Hamza'
 
-
-export default function Pricing() {
+export default function Home() {
   return (
     <div>
       <Head>
-        <title>Pricing - Presail</title>
-      </Head>
+        <title>Presail for Web3.0 launchpads</title>
+      </Head> 
       <div className="antialiased selection:bg-main selection:text-white">
         <Header />
         <Hero />
-        <Premium />
         <SmallClients />
+        <Explainer />
+        <Faq />
         <CTA />
         <Footer />
         <Hamza />

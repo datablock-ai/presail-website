@@ -4,6 +4,7 @@ import Header from '../components/Header';
 import Hero from '../components/about/Hero';
 import Employees from '../components/about/Employees';
 import Footer from '../components/Footer';
+import Hamza from '../components/Hamza'
 
 export default function Pricing() {
   return (
@@ -16,6 +17,7 @@ export default function Pricing() {
         <Hero />
         <Employees />
         <Footer />
+        <Hamza />
       </div>
     </div>
   );

@@ -10,7 +10,8 @@ import {
   MenuIcon,
   ChatIcon,
   SupportIcon,
-  XIcon
+  XIcon,
+  AdjustmentsIcon
 } from '@heroicons/react/outline'
 import { ChevronDownIcon } from '@heroicons/react/solid'
 
@@ -28,19 +29,20 @@ const solutions = [
     icon: LockClosedIcon,
   },
   {
-    name: 'Web3 Projects',
+    name: 'Web 3.0 Projects',
     description: 'Cap-table management, KYC & AML, and vested token distribution.',
-    href: '#',
+    href: '/web3-projects',
     icon: FireIcon,
   },
   { 
     name: 'Launchpads', 
     description: "Showcase your deals, and let people invest", 
-    href: '/launchpad', 
+    href: '/launchpads', 
     icon: ChartBarIcon
   },
 ]
 const callsToAction = [
+  { name: 'See all features', href: '#', icon: AdjustmentsIcon },
   { name: 'Knowledge base', href: 'https://help.presail.com', icon: SupportIcon },
   { name: 'Chat with sales', href: 'https://t.me/zerocap', icon: ChatIcon },
 ]

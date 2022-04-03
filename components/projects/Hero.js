@@ -7,10 +7,10 @@ export default function Hero() {
         <div className="text-center">
           <h2 className="text-base font-semibold text-deep tracking-wide uppercase">Use cases</h2>
           <h1 className="mt-1 text-4xl font-extrabold text-main sm:text-5xl sm:tracking-tight lg:text-6xl">
-            Launchpads
+            Web 3.0 Projects
           </h1>
           <p className="max-w-xl my-5 mx-auto text-xl text-subgray">
-            Start building for free, then add a site plan to go live. Account plans unlock additional features.
+            Presail gives you cap-table management, KYC & AML, and easy distribution of tokens, with or without a vesting schedule. Everything you need to manage your token raise!
           </p>
           <button
             type="button"

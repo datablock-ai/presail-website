@@ -39,7 +39,7 @@ export default ({ defaultSelected, list }) => {
                     );
                   }}
                   style={style}
-                  className="p-3 text-deep font-bold"
+                  className="p-3 text-deep font-bold text-2xl"
                 >
                   {item.tabText}
                 </button>

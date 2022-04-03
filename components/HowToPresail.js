@@ -26,7 +26,18 @@ const list = [
     image: 'tab2.png',
   },
   {
-    tabText: 'Distribute',
+    tabText: 'Distribute / Airdrop',
+    title: 'One-click distribute according to your vesting',
+    bullets: [
+      'One-click distributions',
+      'No need for disperse/bulksender or other apps',
+      'No need for spreadsheets or CSV',
+      'Lorem ipsum dipsum',
+    ],
+    image: 'tab2.png',
+  },
+  {
+    tabText: 'Customzation',
     title: 'One-click distribute according to your vesting',
     bullets: [
       'One-click distributions',
@@ -40,11 +51,13 @@ const list = [
 
 export default () => {
   return (
-    <div className="mx-auto pt-12 px-4 max-w-7xl sm:px-6 lg:px-8 mt-10 rounded border border-slate-300">
+    <div className="mt-20">
       <p className="mt-2 text-3xl font-extrabold sm:text-4xl text-center text-deep">
         See what's inside
       </p>
+    <div className="mx-auto pt-12 px-4 max-w-7xl sm:px-6 lg:px-8 mt-10 rounded-[20px] border border-[#DDDDDD]">
       <TabList defaultSelected={defaultSelected} list={list} />
+    </div>
     </div>
   );
 };

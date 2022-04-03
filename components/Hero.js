@@ -1,44 +1,50 @@
+import { ArrowSmRightIcon } from '@heroicons/react/outline'
+
 export default function Hero() {
   return (
-    <div className="relative bg-white overflow-hidden mt-20">
-      <div className="max-w-7xl mx-auto">
-        <div className="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
-          <main className="mx-auto max-w-7xl px-4">
-            <div className="sm:text-center lg:text-left">
-              <div className="mb-10 inline-flex items-center text-white bg-blue-800 rounded-lg p-1 px-3 sm:text-base lg:text-sm xl:text-base">
-                <span className="p-1 text-sm">📣 Sign up now to get 250,000 in free raise credits</span> 
+      <div className="relative bg-white sm:pt-16 pb-32 overflow-hidden">
+      <div className="relative py-10">
+        <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
+          <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
+            <div>
+              <div>
+                <span className="text-main font-bold uppercase rounded-large bg-secondary py-3 px-5">
+                  <span className="pr-2">🎉</span> Get $250,000 in free raise credit
+                </span>
               </div>
-              <h1 className="text-4xl tracking-tight font-extrabold text-deep sm:text-5xl md:text-6xl">
-                <span className="block xl:inline">Raise, manage, and</span>{' '}
-                <span className="block xl:inline">distribute funds - <span className="text-main">all in one place.</span></span>
-              </h1>
-              <p className="mt-3 text-base text-subgray sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                Fundraising and management tool for early-stage web3.0 investments. Whether you're a project, launchpad, VC or public community.
-              </p>
-              <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-                <div className="">
+              <div className="mt-6">
+                <h1 className="text-4xl tracking-tight font-extrabold text-deep sm:text-5xl md:text-5xl">
+                  Raise funds in crypto, organize and distribute tokens - <span className="text-main">all in one place.</span>
+                </h1>
+                <p className="mt-4 text-lg text-subgray">
+                  Fundraising and management tool for web 3.0. Whether you're a project, launchpad, VC or public community.
+                </p>
+                <div className="mt-6">
                   <a
                     href="https://app.presail.com/onboarding"
-                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-main md:py-4 md:text-lg md:px-10"
+                    className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-large shadow-sm text-white bg-main focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                   >
-                    Get started for free
+                    Get started now for free
+                    <ArrowSmRightIcon className="ml-2 h-6 w-6 text-white" aria-hidden="true" />
                   </a>
+                  <p className="mt-4 text-lg text-subgray">
+                    No commitments. No hidden costs.
+                  </p>
                 </div>
               </div>
-              <div className="">
-                <p className="mt-3 text-base text-subgray sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">No commitments. No hidden costs.</p>
-              </div>
             </div>
-          </main>
+          </div>
+          <div className="mt-12 sm:mt-16 lg:mt-0">
+            <div className="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
+              <img
+                className="w-full rounded-large shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+                src="https://tailwindui.com/img/component-images/inbox-app-screenshot-1.jpg"
+                alt="Inbox user interface"
+              />
+            </div>
+          </div>
         </div>
       </div>
-      <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-        <img
-          className="h-56 object-cover sm:h-72 md:h-96 lg:h-full"
-          src="platform2.webp"
-          alt=""
-        />
       </div>
-    </div>
   )
 }

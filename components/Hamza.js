@@ -5,7 +5,7 @@ export default function Hamza() {
         <a href="https://t.me/zerocap" target="_blank">
         <span className="absolute -top-10 w-25 bg-main rounded text-white -left-20 text-center p-2">Questions?</span>
         <img
-          className="h-20 w-20 rounded-full"
+          className="h-20 w-20 rounded-full shadow-xl"
           src="/team/hamza.webp"
           alt=""
         />
