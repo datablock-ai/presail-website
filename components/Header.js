@@ -68,7 +68,7 @@ export default function Example() {
             </Link>
           </div>
           <div className="-mr-2 -my-2 md:hidden">
-            <Popover.Button className="bg-blue-800 rounded-md p-2 inline-flex items-center justify-center text-white focus:outline-none focus:ring-2 focus:ring-inset">
+            <Popover.Button className="bg-deep rounded-md p-2 inline-flex items-center justify-center text-white focus:outline-none focus:ring-2 focus:ring-inset">
               <span className="sr-only">Open menu</span>
               <MenuIcon className="h-6 w-6" aria-hidden="true" />
             </Popover.Button>
@@ -80,14 +80,14 @@ export default function Example() {
                   <>
                     <Popover.Button
                       className={classNames(
-                        open ? 'text-blue-800' : 'text-blue-800',
+                        open ? 'text-deep' : 'text-deep',
                         'group bg-white rounded-md inline-flex items-center text-base font-medium focus:outline-none'
                       )}
                     >
                       <span>Use cases</span>
                       <ChevronDownIcon
                         className={classNames(
-                          open ? 'text-blue-800' : 'text-blue-800',
+                          open ? 'text-deep' : 'text-deep',
                           'ml-2 h-5 w-5'
                         )}
                         aria-hidden="true"
@@ -109,20 +109,20 @@ export default function Example() {
                             <a
                               key={item.name}
                               href={item.href}
-                              className="-m-3 p-3 flex flex-col justify-between rounded-lg hover:bg-background"
+                              className="-m-3 p-3 flex flex-col justify-between rounded-lg hover:bg-main"
                             >
                               <div className="flex md:h-full lg:flex-col">
                                 <div className="flex-shrink-0">
-                                  <span className="inline-flex items-center justify-center h-10 w-10 rounded-md bg-indigo-400 text-blue-800 sm:h-12 sm:w-12">
+                                  <span className="inline-flex items-center justify-center h-10 w-10 rounded-md bg-indigo-400 text-deep sm:h-12 sm:w-12">
                                     <item.icon className="h-6 w-6" aria-hidden="true" />
                                   </span>
                                 </div>
                                 <div className="ml-4 md:flex-1 md:flex md:flex-col md:justify-between lg:ml-0 lg:mt-4">
                                   <div>
-                                    <p className="text-base font-medium text-blue-800">{item.name}</p>
-                                    <p className="mt-1 text-sm text-indigo-400">{item.description}</p>
+                                    <p className="text-base font-medium text-deep">{item.name}</p>
+                                    <p className="mt-1 text-sm text-subgray">{item.description}</p>
                                   </div>
-                                  <p className="mt-2 text-sm font-medium text-indigo-400 lg:mt-4">
+                                  <p className="mt-2 text-sm font-medium text-deep lg:mt-4">
                                     Learn more <span aria-hidden="true">&rarr;</span>
                                   </p>
                                 </div>
@@ -130,16 +130,16 @@ export default function Example() {
                             </a>
                           ))}
                         </div>
-                        <div className="bg-blue-800">
+                        <div className="bg-main">
                           <div className="max-w-7xl mx-auto space-y-6 px-4 py-5 sm:flex sm:space-y-0 sm:space-x-10 sm:px-6 lg:px-8">
                             {callsToAction.map((item) => (
                               <div key={item.name} className="flow-root">
                                 <a
                                   href={item.href}
                                   target="_blank"
-                                  className="-m-3 p-3 flex items-center rounded-md text-base font-medium text-blue-800 bg-indigo-400"
+                                  className="-m-3 p-3 flex items-center rounded-md text-base font-medium text-deep bg-indigo-400"
                                 >
-                                  <item.icon className="flex-shrink-0 h-6 w-6 text-blue-800" aria-hidden="true" />
+                                  <item.icon className="flex-shrink-0 h-6 w-6 text-deep" aria-hidden="true" />
                                   <span className="ml-3">{item.name}</span>
                                 </a>
                               </div>
@@ -152,12 +152,12 @@ export default function Example() {
                 )}
               </Popover>
               <Link href="/pricing">
-                <a className="text-base font-medium text-blue-800">
+                <a className="text-base font-medium text-deep">
                   Pricing
                 </a>
               </Link>
               <Link href="/about">
-                <a className="text-base font-medium text-blue-800">
+                <a className="text-base font-medium text-deep">
                   About us
                 </a>
               </Link>
@@ -165,7 +165,7 @@ export default function Example() {
             <div className="flex items-center md:ml-12">
               <a
                 href="https://app.presail.com/onboarding"
-                className="ml-8 inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-blue-800"
+                className="ml-8 inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-main"
               >
                 Sign up
               </a>
@@ -198,7 +198,7 @@ export default function Example() {
                   />
                 </div>
                 <div className="-mr-2">
-                  <Popover.Button className="bg-blue-800 rounded-md p-2 inline-flex items-center justify-center text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                  <Popover.Button className="bg-deep rounded-md p-2 inline-flex items-center justify-center text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                     <span className="sr-only">Close menu</span>
                     <XIcon className="h-6 w-6" aria-hidden="true" />
                   </Popover.Button>
@@ -206,7 +206,7 @@ export default function Example() {
               </div>
               <div className="mt-6 sm:mt-8">
                 <nav>
-                  <span className="text-blue-800 font-bold">Use cases</span>
+                  <span className="text-deep font-bold">Use cases</span>
                   <div className="grid gap-7 sm:grid-cols-2 sm:gap-y-8 sm:gap-x-4 pt-2">
                     {solutions.map((item) => (
                       <a
@@ -214,7 +214,7 @@ export default function Example() {
                         href={item.href}
                         className="-m-3 flex items-center p-3 rounded-lg hover:bg-background"
                       >
-                        <div className="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-400 text-blue-800 sm:h-12 sm:w-12">
+                        <div className="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-400 text-deep sm:h-12 sm:w-12">
                           <item.icon className="h-6 w-6" aria-hidden="true" />
                         </div>
                         <div className="ml-4 text-base font-medium text-gray-900">{item.name}</div>
@@ -240,7 +240,7 @@ export default function Example() {
               <div className="mt-6">
                 <a
                   href="https://app.presail.com/onboarding"
-                  className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md text-base font-medium text-white bg-blue-800"
+                  className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md text-base font-medium text-white bg-deep"
                 >
                   Sign up
                 </a>

@@ -41,7 +41,7 @@ const list = [
 export default () => {
   return (
     <div className="mx-auto pt-12 px-4 max-w-7xl sm:px-6 lg:px-8 mt-10 rounded border border-slate-300">
-      <p className="mt-2 text-3xl font-extrabold sm:text-4xl text-center text-blue-800">
+      <p className="mt-2 text-3xl font-extrabold sm:text-4xl text-center text-deep">
         See what's inside
       </p>
       <TabList defaultSelected={defaultSelected} list={list} />

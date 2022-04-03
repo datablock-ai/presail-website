@@ -4,13 +4,13 @@ export default function Clients() {
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
         <div className="lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
           <div>
-            <h2 className="text-3xl font-extrabold text-blue-800 sm:text-4xl">
+            <h2 className="text-3xl font-extrabold text-deep sm:text-4xl">
               Trusted by the best organizations
             </h2>
-            <p className="mt-3 max-w-3xl text-lg text-black">
+            <p className="mt-3 max-w-3xl text-lg text-subgray">
               Our users have facilitated $100M through Presail. We're compliant, audited, and a public team with a registered entity. That's why the serious actors use us.
             </p>
-            <p className="mt-3 max-w-3xl text-lg text-black">
+            <p className="mt-3 max-w-3xl text-lg text-subgray">
               Presail recently raised an equity seed round of $1.6M, and are backed by Skyfall, Weekend Fund, Global Founders Capital & Kraken Ventures to name a few.
             </p>
             <img src="audited.png" className="h-20 mt-3" alt="Audited by Hacken" />

@@ -19,8 +19,10 @@
         indigo: {
           400: '#00D8FF'
         },
-        background: '#0a2440',
-        deepbackground: '#081C33'
+        main: '#0F20E9',
+        deep: '#081065',
+        subgray: '#6B70A3',
+        secondary: '#E7E9FD'
       }
     },
     plugins: [

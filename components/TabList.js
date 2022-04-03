@@ -39,7 +39,7 @@ export default ({ defaultSelected, list }) => {
                     );
                   }}
                   style={style}
-                  className="p-3 text-blue-800 font-bold"
+                  className="p-3 text-deep font-bold"
                 >
                   {item.tabText}
                 </button>
@@ -58,13 +58,13 @@ export default ({ defaultSelected, list }) => {
             <div className="tab-content">
               <div className="lg:grid lg:grid-cols-12 lg:gap-8">
                 <div className="lg:col-span-6 p-3">
-                  <p className="mt-2 text-3xl font-extrabold text-blue-800 tracking-tight sm:text-4xl">
+                  <h3 className="mb-4 text-3xl font-extrabold text-deep tracking-tight sm:text-4xl">
                     {selectedItem.title}
-                  </p>
+                  </h3>
                   <ul className="list-disc list-inside">
                     {selectedItem.bullets.map((bullet, index) => {
                       return (
-                        <li key={`bullet--${selectedItem.title}--${index}`}>
+                        <li key={`bullet--${selectedItem.title}--${index}`} className="text-base text-subgray sm:text-lg md:text-xl">
                           {bullet}
                         </li>
                       );

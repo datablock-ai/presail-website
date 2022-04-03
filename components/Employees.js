@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import { ChevronRightIcon } from '@heroicons/react/solid'
 const people = [
   {
