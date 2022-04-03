@@ -2,21 +2,21 @@ import { ArrowSmRightIcon } from '@heroicons/react/outline'
 
 export default function Hero() {
   return (
-      <div className="relative bg-white sm:pt-16 pb-32 overflow-hidden">
+      <div className="relative bg-white sm:pt-16 sm:pb-32 overflow-hidden">
       <div className="relative py-10">
         <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
           <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
             <div>
               <div>
-                <span className="text-main font-bold uppercase rounded-large bg-secondary py-3 px-5">
+                <span className="text-main text-xs sm:text-lg font-bold uppercase rounded-large bg-secondary py-3 px-5">
                   <span className="pr-2">🎉</span> Get $250,000 in free raise credit
                 </span>
               </div>
               <div className="mt-6">
-                <h1 className="text-4xl tracking-tight font-extrabold text-deep sm:text-5xl md:text-5xl">
+                <h1 className="text-3xl tracking-tight font-extrabold text-deep sm:text-5xl md:text-5xl">
                   Raise funds in crypto, organize, and distribute tokens - <span className="text-main">all in one place.</span>
                 </h1>
-                <p className="mt-4 text-lg text-subgray">
+                <p className="mt-4 sm:text-lg text-subgray">
                   Fundraising and management tool for web 3.0. Whether you're a project, launchpad, VC or public community.
                 </p>
                 <div className="mt-6">
@@ -27,7 +27,7 @@ export default function Hero() {
                     Get started now for free
                     <ArrowSmRightIcon className="ml-2 h-6 w-6 text-white" aria-hidden="true" />
                   </a>
-                  <p className="mt-4 text-lg text-subgray">
+                  <p className="mt-4 text-sm sm:text-lg text-subgray">
                     No commitments. No hidden costs.
                   </p>
                 </div>
@@ -39,7 +39,7 @@ export default function Hero() {
               <img
                 className="w-full rounded-large shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
                 src="/artboard.webp"
-                alt="Inbox user interface"
+                alt="Presail platform"
               />
             </div>
           </div>

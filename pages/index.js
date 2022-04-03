@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Presail - fundraising in web 3.0</title>
+        <title>Presail - fundraising tool for web 3.0</title>
       </Head> 
       <div className="antialiased selection:bg-main selection:text-white">
         <Header />

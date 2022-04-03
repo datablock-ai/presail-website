@@ -7,7 +7,9 @@ export default function Hamza() {
         <img
           className="h-20 w-20 rounded-full shadow-xl"
           src="/team/hamza.webp"
-          alt=""
+          width="80"
+          height="80"
+          alt="Talk to Hamza"
         />
         <span className="absolute top-0 right-0 block h-5 w-5 rounded-full ring-2 ring-white bg-green-400" />
         </a>

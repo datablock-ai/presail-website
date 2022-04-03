@@ -72,7 +72,7 @@ export default ({ defaultSelected, list }) => {
                   </ul>
                 </div>
                 <div className="lg:col-span-6 p-3">
-                  <img src={selectedItem.image} />
+                  <img src={selectedItem.image} alt="Product demo" />
                 </div>
               </div>
             </div>

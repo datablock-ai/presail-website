@@ -111,7 +111,7 @@ export default function Example() {
                             <Link href={item.href}>
                             <a
                               key={item.name}
-                              className="-m-3 p-3 flex flex-col justify-between rounded-lg hover:bg-main group"
+                              className="-m-3 p-3 flex flex-col justify-between rounded-lg hover:bg-secondary group"
                             >
                               <div className="flex md:h-full lg:flex-col">
                                 <div className="flex-shrink-0">
@@ -121,10 +121,10 @@ export default function Example() {
                                 </div>
                                 <div className="ml-4 md:flex-1 md:flex md:flex-col md:justify-between lg:ml-0 lg:mt-4">
                                   <div>
-                                    <p className="text-base font-medium text-deep group-hover:text-white">{item.name}</p>
-                                    <p className="mt-1 text-sm text-subgray group-hover:text-white">{item.description}</p>
+                                    <p className="text-base font-medium text-deep group-hover:text-deep">{item.name}</p>
+                                    <p className="mt-1 text-sm text-subgray group-hover:text-deep">{item.description}</p>
                                   </div>
-                                  <p className="mt-2 text-sm font-medium text-deep lg:mt-4 group-hover:text-white">
+                                  <p className="mt-2 text-sm font-medium text-deep lg:mt-4 group-hover:text-deep">
                                     Learn more <span aria-hidden="true">&rarr;</span>
                                   </p>
                                 </div>
@@ -133,16 +133,16 @@ export default function Example() {
                             </Link>
                           ))}
                         </div>
-                        <div className="bg-main">
+                        <div className="bg-secondary">
                           <div className="max-w-7xl mx-auto space-y-6 px-4 py-5 sm:flex sm:space-y-0 sm:space-x-10 sm:px-6 lg:px-8">
                             {callsToAction.map((item) => (
                               <div key={item.name} className="flow-root">
                                 <a
                                   href={item.href}
                                   target="_blank"
-                                  className="-m-3 p-3 flex items-center rounded-md text-base font-medium text-deep bg-indigo-400"
+                                  className="-m-3 p-3 flex items-center rounded-md text-base font-medium text-deep bg-deep text-white"
                                 >
-                                  <item.icon className="flex-shrink-0 h-6 w-6 text-deep" aria-hidden="true" />
+                                  <item.icon className="flex-shrink-0 h-6 w-6 text-deep text-white" aria-hidden="true" />
                                   <span className="ml-3">{item.name}</span>
                                 </a>
                               </div>
@@ -210,7 +210,7 @@ export default function Example() {
                       <a
                         key={item.name}
                         href={item.href}
-                        className="-m-3 flex items-center p-3 rounded-lg hover:bg-background"
+                        className="-m-3 flex items-center p-3 rounded-lg hover:bg-secondary"
                       >
                         <div className="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-400 text-deep sm:h-12 sm:w-12">
                           <item.icon className="h-6 w-6" aria-hidden="true" />

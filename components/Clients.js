@@ -15,7 +15,7 @@ export default function Clients() {
 
             <a
               href="https://app.presail.com/onboarding"
-              className="mr-2 inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-large shadow-sm text-white bg-main focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+              className="sm:mr-2 flex sm:inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-large shadow-sm text-white bg-main focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
             >
               Get started now for free
               <ArrowSmRightIcon className="ml-2 h-6 w-6 text-white" aria-hidden="true" />
@@ -24,7 +24,7 @@ export default function Clients() {
             <a
               href="https://t.me/zerocap"
               target="_blank"
-              className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-large shadow-sm text-main bg-secondary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+              className="flex mt-3 sm:mt-0 sm:inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-large shadow-sm text-main bg-secondary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
             >
               Chat with us
               <ChatIcon className="ml-2 h-6 w-6 text-main" aria-hidden="true" />
