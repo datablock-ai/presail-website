@@ -11,6 +11,7 @@ export default function Pricing() {
     <div>
       <Head>
         <title>About us - Presail</title>
+        <meta property="og:title" content="Community-driven funding allows anyone, anywhere, to come together and raise capital towards a common goal. Presail is about enabling these communities." key="title" />
       </Head>
       <div className="antialiased selection:bg-main selection:text-white">
         <Header />
