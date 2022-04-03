@@ -36,7 +36,7 @@ const solutions = [
   { 
     name: 'Launchpads', 
     description: "Showcase your deals, and let people invest", 
-    href: '#', 
+    href: '/launchpad', 
     icon: ChartBarIcon
   },
 ]
@@ -68,7 +68,7 @@ export default function Example() {
             </Link>
           </div>
           <div className="-mr-2 -my-2 md:hidden">
-            <Popover.Button className="bg-deep rounded-md p-2 inline-flex items-center justify-center text-white focus:outline-none focus:ring-2 focus:ring-inset">
+            <Popover.Button className="bg-main rounded-md p-2 inline-flex items-center justify-center text-white focus:outline-none focus:ring-2 focus:ring-inset">
               <span className="sr-only">Open menu</span>
               <MenuIcon className="h-6 w-6" aria-hidden="true" />
             </Popover.Button>
@@ -87,7 +87,7 @@ export default function Example() {
                       <span>Use cases</span>
                       <ChevronDownIcon
                         className={classNames(
-                          open ? 'text-deep' : 'text-deep',
+                          open ? 'text-main' : 'text-main',
                           'ml-2 h-5 w-5'
                         )}
                         aria-hidden="true"
@@ -106,10 +106,10 @@ export default function Example() {
                       <Popover.Panel className="hidden md:block absolute z-10 top-full inset-x-0 transform shadow-lg bg-white">
                         <div className="max-w-7xl mx-auto grid gap-y-6 px-4 py-6 sm:grid-cols-2 sm:gap-8 sm:px-6 sm:py-8 lg:grid-cols-4 lg:px-8 lg:py-12 xl:py-16">
                           {solutions.map((item) => (
+                            <Link href={item.href}>
                             <a
                               key={item.name}
-                              href={item.href}
-                              className="-m-3 p-3 flex flex-col justify-between rounded-lg hover:bg-main"
+                              className="-m-3 p-3 flex flex-col justify-between rounded-lg hover:bg-main group"
                             >
                               <div className="flex md:h-full lg:flex-col">
                                 <div className="flex-shrink-0">
@@ -119,15 +119,16 @@ export default function Example() {
                                 </div>
                                 <div className="ml-4 md:flex-1 md:flex md:flex-col md:justify-between lg:ml-0 lg:mt-4">
                                   <div>
-                                    <p className="text-base font-medium text-deep">{item.name}</p>
-                                    <p className="mt-1 text-sm text-subgray">{item.description}</p>
+                                    <p className="text-base font-medium text-deep group-hover:text-white">{item.name}</p>
+                                    <p className="mt-1 text-sm text-subgray group-hover:text-white">{item.description}</p>
                                   </div>
-                                  <p className="mt-2 text-sm font-medium text-deep lg:mt-4">
+                                  <p className="mt-2 text-sm font-medium text-deep lg:mt-4 group-hover:text-white">
                                     Learn more <span aria-hidden="true">&rarr;</span>
                                   </p>
                                 </div>
                               </div>
                             </a>
+                            </Link>
                           ))}
                         </div>
                         <div className="bg-main">
@@ -198,7 +199,7 @@ export default function Example() {
                   />
                 </div>
                 <div className="-mr-2">
-                  <Popover.Button className="bg-deep rounded-md p-2 inline-flex items-center justify-center text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                  <Popover.Button className="bg-main rounded-md p-2 inline-flex items-center justify-center text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                     <span className="sr-only">Close menu</span>
                     <XIcon className="h-6 w-6" aria-hidden="true" />
                   </Popover.Button>

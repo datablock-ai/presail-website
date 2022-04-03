@@ -44,7 +44,7 @@ const tiers = [
   },
 ]
 
-export default function PricingHero() {
+export default function Hero() {
   return (
     <div className="bg-white">
       <div className="pt-12 sm:pt-16 lg:pt-24">
@@ -54,11 +54,11 @@ export default function PricingHero() {
             <p className="text-3xl font-extrabold text-blue-800 sm:text-4xl lg:text-5xl">
               The right price for all sizes
             </p>
-            <p className="text-xl text-black">
+            <p className="text-xl text-subgray">
               Join the hundreds of organizations already using Presail
             </p>
             <div className="flex justify-center pt-6">
-              <ul className="text-black text-xl text-left">
+              <ul className="text-subgray text-xl text-left">
                 <li><CheckCircleIcon className="h-6 w-6 text-blue-800 inline-block" aria-hidden="true" /> No setup/maintenance fee</li>
                 <li><CheckCircleIcon className="h-6 w-6 text-blue-800 inline-block" aria-hidden="true" /> No minimum fee</li>
                 <li><CheckCircleIcon className="h-6 w-6 text-blue-800 inline-block" aria-hidden="true" /> Pay only for what you use</li>

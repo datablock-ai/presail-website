@@ -4,21 +4,25 @@ const people = [
     name: 'Sebastian Almnes',
     role: 'CEO',
     imageUrl: '/team/sebastian.webp',
+    telegram: 'sebdatablock'
   },
   {
     name: 'Tomas Veiden',
     role: 'CTO',
-    imageUrl: '/team/tomas.webp'
+    imageUrl: '/team/tomas.webp',
+    telegram: 'TomasPresail'
   },
   {
     name: 'Hamza Nebolsi',
     role: 'Head of Product',
-    imageUrl: '/team/hamza.webp'
+    imageUrl: '/team/hamza.webp',
+    telegram: 'ZeroCap'
   },
   {
     name: 'Milad Mirshahi',
     role: 'Head of Communications',
-    imageUrl: '/team/milad.webp'
+    imageUrl: '/team/milad.webp',
+    telegram: 'iNakazumi'
   },
   {
     name: 'Jacob',
@@ -28,12 +32,14 @@ const people = [
   {
     name: 'August',
     role: 'Senior Developer',
-    imageUrl: '/team/august.webp'
+    imageUrl: '/team/august.webp',
+    telegram: 'lyf1n'
   },
   {
     name: 'Even',
     role: 'Account Executive',
-    imageUrl: '/team/even.webp'
+    imageUrl: '/team/even.webp',
+    telegram: 'Pacyos'
   },
   {
     name: 'Bue',
@@ -66,7 +72,7 @@ export default function Employees() {
               <ChevronRightIcon className="ml-2 w-5 h-5 text-gray-500" aria-hidden="true" />
             </a>
 
-            <p className="text-xl text-black max-w-4xl">
+            <p className="text-xl text-subgray max-w-4xl">
               We're a remote-first company motivated by working on complex problems.
             </p>
           </div>
@@ -79,7 +85,8 @@ export default function Employees() {
                     <div className="font-medium text-lg leading-6 space-y-1">
                       <h3 className="text-white">{person.name}</h3>
                       <p className="text-indigo-400">{person.role}</p>
-                      <p className="text-white text-sm">{person.email}</p>
+                      <p className="text-white text-sm pt-6 border-b-2 border-white">Verified credentials</p>
+                      <p className="text-white text-sm">Telegram: {person.telegram}</p>
                     </div>
                   </div>
                 </div>

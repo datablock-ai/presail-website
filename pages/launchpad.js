@@ -1,20 +1,23 @@
 import Head from 'next/head'
 
 import Header from '../components/Header'
-import Hero from '../components/pricing/Hero'
-import CTA from '../components/pricing/CTA'
+import Hero from '../components/launchpad/Hero'
+import Explainer from '../components/launchpad/Explainer'
+import Faq from '../components/launchpad/Faq'
+import CTA from '../components/launchpad/CTA'
 import Footer from '../components/Footer'
 
-
-export default function Pricing() {
+export default function Home() {
   return (
     <div>
       <Head>
-        <title>Pricing - Presail</title>
-      </Head>
+        <title>Presail</title>
+      </Head> 
       <div className="antialiased selection:bg-main selection:text-white">
         <Header />
         <Hero />
+        <Explainer />
+        <Faq />
         <CTA />
         <Footer />
       </div>

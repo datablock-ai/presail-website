@@ -1,8 +1,8 @@
 import Head from 'next/head';
 
 import Header from '../components/Header';
-import AboutHero from '../components/AboutHero';
-import Employees from '../components/Employees';
+import Hero from '../components/about/Hero';
+import Employees from '../components/about/Employees';
 import Footer from '../components/Footer';
 
 export default function Pricing() {
@@ -11,9 +11,9 @@ export default function Pricing() {
       <Head>
         <title>About us - Presail</title>
       </Head>
-      <div className="antialiased">
+      <div className="antialiased selection:bg-main selection:text-white">
         <Header />
-        <AboutHero />
+        <Hero />
         <Employees />
         <Footer />
       </div>
