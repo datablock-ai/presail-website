@@ -25,26 +25,26 @@ const people = [
     telegram: 'iNakazumi'
   },
   {
-    name: 'Jacob',
-    role: 'Junior Developer',
-    imageUrl: '/team/jacob.webp',
-  },
-  {
     name: 'August',
     role: 'Senior Developer',
     imageUrl: '/team/august.webp',
     telegram: 'lyf1n'
   },
   {
+    name: 'Bue',
+    role: 'Senior Developer',
+    imageUrl: '/team/bue.webp'
+  },
+  {
+    name: 'Jacob',
+    role: 'Developer',
+    imageUrl: '/team/jacob.webp',
+  },
+  {
     name: 'Even',
     role: 'Account Executive',
     imageUrl: '/team/even.webp',
     telegram: 'Pacyos'
-  },
-  {
-    name: 'Bue',
-    role: 'Senior Developer',
-    imageUrl: '/team/bue.webp'
   },
   {
     name: 'Aleksander',

@@ -14,7 +14,7 @@ export default function Hero() {
               </div>
               <div className="mt-6">
                 <h1 className="text-4xl tracking-tight font-extrabold text-deep sm:text-5xl md:text-5xl">
-                  Raise funds in crypto, organize and distribute tokens - <span className="text-main">all in one place.</span>
+                  Raise funds in crypto, organize, and distribute tokens - <span className="text-main">all in one place.</span>
                 </h1>
                 <p className="mt-4 text-lg text-subgray">
                   Fundraising and management tool for web 3.0. Whether you're a project, launchpad, VC or public community.
@@ -38,7 +38,7 @@ export default function Hero() {
             <div className="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
               <img
                 className="w-full rounded-large shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                src="https://tailwindui.com/img/component-images/inbox-app-screenshot-1.jpg"
+                src="/artboard.webp"
                 alt="Inbox user interface"
               />
             </div>

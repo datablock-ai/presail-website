@@ -37,7 +37,7 @@ const list = [
     image: 'tab2.png',
   },
   {
-    tabText: 'Customzation',
+    tabText: 'Customization',
     title: 'One-click distribute according to your vesting',
     bullets: [
       'One-click distributions',

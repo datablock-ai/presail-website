@@ -159,11 +159,6 @@ export default function Example() {
                   Pricing
                 </a>
               </Link>
-              <Link href="/about">
-                <a className="text-base font-medium text-deep">
-                  About us
-                </a>
-              </Link>
             </Popover.Group>
             <div className="flex items-center md:ml-12">
               <a
