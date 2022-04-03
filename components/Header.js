@@ -64,7 +64,9 @@ export default function Example() {
                 <img
                   className="h-8 w-auto sm:h-10"
                   src="/presail-logo-dark.svg"
-                  alt=""
+                  alt="Presail logo"
+                  width="30"
+                  height="40"
                 />
               </a>
             </Link>
