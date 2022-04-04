@@ -22,7 +22,7 @@ export default function Hero() {
                 <div className="mt-6">
                   <a
                     href="https://app.presail.com/onboarding"
-                    className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-large shadow-sm text-white bg-main focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                    className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-large shadow-sm text-white bg-main focus:outline-none focus:ring-2 focus:ring-offset-2"
                   >
                     Get started now for free
                     <ArrowSmRightIcon className="ml-2 h-6 w-6 text-white" aria-hidden="true" />

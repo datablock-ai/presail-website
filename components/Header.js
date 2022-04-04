@@ -25,7 +25,7 @@ const solutions = [
   {
     name: 'Private syndicates',
     description: 'Setup, raise and manage dealflow with your investors.',
-    href: '#',
+    href: '/syndicates',
     icon: LockClosedIcon,
   },
   {
@@ -117,7 +117,7 @@ export default function Example() {
                             >
                               <div className="flex md:h-full lg:flex-col">
                                 <div className="flex-shrink-0">
-                                  <span className="inline-flex items-center justify-center h-10 w-10 rounded-md bg-indigo-400 text-deep sm:h-12 sm:w-12">
+                                  <span className="inline-flex items-center justify-center h-10 w-10 rounded-md bg-secondary text-deep sm:h-12 sm:w-12">
                                     <item.icon className="h-6 w-6" aria-hidden="true" />
                                   </span>
                                 </div>
@@ -198,7 +198,7 @@ export default function Example() {
                   />
                 </div>
                 <div className="-mr-2">
-                  <Popover.Button className="bg-main rounded-md p-2 inline-flex items-center justify-center text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                  <Popover.Button className="bg-main rounded-md p-2 inline-flex items-center justify-center text-white focus:outline-none focus:ring-2 focus:ring-inset">
                     <span className="sr-only">Close menu</span>
                     <XIcon className="h-6 w-6" aria-hidden="true" />
                   </Popover.Button>

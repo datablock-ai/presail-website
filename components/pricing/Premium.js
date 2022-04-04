@@ -7,22 +7,7 @@ export default function Premium() {
           <p className="mt-3 text-xl text-deep sm:mt-4">
             Reputable VC, or doing large deals/volume? We know your business & brand is everything. Unlock access to custom branding, domain and KYC & AML. 
           </p>
-
         </div>
-        <dl className="mt-10 text-center sm:max-w-3xl sm:mx-auto sm:grid sm:grid-cols-3 sm:gap-8">
-          <div className="flex flex-col">
-            <dt className="order-2 mt-2 text-lg leading-6 font-medium text-indigo-200">Processed</dt>
-            <dd className="order-1 text-5xl font-extrabold text-deep">$100M+</dd>
-          </div>
-          <div className="flex flex-col mt-10 sm:mt-0">
-            <dt className="order-2 mt-2 text-lg leading-6 font-medium text-indigo-200">Fundraises</dt>
-            <dd className="order-1 text-5xl font-extrabold text-deep">1000+</dd>
-          </div>
-          <div className="flex flex-col mt-10 sm:mt-0">
-            <dt className="order-2 mt-2 text-lg leading-6 font-medium text-indigo-200">Investors</dt>
-            <dd className="order-1 text-5xl font-extrabold text-deep">50K+</dd>
-          </div>
-        </dl>
       </div>
     </div>
   )

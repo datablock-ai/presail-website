@@ -66,15 +66,15 @@ export default function Employees() {
           </div>
           <ul role="list" className="space-y-4 sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0 lg:grid-cols-3 lg:gap-8">
             {people.map((person) => (
-              <li key={person.name} className="py-10 px-6 bg-blue-800 flex place-content-center text-center rounded-lg xl:px-10 xl:text-left">
+              <li key={person.name} className="py-10 px-6 bg-secondary flex place-content-center text-center rounded-lg xl:px-10 xl:text-left">
                 <div className="space-y-6 xl:space-y-10">
                   <img className="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56 grayscale" src={person.imageUrl} alt="" />
                   <div className="space-y-2 place-content-center text-center xl:flex xl:items-center">
                     <div className="font-medium text-lg leading-6 space-y-1">
-                      <h3 className="text-white">{person.name}</h3>
-                      <p className="text-indigo-400">{person.role}</p>
-                      <p className="text-white text-sm pt-6 border-b-2 border-white">Verified credentials</p>
-                      <p className="text-white text-sm">Telegram: {person.telegram}</p>
+                      <h3 className="text-main">{person.name}</h3>
+                      <p className="text-deep">{person.role}</p>
+                      <p className="text-deep text-sm pt-6 border-b-2 border-deep">Verified credentials</p>
+                      <p className="text-deep text-sm">Telegram: {person.telegram}</p>
                     </div>
                   </div>
                 </div>
