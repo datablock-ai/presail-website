@@ -6,7 +6,7 @@ import SmallClients from '../components/SmallClients'
 import HowToPresail from '../components/communities/HowToPresail';
 import Explainer from '../components/launchpad/Explainer'
 import Faq from '../components/launchpad/Faq'
-import CTA from '../components/launchpad/CTA'
+import Contact from '../components/Contact'
 import Footer from '../components/Footer'
 import Hamza from '../components/Hamza'
 
@@ -24,7 +24,7 @@ export default function Home() {
         <SmallClients />
         <Explainer />
         <Faq />
-        <CTA />
+        <Contact />
         <Footer />
         <Hamza />
       </div>
