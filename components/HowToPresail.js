@@ -12,7 +12,7 @@ const list = [
       'Mitigate human errors',
       'No need to reconcile with etherscan/bscscan',
     ],
-    image: 'tab1.png',
+    image: 'group15.svg',
   },
   {
     tabText: 'Organize',

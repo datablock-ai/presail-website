@@ -6,13 +6,21 @@ export default function CTA() {
           <span className="block text-main">Ready to dive in?</span>
           <span className="block text-deep">Start for free today, and get $250K in raise credits</span>
         </h2>
-        <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
+        <div className="mt-8 flex justify-center">
           <div className="inline-flex rounded-md shadow">
             <a
-              href="https://app.presail.com/onboarding"
-              className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-main"
+              href="#"
+              className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-deep bg-secondary"
             >
-              Get started
+              Schedule demo
+            </a>
+          </div>
+          <div className="ml-3 inline-flex">
+            <a
+              href="#"
+              className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-deep bg-secondary"
+            >
+              Chat with us on Telegram
             </a>
           </div>
         </div>

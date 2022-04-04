@@ -4,6 +4,7 @@ import Header from '../components/Header'
 import Hero from '../components/Hero'
 import HowToPresail from '../components/HowToPresail';
 import Clients from '../components/Clients'
+import Blog from '../components/Blog'
 import Footer from '../components/Footer'
 import Hamza from '../components/Hamza'
 
@@ -19,6 +20,7 @@ export default function Home() {
         <Hero />
         <HowToPresail />
         <Clients />
+        <Blog />
         <Hamza />
         <Footer />
       </div>
