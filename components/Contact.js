@@ -1,4 +1,4 @@
-export default function Example() {
+export default function Contact() {
   return (
     <div className="bg-white my-20">
       <div className="max-w-7xl mx-auto text-center py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
@@ -10,7 +10,7 @@ export default function Example() {
         </h2>
         <div className="mt-8 flex justify-center">
           <a
-            href="#"
+            href="https://app.presail.com/onboarding"
             className="mx-2 inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-main"
           >
             Sign up for free
@@ -24,7 +24,8 @@ export default function Example() {
           </a>
 
           <a
-            href="#"
+            href="https://t.me/zerocap"
+            target="_blank"
             className="mx-2 inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-deep bg-secondary"
           >
             Chat with us

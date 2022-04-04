@@ -44,7 +44,7 @@ const solutions = [
 const callsToAction = [
   { name: 'See all features', href: '#', icon: AdjustmentsIcon },
   { name: 'Knowledge base', href: 'https://help.presail.com', icon: SupportIcon },
-  { name: 'Chat with sales', href: 'https://t.me/zerocap', icon: ChatIcon },
+  { name: 'Chat with us', href: 'https://t.me/zerocap', icon: ChatIcon },
 ]
 
 function classNames(...classes) {

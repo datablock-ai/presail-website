@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Header from '../components/Header'
 import Hero from '../components/pricing/Hero'
-import CTA from '../components/pricing/CTA'
+import Contact from '../components/Contact'
 import Premium from '../components/pricing/Premium'
 import SmallClients from '../components/SmallClients'
 import Footer from '../components/Footer'
@@ -19,7 +19,7 @@ export default function Pricing() {
         <Hero />
         <Premium />
         <SmallClients />
-        <CTA />
+        <Contact />
         <Footer />
         <Hamza />
       </div>

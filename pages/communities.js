@@ -6,8 +6,8 @@ import Stats from'../components/communities/Stats'
 
 import HowToPresail from '../components/communities/HowToPresail';
 import Clients from '../components/communities/Clients'
-import Contact from '../components/communities/Contact'
-import CTA from '../components/launchpad/CTA'
+import Contact from '../components/Contact'
+
 import Footer from '../components/Footer'
 import Hamza from '../components/Hamza'
 
