@@ -12,7 +12,7 @@ export default function Pricing() {
     <div>
       <Head>
         <title>Pricing - Presail</title>
-        <meta property="description" content="Our price is simple: 0.25% of funds raised. Raise funds in crypto, organize, and distribute tokens - all in one place." key="title" />
+        <meta name="description" content="Our price is simple: 0.25% of funds raised. Raise funds in crypto, organize, and distribute tokens - all in one place." key="title" />
       </Head>
       <div className="antialiased selection:bg-main selection:text-white">
         <Header />
