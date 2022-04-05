@@ -4,10 +4,10 @@ export default function Stats() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-extrabold text-deep sm:text-4xl">
-            The backbone of community driven funding
+            The backbone of web 3.0 funding
           </h2>
           <p className="mt-3 text-xl text-main sm:mt-4">
-            Hundreds of communities have already increased their deal flow and reduced their workload.
+            Hundreds of web 3.0 entrepreneurs have already made their fundraising effortless using Presail
           </p>
         </div>
       </div>

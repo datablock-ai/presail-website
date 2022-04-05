@@ -55,16 +55,16 @@ export default ({ defaultSelected, list }) => {
             timeout={300}
             classNames={direction}
           >
-            <div className="tab-content">
+            <div className="tab-content mt-10">
               <div className="lg:grid lg:grid-cols-12 lg:gap-8">
                 <div className="lg:col-span-6 p-3">
                   <h3 className="mb-4 text-3xl font-extrabold text-deep tracking-tight sm:text-4xl">
                     {selectedItem.title}
                   </h3>
-                  <ul className="list-disc list-inside">
+                  <ul className="mt-20 list-disc list-inside">
                     {selectedItem.bullets.map((bullet, index) => {
                       return (
-                        <li key={`bullet--${selectedItem.title}--${index}`} className="text-base text-subgray sm:text-lg md:text-xl">
+                        <li key={`bullet--${selectedItem.title}--${index}`} className="mt-5 text-base text-subgray sm:text-lg md:text-xl">
                           {bullet}
                         </li>
                       );

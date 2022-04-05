@@ -10,7 +10,7 @@ export default function Hero() {
             Web 3.0 Projects
           </h1>
           <p className="max-w-xl my-5 mx-auto text-xl text-subgray">
-            Raise through Presail. With cap-table management, KYC & AML, and easy distribution of tokens, with or without a vesting schedule. Everything you need to manage your token raise!
+            Spend more time on your project, and less time on managing the fundraising process. Presail makes it effortless to raise funds and distribute tokens to your entire community through a single app.
           </p>
           <button
             type="button"

@@ -12,7 +12,7 @@ const list = [
       'Mitigate human errors',
       'No need to reconcile with etherscan/bscscan',
     ],
-    image: 'group15.svg',
+    image: 'fundraise1.svg',
   },
   {
     tabText: 'Organize',
@@ -23,7 +23,7 @@ const list = [
       'Set up your own tier groups',
       'User NFTs or Tokens for access',
     ],
-    image: 'tab2.png',
+    image: 'organize1.svg',
   },
   {
     tabText: 'Distribute / Airdrop',
@@ -34,7 +34,7 @@ const list = [
       'No need for spreadsheets or CSV',
       'Lorem ipsum dipsum',
     ],
-    image: 'tab2.png',
+    image: 'distributions1.svg',
   },
   {
     tabText: 'Customization',
@@ -45,7 +45,7 @@ const list = [
       'No need for spreadsheets or CSV',
       'Lorem ipsum dipsum',
     ],
-    image: 'tab2.png',
+    image: 'customization1.svg',
   },
 ];
 
