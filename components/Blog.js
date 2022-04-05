@@ -9,7 +9,7 @@ const posts = [
     date: 'Mar 13, 2022',
     datetime: '2020-03-13',
     imageUrl:
-      'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80',
+      'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=559&q=80',
     readingTime: '5 min',
     author: {
       name: 'Sebastian Almnes',
@@ -26,7 +26,7 @@ const posts = [
     date: 'Mar 10, 2022',
     datetime: '2022-03-10',
     imageUrl:
-      'https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80',
+      'https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=559&q=80',
     readingTime: '5 min',
     author: {
       name: 'Sebastian Almnes',
@@ -43,7 +43,7 @@ const posts = [
     date: 'Mar 2, 2022',
     datetime: '2022-03-02',
     imageUrl:
-      'https://miro.medium.com/max/1400/1*h-1TWVtsclAwSewyeXMHtA.png',
+      '/founders.webp',
     readingTime: '6 min',
     author: {
       name: 'Sebastian Almnes',
