@@ -42,7 +42,7 @@ export default function Footer() {
           {navigation.main.map((item) => (
             <div key={item.name} className="px-5 py-2">
               <Link href={item.href}>
-              <a className="text-base text-wtf">
+              <a className="text-base text-deep">
                 {item.name}
               </a>
               </Link>
@@ -51,13 +51,13 @@ export default function Footer() {
         </nav>
         <div className="mt-8 flex justify-center space-x-6">
           {navigation.social.map((item) => (
-            <a key={item.name} href={item.href} className="text-wtf">
+            <a key={item.name} href={item.href} className="text-deep">
               <span className="sr-only">{item.name}</span>
               <item.icon className="h-6 w-6" aria-hidden="true" />
             </a>
           ))}
         </div>
-        <p className="mt-8 text-center text-base text-wtf">&copy; 2022 Presail is operated by the registered Norwegian entity Datablock AS. All rights reserved.</p>
+        <p className="mt-8 text-center text-base text-deep">&copy; 2022 Presail is operated by the registered Norwegian entity Datablock AS. All rights reserved.</p>
       </div>
     </footer>
   )
