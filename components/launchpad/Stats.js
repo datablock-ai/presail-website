@@ -1,57 +1,35 @@
-import { ArrowSmRightIcon, ChatIcon } from '@heroicons/react/outline'
-
-export default function Clients() {
+export default function Stats() {
   return (
-    <div className="bg-white my-20">
-      <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-        <div className="lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
-          <div>
-            <h2 className="text-4xl tracking-tight font-extrabold text-deep sm:text-5xl md:text-5xl mb-8">
-              Trusted by the best organizations
-            </h2>
-          <blockquote className="mt-6 md:flex-grow md:flex md:flex-col">
-            <div className="relative text-lg font-medium text-deep md:flex-grow">
-              <p className="relative">
-                “Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias
-                molestiae. Numquam corrupti in laborum sed rerum et corporis.”
-              </p>
-            </div>
-            <footer className="mt-8">
-              <div className="flex items-start">
-                <div className="flex-shrink-0 inline-flex rounded-full border-2 border-white">
-                  <img
-                    className="h-12 w-12 rounded-full"
-                    src="/team/hamza.webp"
-                    alt=""
-                  />
+    <div className="bg-secondary pt-12 sm:pt-16 my-20">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-3xl font-extrabold text-deep sm:text-4xl">
+            The backbone of launchpad offerings in web 3.0.
+          </h2>
+          <p className="mt-3 text-xl text-main sm:mt-4">
+            Hundreds of communities have already created thousands of deals using Presail.
+          </p>
+        </div>
+      </div>
+      <div className="mt-10 pb-12 bg-white sm:pb-16">
+        <div className="relative">
+          <div className="absolute inset-0 h-1/2 bg-secondary" />
+          <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="max-w-4xl mx-auto">
+              <dl className="rounded-lg bg-white shadow-lg sm:grid sm:grid-cols-3">
+                <div className="flex flex-col border-b border-gray-100 p-6 text-center sm:border-0 sm:border-r">
+                  <dt className="order-2 mt-2 text-lg leading-6 font-medium text-gray-500">Processed</dt>
+                  <dd className="order-1 text-5xl font-extrabold text-indigo-600">$100M+</dd>
                 </div>
-                <div className="ml-4">
-                  <div className="text-base font-medium text-deep">Judith Black</div>
-                  <div className="text-base font-medium text-main">CEO, Tuple</div>
+                <div className="flex flex-col border-t border-b border-gray-100 p-6 text-center sm:border-0 sm:border-l sm:border-r">
+                  <dt className="order-2 mt-2 text-lg leading-6 font-medium text-gray-500">Investors</dt>
+                  <dd className="order-1 text-5xl font-extrabold text-indigo-600">70K+</dd>
                 </div>
-              </div>
-            </footer>
-          </blockquote>
-           
-          </div>
-          <div className="mt-8 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-0 lg:grid-cols-2">
-            <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-              <img className="max-h-12 invert-[.25]" src="/clients/legion-ventures-logo.webp" alt="Legion Ventures" height="48" width="122.88" />
-            </div>
-            <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-              <img className="max-h-12 invert-[.25]" src="/clients/vespertine-logo.webp" alt="Vespertine" height="48" width="153" />
-            </div>
-            <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-              <img className="max-h-12 invert-[.25]" src="/clients/dutch-crypto-logo.webp" alt="DCI" height="48" width="100" />
-            </div>
-            <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-              <img className="max-h-12 invert-[.25]" src="/clients/ferrum-logo.webp" alt="Ferrum Network" height="48" width="149" />
-            </div>
-            <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-              <img className="max-h-12 invert-[.25]" src="/clients/duckdao-logo.webp" alt="DuckDAO" width="238" height="48" />
-            </div>
-            <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-              <img className="max-h-12 invert-[.25]" src="/clients/master-logo.webp" alt="Master Ventures" height="48" width="165" />
+                <div className="flex flex-col border-t border-b border-gray-100 p-6 text-center sm:border-0 sm:border-l sm:border-r">
+                  <dt className="order-2 mt-2 text-lg leading-6 font-medium text-gray-500">Communities</dt>
+                  <dd className="order-1 text-5xl font-extrabold text-indigo-600">100+</dd>
+                </div>
+              </dl>
             </div>
           </div>
         </div>

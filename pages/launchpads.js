@@ -2,13 +2,14 @@ import Head from 'next/head'
 
 import Header from '../components/Header'
 import Hero from '../components/launchpad/Hero'
-import Stats from'../components/projects/Stats'
-import Clients from '../components/projects/Clients'
-
+import Stats from'../components/launchpad/Stats'
+import SmallClients from '../components/SmallClients'
+import ValueProp from '../components/launchpad/ValueProp'
 
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
 import Hamza from '../components/Hamza'
+import Hacken from '../components/communities/Hacken'
 
 
 export default function Home() {
@@ -21,8 +22,10 @@ export default function Home() {
         <Header />
         <Hero />
         <Stats />
-        <Clients />
+        <SmallClients />
+        <ValueProp />
         <Contact />
+        <Hacken />
         <Footer />
         <Hamza />
       </div>

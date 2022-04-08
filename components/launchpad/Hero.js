@@ -7,18 +7,18 @@ export default function Hero() {
         <div className="text-center">
           <h2 className="text-base font-semibold text-deep tracking-wide uppercase">Presail for</h2>
           <p className="mt-1 mb-10 text-small font-extrabold text-main sm:tracking-tight lg:text-2xl">
-            Community Groups
+            Launchpads
           </p>
-          <h1 className="mt-1 text-4xl font-extrabold text-main sm:text-5xl sm:tracking-tight lg:text-6xl">Automate the entire deal-flow of your fundraising community. Instantly.</h1>
+          <h1 className="mt-1 text-4xl font-extrabold text-main sm:text-5xl sm:tracking-tight lg:text-6xl">Build your own Web 3.0 launchpad in 15 minutes. No code.</h1>
           <p className="max-w-xl my-5 mx-auto text-xl text-subgray">
-            Presail is built to handle thousands of investments. Create deals, verify transactions, manage contributions and distribute assets through a single interface.
+            Presail makes it effortless to build a launchpad. Create and showcase deals, raise funds and distribute tokens to all investors using a single app.
           </p>
           <a
             href="https://app.presail.com/onboarding"
             type="button"
             className="inline-flex items-center px-6 py-3 border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-main focus:outline-none focus:ring-2 focus:ring-offset-2"
           >
-            Start now for free
+            Get started now
             <ArrowSmRightIcon className="ml-3 h-5 w-5" aria-hidden="true" />
           </a>
         </div>
