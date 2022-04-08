@@ -3,10 +3,11 @@ import Head from 'next/head'
 import Header from '../components/Header'
 import Hero from '../components/communities/Hero'
 import Stats from'../components/communities/Stats'
-
-import HowToPresail from '../components/communities/HowToPresail';
+import SmallClients from '../components/SmallClients'
+import ValueProp from '../components/communities/ValueProp'
 import Clients from '../components/communities/Clients'
 import Contact from '../components/Contact'
+import Hacken from '../components/communities/Hacken'
 
 import Footer from '../components/Footer'
 import Hamza from '../components/Hamza'
@@ -21,9 +22,12 @@ export default function Home() {
         <Header />
         <Hero />
         <Stats />
-        <HowToPresail />
-        <Clients />
+        <SmallClients/>
+
+        <ValueProp />
         <Contact />
+        <Hacken />
+
         <Footer />
         <Hamza />
       </div>

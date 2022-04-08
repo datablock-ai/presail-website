@@ -17,14 +17,14 @@ export default function Contact() {
           </a>
       
           <a
-            href="#"
+            href="https://calendly.com/nakazumi"
             className="mx-2 inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-deep bg-secondary"
           >
             Schedule demo
           </a>
 
           <a
-            href="https://t.me/zerocap"
+            href="https://t.me/iNakazumi"
             target="_blank"
             className="mx-2 inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-deep bg-secondary"
           >

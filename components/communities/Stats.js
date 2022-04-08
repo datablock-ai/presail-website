@@ -7,7 +7,7 @@ export default function Stats() {
             The backbone of community driven funding
           </h2>
           <p className="mt-3 text-xl text-main sm:mt-4">
-            Hundreds of communities have already increased their deal flow and reduced their workload.
+            Hundreds of communities have already increased their deal flow and reduced the time spent on managing fundraising.
           </p>
         </div>
       </div>
@@ -26,7 +26,7 @@ export default function Stats() {
                   <dd className="order-1 text-5xl font-extrabold text-indigo-600">70K+</dd>
                 </div>
                 <div className="flex flex-col border-t border-b border-gray-100 p-6 text-center sm:border-0 sm:border-l sm:border-r">
-                  <dt className="order-2 mt-2 text-lg leading-6 font-medium text-gray-500">Customers</dt>
+                  <dt className="order-2 mt-2 text-lg leading-6 font-medium text-gray-500">Communities</dt>
                   <dd className="order-1 text-5xl font-extrabold text-indigo-600">100+</dd>
                 </div>
               </dl>
