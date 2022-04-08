@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Presail for Web 3.0 Projects</title>
+        <title>Presail for Launchpads</title>
       </Head> 
       <div className="antialiased selection:bg-main selection:text-white">
         <Header />
