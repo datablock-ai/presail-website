@@ -7,6 +7,7 @@ const communities = [
     role: 'Verified',
     email: 'janecooper@example.com',
     telegram: 'https://t.me/',
+    website: 'https://google.com',
     imageUrl: '/clients/dutch-crypto-logo.png'
   },
   {
@@ -15,6 +16,7 @@ const communities = [
     role: 'Verified',
     email: 'janecooper@example.com',
     telegram: 'https://t.me/',
+    website: 'https://google.com',
     imageUrl: '/clients/legion-ventures-logo.png'
   },
   {
@@ -23,6 +25,7 @@ const communities = [
     role: 'Verified',
     email: 'janecooper@example.com',
     telegram: 'https://t.me/',
+    website: 'https://google.com',
     imageUrl: '/clients/vespertine-logo.png'
   },
   {
@@ -31,7 +34,16 @@ const communities = [
     role: 'Verified',
     email: 'janecooper@example.com',
     telegram: 'https://t.me/',
+    website: 'https://google.com',
     imageUrl: '/clients/duckdao-logo.png'
+  },
+  {
+    name: 'Ferrum Network',
+    description: 'Ferrum Network is a pioneer in ushering in the era of Interoperability 2.0.',
+    role: 'Verified',
+    email: 'janecooper@example.com',
+    telegram: 'https://t.me/',
+    imageUrl: '/clients/ferrum-logo.png'
   },
 
 ]
@@ -47,7 +59,7 @@ export default function Example() {
               className="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200"
             >
               <div className="flex-1 flex flex-col p-8">
-                <img className="w-fit h-32 flex-shrink-0 mx-auto invert" src={community.imageUrl} alt="" />
+                <img className="flex-shrink-0 mx-auto invert" src={community.imageUrl} alt={community.name} />
                 <h3 className="mt-6 text-gray-900 text-sm font-medium">{community.name}</h3>
                 <dl className="mt-1 flex-grow flex flex-col justify-between">
                   <dt className="sr-only">description</dt>
@@ -58,6 +70,9 @@ export default function Example() {
                       <BadgeCheckIcon className="w-5 h-5 text-main inline-flex" aria-hidden="true" />
                       <span>{community.role}</span>
                     </span>
+                  </dd>
+                  <dd className="mt-3">
+                    <a href={community.website} className="text-xs">Visit website</a>
                   </dd>
                 </dl>
               </div>
