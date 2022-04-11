@@ -14,18 +14,18 @@ const communities = [
     name: 'Legion Ventures',
     description: 'We make private investments available to everyone.',
     role: 'Verified',
-    email: 'janecooper@example.com',
+    email: 'hello@legion.ventures',
     telegram: 'https://t.me/',
-    website: 'https://google.com',
+    website: 'https://legion.ventures/',
     imageUrl: '/clients/legion-ventures-logo.png'
   },
   {
-    name: 'Vespertine',
+    name: 'Vespertine Capital',
     description: 'A blockchain advisory, investment and education firm.',
     role: 'Verified',
-    email: 'janecooper@example.com',
+    email: 'contact@vespertine.capital',
     telegram: 'https://t.me/',
-    website: 'https://google.com',
+    website: 'https://www.vespertine.capital/',
     imageUrl: '/clients/vespertine-logo.png'
   },
   {
@@ -34,7 +34,7 @@ const communities = [
     role: 'Verified',
     email: 'janecooper@example.com',
     telegram: 'https://t.me/',
-    website: 'https://google.com',
+    website: 'https://duckdao.io/',
     imageUrl: '/clients/duckdao-logo.png'
   },
   {
@@ -43,10 +43,11 @@ const communities = [
     role: 'Verified',
     email: 'janecooper@example.com',
     telegram: 'https://t.me/',
+    website: 'https://ferrum.network/',
     imageUrl: '/clients/ferrum-logo.png'
   },
-
 ]
+
 
 export default function Example() {
   return (
@@ -72,7 +73,7 @@ export default function Example() {
                     </span>
                   </dd>
                   <dd className="mt-3">
-                    <a href={community.website} className="text-xs">Visit website</a>
+                    <a href={community.website} className="text-xs" target="_blank">Visit website</a>
                   </dd>
                 </dl>
               </div>
