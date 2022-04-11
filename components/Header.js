@@ -79,7 +79,7 @@ export default function Example() {
           </div>
           <div className="hidden md:flex-1 md:flex md:items-center md:justify-between">
             <Popover.Group as="nav" className="flex space-x-10">
-              <Popover>
+             {/* <Popover>
                 {({ open }) => (
                   <>
                     <Popover.Button
@@ -155,10 +155,15 @@ export default function Example() {
                     </Transition>
                   </>
                 )}
-              </Popover>
+              </Popover>*/}
               <Link href="/pricing">
                 <a className="text-base font-medium text-deep">
                   Pricing
+                </a>
+              </Link>
+              <Link href="/discovery">
+                <a className="text-base font-medium text-deep">
+                  Discover communities
                 </a>
               </Link>
             </Popover.Group>
@@ -210,7 +215,7 @@ export default function Example() {
                   </Popover.Button>
                 </div>
               </div>
-              <div className="mt-6 sm:mt-8">
+              {/*<div className="mt-6 sm:mt-8">
                 <nav>
                   <span className="text-deep font-bold">Use cases</span>
                   <div className="grid gap-7 sm:grid-cols-2 sm:gap-y-8 sm:gap-x-4 pt-2">
@@ -228,7 +233,7 @@ export default function Example() {
                     ))}
                   </div>
                 </nav>
-              </div>
+              </div>*/}
             </div>
             <div className="py-6 px-5">
               <div className="grid grid-cols-2 gap-4">
@@ -237,9 +242,9 @@ export default function Example() {
                     Pricing
                   </a>
                 </Link>
-                <Link href="/about">
+                <Link href="/discovery">
                   <a className="rounded-md text-base font-medium text-gray-900 hover:text-gray-700">
-                    About us
+                    Discover Communities
                   </a>
                 </Link>
               </div>
