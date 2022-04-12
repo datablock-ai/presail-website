@@ -39,17 +39,6 @@ const people = [
     name: 'Jacob',
     role: 'Developer',
     imageUrl: '/team/jacob.webp',
-  },
-  {
-    name: 'Even',
-    role: 'Account Executive',
-    imageUrl: '/team/even.webp',
-    telegram: 'Pacyos'
-  },
-  {
-    name: 'Aleksander',
-    role: 'Head of Design',
-    imageUrl: '/team/aleksander.webp',
   }
 ]
 
