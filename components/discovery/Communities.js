@@ -8,7 +8,7 @@ const communities = [
     email: 'janecooper@example.com',
     telegram: 'https://t.me/',
     website: 'https://google.com',
-    imageUrl: '/clients/dutch-crypto-logo.png'
+    imageUrl: '/clients/dutch-crypto-logo.webp'
   },
   {
     name: 'Legion Ventures',
@@ -17,7 +17,7 @@ const communities = [
     email: 'hello@legion.ventures',
     telegram: 'https://t.me/',
     website: 'https://legion.ventures/',
-    imageUrl: '/clients/legion-ventures-logo.png'
+    imageUrl: '/clients/legion-ventures-logo2.webp'
   },
   {
     name: 'Vespertine Capital',
@@ -26,7 +26,7 @@ const communities = [
     email: 'contact@vespertine.capital',
     telegram: 'https://t.me/',
     website: 'https://www.vespertine.capital/',
-    imageUrl: '/clients/vespertine-logo.png'
+    imageUrl: '/clients/vespertine-logo.webp'
   },
   {
     name: 'DuckDAO',
@@ -35,7 +35,7 @@ const communities = [
     email: 'janecooper@example.com',
     telegram: 'https://t.me/',
     website: 'https://duckdao.io/',
-    imageUrl: '/clients/duckdao-logo.png'
+    imageUrl: '/clients/duckdao-logo.webp'
   },
   {
     name: 'Ferrum Network',
@@ -44,7 +44,7 @@ const communities = [
     email: 'janecooper@example.com',
     telegram: 'https://t.me/',
     website: 'https://ferrum.network/',
-    imageUrl: '/clients/ferrum-logo.png'
+    imageUrl: '/clients/ferrum-logo.webp'
   },
 ]
 

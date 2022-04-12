@@ -7,7 +7,7 @@ export default function SmallClients() {
         </p>
         <div className="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-8">
           <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-            <img className="max-h-12 invert-[.25]" src="/clients/legion-ventures-logo.webp" alt="Legion Ventures" height="48" width="122.88" />
+            <img className="max-h-12 invert-[.25]" src="/clients/legion-ventures-logo2.webp" alt="Legion Ventures" height="48" width="76.5" />
           </div>
           <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
             <img className="max-h-12 invert-[.25]" src="/clients/vespertine-logo.webp" alt="Vespertine" height="48" width="153" />
