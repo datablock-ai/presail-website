@@ -17,7 +17,7 @@ export default function Hero() {
                   Raise funds in crypto, organize and distribute tokens - <span className="text-main">all in one place.</span>
                 </h1>
                 <p className="mt-4 sm:text-lg text-subgray">
-                  Fundraising and management tool for web 3.0. Whether you're a project, launchpad, VC or public community.
+                  Fundraising and management tool for web 3.0. Whether you're a VC, public community, project or launchpad.
                 </p>
                 <div className="mt-6">
                   <a
