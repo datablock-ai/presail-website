@@ -1,4 +1,5 @@
-import React, { useState, cloneElement } from 'react';
+import React, { useState, useEffect, cloneElement } from 'react';
+import NextImage from 'next/image';
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
 
 const childFactory = (direction) => (child) =>
@@ -76,7 +77,15 @@ export default ({ defaultSelected, list }) => {
                   </ul>
                 </div>
                 <div className="lg:col-span-6 p-3">
-                  <img src={selectedItem.image} alt="Product demo" />
+                  <NextImage
+                    src={`/${selectedItem.image}`}
+                    priority
+                    alt="Product demo"
+                    width="100%"
+                    height="100%"
+                    layout="responsive"
+                    objectFit="contain"
+                  />
                 </div>
               </div>
             </div>
