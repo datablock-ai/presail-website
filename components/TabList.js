@@ -51,13 +51,16 @@ export default ({ defaultSelected, list }) => {
         })}
       </div>
       <div className="tab-item-wrapper">
-        <TransitionGroup childFactory={childFactory(direction)}>
+        <TransitionGroup
+          childFactory={childFactory(direction)}
+          className="tab-item-container"
+        >
           <CSSTransition
             key={`tab-content--${selectedItem.tabText}`}
             timeout={300}
             classNames={direction}
           >
-            <div className="tab-content mt-10">
+            <div className="mt-10">
               <div className="lg:grid lg:grid-cols-12 lg:gap-8">
                 <div className="lg:col-span-6 p-3">
                   <h3 className="mb-4 text-3xl font-extrabold text-deep tracking-tight sm:text-4xl">
