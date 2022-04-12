@@ -1,4 +1,4 @@
-import { ArrowSmRightIcon } from '@heroicons/react/outline'
+import { ArrowSmRightIcon, ChatIcon } from '@heroicons/react/outline'
 
 export default function Hero() {
   return (
@@ -22,11 +22,12 @@ export default function Hero() {
                 <div className="mt-6">
                   <a
                     href="https://app.presail.com/onboarding"
-                    className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-large shadow-sm text-white bg-main focus:outline-none focus:ring-2 focus:ring-offset-2"
+                    className="mr-3 inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-large shadow-sm text-white bg-main focus:outline-none focus:ring-2 focus:ring-offset-2"
                   >
                     Get started now for free
                     <ArrowSmRightIcon className="ml-2 h-6 w-6 text-white" aria-hidden="true" />
                   </a>
+
                   <p className="mt-4 text-sm sm:text-lg text-subgray">
                     No commitments. No hidden costs.
                   </p>

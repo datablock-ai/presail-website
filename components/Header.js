@@ -6,45 +6,34 @@ import {
   FireIcon,
   LockClosedIcon,
   UserGroupIcon,
-  CursorClickIcon,
   MenuIcon,
   ChatIcon,
-  SupportIcon,
-  XIcon,
-  AdjustmentsIcon
+  BookmarkIcon,
+  XIcon
 } from '@heroicons/react/outline'
 import { ChevronDownIcon } from '@heroicons/react/solid'
 
 const solutions = [
   {
-    name: 'Public communities',
+    name: 'Sign up for free',
     description: 'Thousand of members, with a lot of deals? No problem.',
-    href: '/communities',
+    href: 'https://app.presail.com/onboarding',
     icon: UserGroupIcon,
   },
   {
-    name: 'Private syndicates',
-    description: 'Setup, raise and manage dealflow with your investors.',
-    href: '/syndicates',
-    icon: LockClosedIcon,
+    name: 'Schedule demo',
+    description: 'Book a demo of the system with our Account Executive',
+    href: 'https://calendly.com/nakazumi',
+    icon: BookmarkIcon,
   },
   {
-    name: 'Web 3.0 Projects',
-    description: 'Cap-table management, KYC & AML, and vested token distribution.',
-    href: '/web3-projects',
-    icon: FireIcon,
-  },
-  { 
-    name: 'Launchpads', 
-    description: "Showcase your deals, and let people invest", 
-    href: '/launchpads', 
-    icon: ChartBarIcon
+    name: 'Chat with us',
+    description: 'Got questions? Chat live with us on Telegram.',
+    href: 'https://t.me/iNakazumi',
+    icon: ChatIcon,
   },
 ]
 const callsToAction = [
-  { name: 'See all features', href: '#', icon: AdjustmentsIcon },
-  { name: 'Knowledge base', href: 'https://help.presail.com', icon: SupportIcon },
-  { name: 'Chat with us', href: 'https://t.me/iNakazumi', icon: ChatIcon },
 ]
 
 function classNames(...classes) {
@@ -79,7 +68,7 @@ export default function Example() {
           </div>
           <div className="hidden md:flex-1 md:flex md:items-center md:justify-between">
             <Popover.Group as="nav" className="flex space-x-10">
-             {/* <Popover>
+              <Popover>
                 {({ open }) => (
                   <>
                     <Popover.Button
@@ -88,7 +77,7 @@ export default function Example() {
                         'group bg-white rounded-md inline-flex items-center text-base font-medium focus:outline-none'
                       )}
                     >
-                      <span>Use cases</span>
+                      <span>Contact us</span>
                       <ChevronDownIcon
                         className={classNames(
                           open ? 'text-main' : 'text-main',
@@ -126,9 +115,6 @@ export default function Example() {
                                     <p className="text-base font-medium text-deep group-hover:text-deep">{item.name}</p>
                                     <p className="mt-1 text-sm text-subgray group-hover:text-deep">{item.description}</p>
                                   </div>
-                                  <p className="mt-2 text-sm font-medium text-deep lg:mt-4 group-hover:text-deep">
-                                    Learn more <span aria-hidden="true">&rarr;</span>
-                                  </p>
                                 </div>
                               </div>
                             </a>
@@ -155,7 +141,7 @@ export default function Example() {
                     </Transition>
                   </>
                 )}
-              </Popover>*/}
+              </Popover>
               <Link href="/pricing">
                 <a className="text-base font-medium text-deep">
                   Pricing
@@ -163,7 +149,7 @@ export default function Example() {
               </Link>
               <Link href="/discovery">
                 <a className="text-base font-medium text-deep">
-                  Discover communities
+                  Discover
                 </a>
               </Link>
             </Popover.Group>
@@ -215,9 +201,8 @@ export default function Example() {
                   </Popover.Button>
                 </div>
               </div>
-              {/*<div className="mt-6 sm:mt-8">
+              <div className="mt-6 sm:mt-8">
                 <nav>
-                  <span className="text-deep font-bold">Use cases</span>
                   <div className="grid gap-7 sm:grid-cols-2 sm:gap-y-8 sm:gap-x-4 pt-2">
                     {solutions.map((item) => (
                       <a
@@ -233,7 +218,7 @@ export default function Example() {
                     ))}
                   </div>
                 </nav>
-              </div>*/}
+              </div>
             </div>
             <div className="py-6 px-5">
               <div className="grid grid-cols-2 gap-4">
