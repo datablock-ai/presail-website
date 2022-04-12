@@ -11,7 +11,7 @@ const list = [
       'Transactions are verified automatically',
       'Remove human errors',
       'No need to reconcile with etherscan/bscan',
-      'Splitted safts / mix rounds supported'
+      'Split safts / mix rounds supported'
     ],
     image: 'fundraise1.svg',
   },
