@@ -15,35 +15,36 @@ export default ({ defaultSelected, list }) => {
   return (
     <div className="p-3">
       <div
-        className={`lg:grid lg:grid-cols-${list.length} lg:gap-8 p-3 text-center`}
+        className="grid lg:gap-8 p-3 text-center"
+        style={{
+          gridTemplateColumns: `repeat(${list.length}, minmax(0, 1fr))`,
+        }}
       >
         {list.map((item, index) => {
           const style =
             selected === item.tabText ? { borderBottom: '3px solid' } : null;
           return (
             <div key={`${item.tabText}--${index}`}>
-              <div className="col-span-1">
-                <button
-                  onClick={() => {
-                    const selectedIndex = list.findIndex(
-                      (obj) => obj.tabText === selected
-                    );
-                    const newSelectedIndex = list.findIndex(
-                      (obj) => obj.tabText === item.tabText
-                    );
-                    setSelected(item.tabText);
-                    setDirection(
-                      newSelectedIndex < selectedIndex
-                        ? 'slide-left'
-                        : 'slide-right'
-                    );
-                  }}
-                  style={style}
-                  className="p-3 text-deep font-bold text-2xl"
-                >
-                  {item.tabText}
-                </button>
-              </div>
+              <button
+                onClick={() => {
+                  const selectedIndex = list.findIndex(
+                    (obj) => obj.tabText === selected
+                  );
+                  const newSelectedIndex = list.findIndex(
+                    (obj) => obj.tabText === item.tabText
+                  );
+                  setSelected(item.tabText);
+                  setDirection(
+                    newSelectedIndex < selectedIndex
+                      ? 'slide-left'
+                      : 'slide-right'
+                  );
+                }}
+                style={style}
+                className="p-3 text-deep font-bold text-2xl"
+              >
+                {item.tabText}
+              </button>
             </div>
           );
         })}
@@ -64,7 +65,10 @@ export default ({ defaultSelected, list }) => {
                   <ul className="mt-20 list-disc list-inside">
                     {selectedItem.bullets.map((bullet, index) => {
                       return (
-                        <li key={`bullet--${selectedItem.title}--${index}`} className="mt-5 text-base text-subgray sm:text-lg md:text-xl">
+                        <li
+                          key={`bullet--${selectedItem.title}--${index}`}
+                          className="mt-5 text-base text-subgray sm:text-lg md:text-xl"
+                        >
                           {bullet}
                         </li>
                       );
