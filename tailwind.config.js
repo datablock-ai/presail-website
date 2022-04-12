@@ -19,11 +19,23 @@
         indigo: {
           400: '#00D8FF'
         },
-        background: '#0a2440',
-        deepbackground: '#081C33'
+        main: '#0F20E9',
+        deep: '#081065',
+        subgray: '#6B70A3',
+        secondary: '#E7E9FD',
+        wtf: '#6B70A3'
+      },
+      borderRadius: {
+        'none': '0',
+        'sm': '0.125rem',
+        DEFAULT: '0.25rem',
+        'md': '0.375rem',
+        'lg': '0.5rem',
+        'full': '9999px',
+        'large': '10px'
       }
     },
     plugins: [
-      require('@tailwindcss/aspect-ratio'),
+      require('@tailwindcss/aspect-ratio')
     ],
   }

@@ -36,13 +36,13 @@ const navigation = {
 
 export default function Footer() {
   return (
-    <footer className="bg-background">
+    <footer className="bg-gray-50 pt-10 py-5">
       <div className="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
         <nav className="-mx-5 -my-2 flex flex-wrap justify-center" aria-label="Footer">
           {navigation.main.map((item) => (
             <div key={item.name} className="px-5 py-2">
               <Link href={item.href}>
-              <a className="text-base text-white hover:text-slate-300">
+              <a className="text-base text-deep">
                 {item.name}
               </a>
               </Link>
@@ -51,13 +51,13 @@ export default function Footer() {
         </nav>
         <div className="mt-8 flex justify-center space-x-6">
           {navigation.social.map((item) => (
-            <a key={item.name} href={item.href} className="text-slate-300 hover:text-gray-500">
+            <a key={item.name} href={item.href} className="text-deep">
               <span className="sr-only">{item.name}</span>
               <item.icon className="h-6 w-6" aria-hidden="true" />
             </a>
           ))}
         </div>
-        <p className="mt-8 text-center text-base text-slate-300">&copy; 2022 Presail is operated by the registered Norwegian entity Datablock AS. All rights reserved.</p>
+        <p className="mt-8 text-center text-base text-deep">&copy; 2022 Presail is operated by the registered Norwegian entity Datablock AS. All rights reserved.</p>
       </div>
     </footer>
   )

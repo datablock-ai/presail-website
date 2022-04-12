@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="501px" height="463px" viewBox="0 0 501 463" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 18</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="32.6951501" height="32.7179487" rx="16.3475751"></rect>
+        <rect id="path-3" x="0" y="0" width="32.6951501" height="32.7179487" rx="16.3475751"></rect>
+        <rect id="path-5" x="0" y="0" width="32.6951501" height="32.7179487" rx="16.3475751"></rect>
+        <rect id="path-7" x="0" y="0" width="32.6951501" height="32.7179487" rx="16.3475751"></rect>
+        <rect id="path-9" x="0" y="0" width="32.6951501" height="32.7179487" rx="16.3475751"></rect>
+        <rect id="path-11" x="0" y="0" width="32.6951501" height="32.7179487" rx="16.3475751"></rect>
+        <rect id="path-13" x="0" y="0" width="32.6951501" height="32.7179487" rx="16.3475751"></rect>
+    </defs>
+    <g id="Presail-Revamp" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy-3" transform="translate(-719.000000, -2077.000000)">
+            <g id="Group-18" transform="translate(720.000000, 2078.000000)">
+                <rect id="Rectangle-Copy-5" stroke="#DDDDDD" fill="#FFFFFF" x="0" y="0" width="499" height="429" rx="10"></rect>
+                <g id="Group-2" transform="translate(36.944573, 66.262108)">
+                    <line x1="0.130129047" y1="19.6914235" x2="413.703642" y2="19.6914235" id="Line" stroke="#DDDDDD" stroke-width="0.5" stroke-linecap="square" stroke-dasharray="2.313390371381266"></line>
+                    <line x1="0.130129047" y1="71.2957068" x2="413.703642" y2="71.2957068" id="Line" stroke="#DDDDDD" stroke-width="0.5" stroke-linecap="square" stroke-dasharray="2.313390371381266"></line>
+                    <line x1="0.130129047" y1="122.89999" x2="413.703642" y2="122.89999" id="Line" stroke="#DDDDDD" stroke-width="0.5" stroke-linecap="square" stroke-dasharray="2.313390371381266"></line>
+                    <line x1="0.130129047" y1="174.504274" x2="413.703642" y2="174.504274" id="Line" stroke="#DDDDDD" stroke-width="0.5" stroke-linecap="square" stroke-dasharray="2.313390371381266"></line>
+                    <line x1="0.130129047" y1="226.108557" x2="413.703642" y2="226.108557" id="Line" stroke="#DDDDDD" stroke-width="0.5" stroke-linecap="square" stroke-dasharray="2.313390371381266"></line>
+                    <line x1="0.130129047" y1="277.71284" x2="413.703642" y2="277.71284" id="Line" stroke="#DDDDDD" stroke-width="0.5" stroke-linecap="square" stroke-dasharray="2.313390371381266"></line>
+                    <text id="RECIPIENT" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="9" font-weight="500" letter-spacing="0.675000002" fill="#999999">
+                        <tspan x="45.2448037" y="9">RECIPIENT</tspan>
+                    </text>
+                    <text id="SENDING" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="9" font-weight="500" letter-spacing="0.675000002" fill="#999999">
+                        <tspan x="294.658616" y="9">SENDING</tspan>
+                    </text>
+                    <text id="ALLOCATION" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="9" font-weight="500" letter-spacing="0.675000002" fill="#999999">
+                        <tspan x="173.777486" y="9">ALLOCATION</tspan>
+                    </text>
+                    <text id="RECEIVED" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="9" font-weight="500" letter-spacing="0.675000002" fill="#999999">
+                        <tspan x="365.663082" y="9">RECEIVED</tspan>
+                    </text>
+                    <text id="0-BLOK-0%" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="9" font-weight="500" letter-spacing="0.675000002">
+                        <tspan x="378.285988" y="44.031339" fill="#262626">0 BLOK </tspan>
+                        <tspan x="412.486866" y="44.031339" fill="#999999"></tspan>
+                        <tspan x="397.654445" y="55.031339" fill="#999999">0%</tspan>
+                    </text>
+                    <text id="50,000-BLOK-10%" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="9" font-weight="500" letter-spacing="0.675000002">
+                        <tspan x="275.419605" y="44.031339" fill="#262626">50,000 BLOK </tspan>
+                        <tspan x="337.503785" y="44.031339" fill="#999999"></tspan>
+                        <tspan x="317.795191" y="55.031339" fill="#999999">10%</tspan>
+                    </text>
+                    <text id="$100-ouf-of-$1000" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="9" font-weight="500" letter-spacing="0.675000002">
+                        <tspan x="211.071952" y="44.031339" fill="#262626">$100</tspan>
+                        <tspan x="235.133768" y="44.031339" fill="#999999"></tspan>
+                        <tspan x="175.204667" y="55.031339" fill="#999999">ouf of $1000</tspan>
+                    </text>
+                    <text id="james@gmail.com" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="9" font-weight="normal" letter-spacing="0.675000002" fill="#999999">
+                        <tspan x="45.2448037" y="57.9116809">james@gmail.com</tspan>
+                    </text>
+                    <text id="ahmed@gmail.com" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="9" font-weight="normal" letter-spacing="0.675000002" fill="#999999">
+                        <tspan x="45.2448037" y="109.797721">ahmed@gmail.com</tspan>
+                    </text>
+                    <text id="alice@gmail.com" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="9" font-weight="normal" letter-spacing="0.675000002" fill="#999999">
+                        <tspan x="45.2448037" y="160.692308">alice@gmail.com</tspan>
+                    </text>
+                    <text id="mike@gmail.com" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="9" font-weight="normal" letter-spacing="0.675000002" fill="#999999">
+                        <tspan x="45.2448037" y="212.578348">mike@gmail.com</tspan>
+                    </text>
+                    <text id="nadia@gmail.com" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="9" font-weight="normal" letter-spacing="0.675000002" fill="#999999">
+                        <tspan x="45.2448037" y="264.133903">nadia@gmail.com</tspan>
+                    </text>
+                    <text id="jamal@gmail.com" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="9" font-weight="normal" letter-spacing="0.675000002" fill="#999999">
+                        <tspan x="45.2448037" y="316.019943">jamal@gmail.com</tspan>
+                    </text>
+                    <text id="0-BLOK-0%" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="9" font-weight="500" letter-spacing="0.675000002">
+                        <tspan x="378.400094" y="95.2564103" fill="#262626">0 BLOK</tspan>
+                        <tspan x="397.768551" y="106.25641" fill="#999999">0%</tspan>
+                    </text>
+                    <text id="37,500-BLOK-10%" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="9" font-weight="500" letter-spacing="0.675000002">
+                        <tspan x="277.395313" y="95.2564103" fill="#262626">37,500 BLOK</tspan>
+                        <tspan x="318.382227" y="106.25641" fill="#999999">10%</tspan>
+                    </text>
+                    <text id="$75-out-of-$750" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="9" font-weight="500" letter-spacing="0.675000002">
+                        <tspan x="216.774004" y="95.2564103" fill="#262626">$75</tspan>
+                        <tspan x="180.919902" y="106.25641" fill="#999999">out of $750</tspan>
+                    </text>
+                    <text id="0-BLOK-0%" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="9" font-weight="500" letter-spacing="0.675000002">
+                        <tspan x="378.400094" y="147.14245" fill="#262626">0 BLOK</tspan>
+                        <tspan x="412.600973" y="147.14245" fill="#999999"></tspan>
+                        <tspan x="397.768551" y="158.14245" fill="#999999">0%</tspan>
+                    </text>
+                    <text id="25,000-BLOK-10%" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="9" font-weight="500" letter-spacing="0.675000002">
+                        <tspan x="275.831024" y="147.14245" fill="#262626">25,000 BLOK</tspan>
+                        <tspan x="337.655926" y="147.14245" fill="#999999"></tspan>
+                        <tspan x="317.947332" y="158.14245" fill="#999999">10%</tspan>
+                    </text>
+                    <text id="$50-ouf-of-$500" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="9" font-weight="500" letter-spacing="0.675000002">
+                        <tspan x="216.063605" y="147.14245" fill="#262626">$50</tspan>
+                        <tspan x="235.003156" y="147.14245" fill="#999999"></tspan>
+                        <tspan x="180.19632" y="158.14245" fill="#999999">ouf of $500</tspan>
+                    </text>
+                    <text id="0-BLOK-0%" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="9" font-weight="500" letter-spacing="0.675000002">
+                        <tspan x="378.400094" y="198.698006" fill="#262626">0 BLOK</tspan>
+                        <tspan x="412.600973" y="198.698006" fill="#999999"></tspan>
+                        <tspan x="397.768551" y="209.698006" fill="#999999">0%</tspan>
+                    </text>
+                    <text id="25,000-BLOK-10%" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="9" font-weight="500" letter-spacing="0.675000002">
+                        <tspan x="275.831024" y="198.698006" fill="#262626">25,000 BLOK</tspan>
+                        <tspan x="337.655926" y="198.698006" fill="#999999"></tspan>
+                        <tspan x="317.947332" y="209.698006" fill="#999999">10%</tspan>
+                    </text>
+                    <text id="$50-out-of-$500" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="9" font-weight="500" letter-spacing="0.675000002">
+                        <tspan x="216.063605" y="198.698006" fill="#262626">$50</tspan>
+                        <tspan x="235.003156" y="198.698006" fill="#999999"></tspan>
+                        <tspan x="180.209504" y="209.698006" fill="#999999">out of $500</tspan>
+                    </text>
+                    <text id="0-BLOK-0%" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="9" font-weight="500" letter-spacing="0.675000002">
+                        <tspan x="378.400094" y="252.236467" fill="#262626">0 BLOK</tspan>
+                        <tspan x="412.600973" y="252.236467" fill="#999999"></tspan>
+                        <tspan x="397.768551" y="263.236467" fill="#999999">0%</tspan>
+                    </text>
+                    <text id="12,500-BLOK-10%" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="9" font-weight="500" letter-spacing="0.675000002">
+                        <tspan x="277.680958" y="252.236467" fill="#262626">12,500 BLOK</tspan>
+                        <tspan x="338.090821" y="252.236467" fill="#999999"></tspan>
+                        <tspan x="318.382227" y="263.236467" fill="#999999">10%</tspan>
+                    </text>
+                    <text id="$25-out-of-$250" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="9" font-weight="500" letter-spacing="0.675000002">
+                        <tspan x="216.536699" y="252.236467" fill="#262626">$25</tspan>
+                        <tspan x="235.041191" y="252.236467" fill="#999999"></tspan>
+                        <tspan x="180.682598" y="263.236467" fill="#999999">out of $250</tspan>
+                    </text>
+                    <text id="0-BLOK-0%" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="9" font-weight="500" letter-spacing="0.675000002">
+                        <tspan x="378.400094" y="301.809117" fill="#262626">0 BLOK</tspan>
+                        <tspan x="412.600973" y="301.809117" fill="#999999"></tspan>
+                        <tspan x="397.768551" y="312.809117" fill="#999999">0%</tspan>
+                    </text>
+                    <text id="12,500-BLOK-10%" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="9" font-weight="500" letter-spacing="0.675000002">
+                        <tspan x="277.680958" y="301.809117" fill="#262626">12,500 BLOK</tspan>
+                        <tspan x="338.090821" y="301.809117" fill="#999999"></tspan>
+                        <tspan x="318.382227" y="312.809117" fill="#999999">10%</tspan>
+                    </text>
+                    <text id="$25-out-of-$250" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="9" font-weight="500" letter-spacing="0.675000002">
+                        <tspan x="216.536699" y="301.809117" fill="#262626">$25</tspan>
+                        <tspan x="235.041191" y="301.809117" fill="#999999"></tspan>
+                        <tspan x="180.682598" y="312.809117" fill="#999999">out of $250</tspan>
+                    </text>
+                    <g id="Group-4" transform="translate(45.055427, 31.737892)">
+                        <rect id="Rectangle-Copy" fill="#F6F8FA" x="0" y="0" width="79" height="17" rx="2.47863248"></rect>
+                        <text id="0x34ea…d029" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="9" font-weight="400" fill="#00A3FF">
+                            <tspan x="10" y="11">0x34ea…d029</tspan>
+                        </text>
+                    </g>
+                    <g id="Group-4-Copy" transform="translate(45.055427, 82.737892)">
+                        <rect id="Rectangle-Copy" fill="#F6F8FA" x="0" y="0" width="79" height="17" rx="2.47863248"></rect>
+                        <text id="0x224e…72ed" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="9" font-weight="400" fill="#00A3FF">
+                            <tspan x="11" y="12">0x224e…72ed</tspan>
+                        </text>
+                    </g>
+                    <g id="Group-4-Copy-2" transform="translate(45.055427, 133.737892)">
+                        <rect id="Rectangle-Copy" fill="#F6F8FA" x="0" y="0" width="79" height="17" rx="2.47863248"></rect>
+                        <text id="0x9443...e401" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="9" font-weight="400" fill="#00A3FF">
+                            <tspan x="11" y="12">0x9443...e401</tspan>
+                        </text>
+                    </g>
+                    <g id="Group-4-Copy-3" transform="translate(45.055427, 185.737892)">
+                        <rect id="Rectangle-Copy" fill="#F6F8FA" x="0" y="0" width="79" height="17" rx="2.47863248"></rect>
+                        <text id="0x810e...e031" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="9" font-weight="400" fill="#00A3FF">
+                            <tspan x="11" y="12">0x810e...e031</tspan>
+                        </text>
+                    </g>
+                    <g id="Group-4-Copy-4" transform="translate(45.055427, 237.737892)">
+                        <rect id="Rectangle-Copy" fill="#F6F8FA" x="0" y="0" width="79" height="17" rx="2.47863248"></rect>
+                        <text id="0xce1b...2bdc" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="9" font-weight="400" fill="#00A3FF">
+                            <tspan x="11" y="12">0xce1b...2bdc</tspan>
+                        </text>
+                    </g>
+                    <g id="Group-4-Copy-5" transform="translate(45.055427, 289.737892)">
+                        <rect id="Rectangle-Copy" fill="#F6F8FA" x="0" y="0" width="79" height="17" rx="2.47863248"></rect>
+                        <text id="0x74fe...8280" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="9" font-weight="400" fill="#00A3FF">
+                            <tspan x="11" y="12">0x74fe...8280</tspan>
+                        </text>
+                    </g>
+                    <g id="Group" transform="translate(0.000000, 29.091168)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Rectangle"></g>
+                        <g mask="url(#mask-2)">
+                            <g transform="translate(0.000000, -11.289306)">
+                                <rect id="Rectangle" fill="#73B06F" fill-rule="nonzero" x="0" y="11.2270635" width="32.724674" height="32.661515"></rect>
+                                <path d="M15.2461392,6.68703233 L33.8451158,6.66946299 C37.7389051,6.66578476 40.8984268,9.81934289 40.9021051,13.7131322 C40.9021093,13.7175731 40.9021093,13.722014 40.9021051,13.7264549 L40.8845411,32.3123001 C40.8808663,36.2008876 37.7294594,39.3522933 33.8408719,39.3559666 L15.2418952,39.373536 C11.3481059,39.3772142 8.18858421,36.2236561 8.18490598,32.3298667 C8.18490178,32.3254258 8.18490178,32.3209849 8.18490598,32.316544 L8.20246996,13.7306989 C8.20614475,9.84211138 11.3575517,6.69070564 15.2461392,6.68703233 Z" id="Rectangle" fill="#0F20E9" fill-rule="nonzero" transform="translate(24.543506, 23.021499) rotate(-141.000000) translate(-24.543506, -23.021499) "></path>
+                                <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(20.379554, 22.941182) rotate(9.000000) translate(-20.379554, -22.941182) translate(13.334659, 20.276093)">
+                                    <path d="M4.54509362,4.53632153 C6.36313106,5.44358584 8.18116851,5.44358584 9.99920595,4.53632153" id="Path" stroke="#FFFFFF" stroke-width="1.1750554" stroke-linecap="round"></path>
+                                    <rect id="Rectangle" fill="#FFFFFF" fill-rule="nonzero" x="3.31611321e-13" y="1.9087885e-13" width="1.36352808" height="1.81452861" rx="0.681764042"></rect>
+                                    <rect id="Rectangle" fill="#FFFFFF" fill-rule="nonzero" x="12.7262621" y="3.32144407e-13" width="1.36352808" height="1.81452861" rx="0.681764042"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group" transform="translate(0.000000, 29.091168)">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <g id="Rectangle"></g>
+                        <g mask="url(#mask-4)">
+                            <g transform="translate(-6.611147, -6.279202)">
+                                <rect id="Rectangle" fill="#73B06F" fill-rule="nonzero" x="6.4795252" y="6.47797341" width="32.6281389" height="32.6508908"></rect>
+                                <path d="M22.7990042,6.4819037 C31.805214,6.47891805 39.1086099,13.7774733 39.1115956,22.783683 C39.1115968,22.7872866 39.1115968,22.7908903 39.1115956,22.7944939 L39.1115932,22.8015246 C39.1086057,31.8154564 31.8021169,39.1219457 22.7881851,39.1249339 C13.7819753,39.1279196 6.47857939,31.8293643 6.47559374,22.8231546 C6.47559255,22.819551 6.47559255,22.8159473 6.47559374,22.8123437 L6.47559607,22.805313 C6.47858364,13.7913812 13.7850724,6.48489191 22.7990042,6.4819037 Z" id="Rectangle" fill="#0F20E9" fill-rule="nonzero" transform="translate(22.793595, 22.803419) rotate(-36.000000) translate(-22.793595, -22.803419) "></path>
+                                <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(18.875039, 18.230051) rotate(-4.000000) translate(-18.875039, -18.230051) translate(11.850926, 15.565829)">
+                                    <path d="M4.53168596,4.53484594 C6.34436034,5.44181513 8.15703473,5.44181513 9.96970911,4.53484594" id="Path" stroke="#FFFFFF" stroke-width="1.1750554" stroke-linecap="round"></path>
+                                    <rect id="Rectangle" fill="#FFFFFF" fill-rule="nonzero" x="-1.6029084e-13" y="-7.06748846e-14" width="1.35950579" height="1.81393838" rx="0.679752894"></rect>
+                                    <rect id="Rectangle" fill="#FFFFFF" fill-rule="nonzero" x="12.6887207" y="7.1436246e-14" width="1.35950579" height="1.81393838" rx="0.679752894"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group" transform="translate(0.000000, 287.199430)">
+                        <mask id="mask-6" fill="white">
+                            <use xlink:href="#path-5"></use>
+                        </mask>
+                        <g id="Rectangle"></g>
+                        <g mask="url(#mask-6)" fill-rule="nonzero">
+                            <rect id="Rectangle" fill="#0F20E9" x="0" y="0" width="32.703253" height="32.8161294"></rect>
+                            <path d="M12.7254296,5.23579592 L37.8693279,5.22975695 C41.7631181,5.22544169 44.9204174,8.3812248 44.9213526,12.2750157 C44.9213529,12.2761427 44.9213529,12.2772697 44.9179726,12.2783958 L44.9119221,37.5564276 C44.9075467,41.4488733 41.752348,44.6041023 37.8599023,44.608515 L12.716004,44.6147748 C8.82221393,44.6191862 5.66488684,41.4634308 5.66391744,37.5696399 C5.66391716,37.5684923 5.66391715,37.5673447 5.66735938,37.5661979 L5.67340991,12.2878214 C5.67772327,8.39535153 8.83295975,5.24011247 12.7254296,5.23579592 Z" id="Rectangle" fill="#EDD75A" transform="translate(25.292666, 24.922297) rotate(-4.000000) translate(-25.292666, -24.922297) "></path>
+                            <g transform="translate(19.854757, 18.566151) rotate(6.000000) translate(-19.854757, -18.566151) translate(15.312638, 13.666521)" fill="#000000">
+                                <path d="M2.58203543e-13,6.38091404 C2.58203543e-13,8.26881485 2.03357571,9.79926085 4.54211847,9.79926085 C7.05066123,9.79926085 9.08423694,8.26881485 9.08423694,6.38091404" id="Path"></path>
+                                <rect id="Rectangle" x="4.59177115e-14" y="-2.51731149e-13" width="1.36263554" height="1.8231183" rx="0.68131777"></rect>
+                                <rect id="Rectangle" x="7.26738955" y="-2.74445919e-13" width="1.36263554" height="1.8231183" rx="0.68131777"></rect>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group" transform="translate(0.000000, 235.313390)">
+                        <mask id="mask-8" fill="white">
+                            <use xlink:href="#path-7"></use>
+                        </mask>
+                        <g id="Rectangle"></g>
+                        <g mask="url(#mask-8)">
+                            <g transform="translate(-6.936484, 0.000000)">
+                                <rect id="Rectangle" fill="#73B06F" fill-rule="nonzero" x="6.90486993" y="0" width="32.7267645" height="32.7469263"></rect>
+                                <path d="M18.7213106,8.18697827 C27.7591971,8.18783855 35.0856365,15.5142784 35.0864962,24.5521648 L35.0864981,24.5713398 C35.0873576,33.6070027 27.7632024,40.9325516 18.7275395,40.9334112 C18.7265016,40.9334112 18.7254637,40.9334112 18.7244258,40.9334112 C9.68653936,40.9325509 2.36009996,33.6061111 2.35924019,24.5682246 L2.35923836,24.5490496 C2.3583788,15.5133867 9.68253404,8.18783783 18.718197,8.18697827 C18.7192348,8.18697817 18.7202727,8.18697817 18.7213106,8.18697827 Z" id="Rectangle" fill="#0F20E9" fill-rule="nonzero" transform="translate(18.722868, 24.560195) rotate(-171.000000) translate(-18.722868, -24.560195) "></path>
+                                <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(18.551726, 20.839318) rotate(-9.000000) translate(-18.551726, -20.839318) translate(11.506381, 16.859657)">
+                                    <path d="M2.72723037,4.54818421 C2.72723037,6.43210379 4.76226809,7.95932236 7.27261433,7.95932236 C9.78296057,7.95932236 11.8179983,6.43210379 11.8179983,4.54818421" id="Path" fill="#FFFFFF" fill-rule="nonzero"></path>
+                                    <rect id="Rectangle" fill="#FFFFFF" fill-rule="nonzero" x="6.02794813e-13" y="-2.36654895e-14" width="1.36361519" height="1.81927368" rx="0.681807593"></rect>
+                                    <rect id="Rectangle" fill="#FFFFFF" fill-rule="nonzero" x="12.7270751" y="-5.23435317e-14" width="1.36361519" height="1.81927368" rx="0.681807593"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group" transform="translate(0.000000, 183.757835)">
+                        <mask id="mask-10" fill="white">
+                            <use xlink:href="#path-9"></use>
+                        </mask>
+                        <g id="Rectangle"></g>
+                        <g mask="url(#mask-10)">
+                            <g transform="translate(-13.877467, -11.236467)">
+                                <rect id="Rectangle" fill="#FFAD08" fill-rule="nonzero" x="13.9011657" y="11.2826742" width="32.800398" height="32.82327"></rect>
+                                <path d="M25.2738102,7.23727745 L25.280745,7.23727512 C35.2399235,7.23393881 43.3161375,15.3047436 43.3194739,25.2639221 C43.3194752,25.2679498 43.3194752,25.2719775 43.3194739,25.2760051 C43.316134,35.2438145 35.236462,43.3234859 25.2686527,43.3268251 L25.2617179,43.3268274 C15.3025394,43.3301638 7.22632536,35.259359 7.22298905,25.3001804 C7.2229877,25.2961528 7.2229877,25.2921251 7.22298905,25.2880974 C7.22632889,15.3202881 15.3060009,7.24061665 25.2738102,7.23727745 Z" id="Rectangle" fill="#73B06F" fill-rule="nonzero" transform="translate(25.271231, 25.282051) rotate(127.000000) translate(-25.271231, -25.282051) "></path>
+                                <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(23.634968, 23.566017) rotate(-7.000000) translate(-23.634968, -23.566017) translate(18.396016, 20.431851)">
+                                    <path d="M2.7333665,5.470545 C4.55561083,6.3823025 6.37785517,6.3823025 8.2000995,5.470545" id="Path" stroke="#000000" stroke-width="1.1750554" stroke-linecap="round"></path>
+                                    <rect id="Rectangle" fill="#000000" fill-rule="nonzero" x="-3.57337348e-13" y="8.28103621e-14" width="1.36668325" height="1.823515" rx="0.683341625"></rect>
+                                    <rect id="Rectangle" fill="#000000" fill-rule="nonzero" x="9.11122167" y="3.24732255e-13" width="1.36668325" height="1.823515" rx="0.683341625"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group" transform="translate(0.000000, 131.871795)">
+                        <mask id="mask-12" fill="white">
+                            <use xlink:href="#path-11"></use>
+                        </mask>
+                        <g id="Rectangle"></g>
+                        <g mask="url(#mask-12)">
+                            <g transform="translate(-4.960911, -8.262108)">
+                                <rect id="Rectangle" fill="#EDD75A" fill-rule="nonzero" x="5.03079356" y="8.0890578" width="32.7134102" height="32.7362216"></rect>
+                                <path d="M14.4941647,7.45288889 L36.3916735,7.44527567 C40.2854626,7.43902103 43.4431012,10.5944647 43.444455,14.4882555 C43.4444555,14.4898897 43.4444555,14.4915239 43.4395541,14.4931564 L43.4319411,36.3889148 C43.4256837,40.2807895 40.2710325,43.4354406 36.3791578,43.441698 L14.4816491,43.4493112 C10.5878599,43.4555659 7.43022135,40.3001222 7.42886757,36.4063314 C7.42886701,36.4046972 7.42886701,36.403063 7.43376844,36.4014305 L7.44138142,14.5056721 C7.44763887,10.6137974 10.60229,7.45914628 14.4941647,7.45288889 Z" id="Rectangle" fill="#0C8F8F" fill-rule="nonzero" transform="translate(25.436661, 25.447293) rotate(133.000000) translate(-25.436661, -25.447293) "></path>
+                                <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(24.314353, 20.320906) rotate(-3.000000) translate(-24.314353, -20.320906) translate(18.180588, 17.195051)">
+                                    <path d="M3.63482336,5.45603693 C5.45223504,6.36537642 7.26964672,6.36537642 9.0870584,5.45603693" id="Path" stroke="#FFFFFF" stroke-width="1.1750554" stroke-linecap="round"></path>
+                                    <rect id="Rectangle" fill="#FFFFFF" fill-rule="nonzero" x="1.43987093e-13" y="-1.94650182e-13" width="1.36305876" height="1.81867898" rx="0.68152938"></rect>
+                                    <rect id="Rectangle" fill="#FFFFFF" fill-rule="nonzero" x="10.9044701" y="-7.12728034e-14" width="1.36305876" height="1.81867898" rx="0.68152938"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group" transform="translate(0.000000, 80.977208)">
+                        <mask id="mask-14" fill="white">
+                            <use xlink:href="#path-13"></use>
+                        </mask>
+                        <g id="Rectangle"></g>
+                        <g mask="url(#mask-14)">
+                            <g transform="translate(-0.334212, -0.330484)">
+                                <rect id="Rectangle" fill="#0F20E9" fill-rule="nonzero" x="0.235789228" y="0.231992461" width="32.719974" height="32.7427899"></rect>
+                                <path d="M11.8244361,4.79171793 L30.4636315,4.78737214 C34.3574217,4.78317658 37.5146989,7.93898187 37.5156067,11.8327728 C37.515607,11.833869 37.515607,11.8349651 37.512319,11.8360605 L37.5079749,30.4583004 C37.5037777,34.3508064 34.3485041,37.5060796 30.4559981,37.5102764 L11.8168027,37.5146222 C7.92301251,37.5188177 4.76573531,34.3630124 4.76482746,30.4692215 C4.7648272,30.4681253 4.7648272,30.4670292 4.76811516,30.4659338 L4.77245925,11.8436939 C4.77665651,7.95118792 7.93193009,4.79591472 11.8244361,4.79171793 Z" id="Rectangle" fill="#EDD75A" fill-rule="nonzero" transform="translate(21.140217, 21.150997) rotate(111.000000) translate(-21.140217, -21.150997) "></path>
+                                <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(22.963942, 19.672972) rotate(-1.000000) translate(-22.963942, -19.672972) translate(18.419501, 15.693814)">
+                                    <path d="M4.19919647e-13,4.54760972 C4.19919647e-13,6.43129134 2.03461547,7.958317 4.54444084,7.958317 C7.05426621,7.958317 9.08888168,6.43129134 9.08888168,4.54760972" id="Path" fill="#000000" fill-rule="nonzero"></path>
+                                    <rect id="Rectangle" fill="#000000" fill-rule="nonzero" x="4.7715691e-13" y="4.28610924e-13" width="1.36333225" height="1.81904389" rx="0.681666126"></rect>
+                                    <rect id="Rectangle" fill="#000000" fill-rule="nonzero" x="7.27110534" y="3.87889584e-13" width="1.36333225" height="1.81904389" rx="0.681666126"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <rect id="Rectangle-Copy-16" fill="#0F20E9" x="89" y="409" width="344" height="53" rx="10"></rect>
+                <g id="Group-17" transform="translate(185.000000, 425.000000)" fill="#FFFFFF">
+                    <text id="Send-distribution" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="18" font-weight="normal">
+                        <tspan x="0" y="17">Send distribution</tspan>
+                    </text>
+                    <g id="paper-plane-regular" transform="translate(136.000000, 4.000000)" fill-rule="nonzero">
+                        <path d="M16.6713235,0.138985475 C16.4189272,-0.0322098658 16.0926797,-0.0467528369 15.8257923,0.103690547 L0.402824711,8.86855333 C0.13906152,9.02128773 -0.0167402326,9.30683466 0.00143337033,9.60898314 C0.0196102969,9.91196171 0.208628397,10.1787489 0.48867737,10.2959559 L5.5838005,12.4335735 L5.5838005,16.2021288 C5.5838005,16.4936855 5.74323498,16.7612695 5.99925412,16.9013867 C6.11880173,16.9667969 6.24842325,17 6.35145575,17 C6.50155083,17 6.65184533,16.9574668 6.78319515,16.8734297 L10.4790705,14.500734 L13.7548392,15.8753436 C13.8540163,15.9168475 13.9589432,15.9375994 14.0638369,15.9375994 C14.1993745,15.9375994 14.3344136,15.903367 14.4553604,15.8348689 C14.6698342,15.7145076 14.8169713,15.5008455 14.8525341,15.2577985 L16.9796566,0.914046151 C17.0535409,0.612262898 16.9205957,0.311210113 16.6713235,0.138985475 Z M12.2741625,3.95781033 L6.05565278,10.8939443 L2.60007579,9.45292843 L12.2741625,3.95781033 Z M7.14912669,14.7421871 L7.14912669,13.1032806 L8.69295232,13.7510737 L7.14912669,14.7421871 Z M13.4540507,14.0083979 L7.58452208,11.5450577 L15.0493926,3.26087662 L13.4540507,14.0083979 Z" id="Shape"></path>
+                    </g>
+                </g>
+                <text id="Distribute-tokens" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="18" font-weight="bold" fill="#0F20E9">
+                    <tspan x="31" y="41">Distribute tokens</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

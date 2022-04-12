@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="549px" height="492px" viewBox="0 0 549 492" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 19</title>
+    <g id="Presail-Revamp" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy-3" transform="translate(-673.000000, -361.000000)">
+            <g id="Group-19" transform="translate(674.000000, 362.000000)">
+                <rect id="Rectangle" stroke="#DDDDDD" fill="#FFFFFF" x="0" y="0" width="499" height="429" rx="10"></rect>
+                <g id="Group-14" transform="translate(31.000000, 59.000000)">
+                    <rect id="Rectangle-Copy-20" stroke="#E5E5E5" stroke-width="0.75" fill="#FFFFFF" x="0" y="0" width="121" height="19" rx="5.625"></rect>
+                    <text id="50%-Seed-($0,001)" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="9" font-weight="400" fill="#909090">
+                        <tspan x="21.7398962" y="13">50% Seed ($0,001)</tspan>
+                    </text>
+                </g>
+                <g id="Group-13" transform="translate(158.000000, 59.000000)">
+                    <rect id="Rectangle-Copy-28" stroke="#E5E5E5" stroke-width="0.75" fill="#FFFFFF" x="0" y="0" width="121" height="19" rx="5.625"></rect>
+                    <text id="50%-Private-1-($0,00" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="9" font-weight="400" fill="#909090">
+                        <tspan x="14.6953358" y="13">50% Private 1 ($0,003)</tspan>
+                    </text>
+                </g>
+                <text id="Showing-pools-for-Bl" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="18" font-weight="bold" fill="#0F20E9">
+                    <tspan x="31" y="41">Showing pools for Bloktopia</tspan>
+                </text>
+                <g id="Group" transform="translate(31.000000, 92.000000)">
+                    <rect id="Rectangle-Copy-15" stroke="#EEEEEE" fill="#FFFFFF" x="0.5" y="0.5" width="182" height="146" rx="5.36337233"></rect>
+                    <path d="M177.636628,0.268168605 C179.043629,0.268168605 180.31743,0.838468681 181.239481,1.76051915 C182.161531,2.68256963 182.731831,3.9563705 182.731831,5.36337209 L182.731831,5.36337209 L182.731831,43.2318314 L0.268168605,43.2318314 L0.268168605,5.36337209 C0.268168605,3.9563705 0.838468681,2.68256963 1.76051915,1.76051915 C2.68256963,0.838468681 3.9563705,0.268168605 5.36337209,0.268168605 L5.36337209,0.268168605 Z" id="Rectangle-Copy-17" stroke="#979797" stroke-width="0.536337209" fill="#202938"></path>
+                    <text id="Tier-1" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="12.872093" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="73" y="26">Tier 1</tspan>
+                    </text>
+                    <rect id="Rectangle-Copy-18" fill="#E5E5E5" x="67.1835616" y="52.5" width="49.1342466" height="13.5" rx="4.02252907"></rect>
+                    <text id="Min-$100-Copy" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="6.43604651" font-weight="400" fill="#909090">
+                        <tspan x="78.3373414" y="62">Min </tspan>
+                        <tspan x="89.9712497" y="62" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-weight="bold">$100</tspan>
+                    </text>
+                    <rect id="Rectangle-Copy-19" fill="#E5E5E5" x="120.328767" y="52.5" width="49.1342466" height="13.5" rx="4.02252907"></rect>
+                    <text id="Max-$250" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="6.43604651" font-weight="400" fill="#909090">
+                        <tspan x="130.440775" y="62">Max </tspan>
+                        <tspan x="143.564276" y="62" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-weight="bold">$250</tspan>
+                    </text>
+                    <rect id="Rectangle-Copy-20" fill="#E5E5E5" x="14.0383562" y="52.5" width="49.1342466" height="13.5" rx="4.02252907"></rect>
+                    <text id="Fee-15%" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="6.43604651" font-weight="400" fill="#909090">
+                        <tspan x="26.7210113" y="62">Fee </tspan>
+                        <tspan x="38.1506505" y="62" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-weight="bold">15%</tspan>
+                    </text>
+                    <rect id="Rectangle-Copy-21" fill="#F7F5FF" x="14.0383562" y="98.5" width="155.424658" height="27" rx="8.04505814"></rect>
+                    <text id="Currently-raised-Copy" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="8.58139535" font-weight="normal" fill="#0F20E9">
+                        <tspan x="24.5671233" y="115">Currently raised</tspan>
+                    </text>
+                    <text id="$25,000" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="8.58139535" font-weight="bold" fill="#0F20E9">
+                        <tspan x="123.562578" y="115">$25,000</tspan>
+                    </text>
+                    <text id="Pool-cap-……………………………" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="8.58139535" font-weight="normal">
+                        <tspan x="15.0410959" y="84.5" fill="#202938">Pool cap   </tspan>
+                        <tspan x="51.00921" y="84.5" fill="#E5E5E5">……………………………..….…..</tspan>
+                    </text>
+                    <text id="$100,000" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="8.58139535" font-weight="normal" fill="#202938">
+                        <tspan x="132.272827" y="84.5">$100,000</tspan>
+                    </text>
+                </g>
+                <g id="Group" transform="translate(230.000000, 92.000000)">
+                    <rect id="Rectangle-Copy-15" stroke="#EEEEEE" fill="#FFFFFF" x="0.5" y="0.5" width="182" height="146" rx="5.36337233"></rect>
+                    <path d="M177.636628,0.268168605 C179.043629,0.268168605 180.31743,0.838468681 181.239481,1.76051915 C182.161531,2.68256963 182.731831,3.9563705 182.731831,5.36337209 L182.731831,5.36337209 L182.731831,43.2318314 L0.268168605,43.2318314 L0.268168605,5.36337209 C0.268168605,3.9563705 0.838468681,2.68256963 1.76051915,1.76051915 C2.68256963,0.838468681 3.9563705,0.268168605 5.36337209,0.268168605 L5.36337209,0.268168605 Z" id="Rectangle-Copy-17" stroke="#979797" stroke-width="0.536337209" fill="#202938"></path>
+                    <text id="Tier-2" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="12.872093" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="73" y="26">Tier 2</tspan>
+                    </text>
+                    <rect id="Rectangle-Copy-18" fill="#E5E5E5" x="67.1835616" y="52.5" width="49.1342466" height="13.5" rx="4.02252907"></rect>
+                    <text id="Min-$100" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="6.43604651" font-weight="400" fill="#909090">
+                        <tspan x="78.3373414" y="62">Min </tspan>
+                        <tspan x="89.9712497" y="62" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-weight="bold">$100</tspan>
+                    </text>
+                    <rect id="Rectangle-Copy-19" fill="#E5E5E5" x="120.328767" y="52.5" width="49.1342466" height="13.5" rx="4.02252907"></rect>
+                    <text id="Max-$500" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="6.43604651" font-weight="400" fill="#909090">
+                        <tspan x="130.271074" y="62">Max </tspan>
+                        <tspan x="143.394575" y="62" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-weight="bold">$500</tspan>
+                    </text>
+                    <rect id="Rectangle-Copy-20" fill="#E5E5E5" x="14.0383562" y="52.5" width="49.1342466" height="13.5" rx="4.02252907"></rect>
+                    <text id="Fee-10%" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="6.43604651" font-weight="400" fill="#909090">
+                        <tspan x="26.6220193" y="62">Fee </tspan>
+                        <tspan x="38.0516586" y="62" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-weight="bold">10%</tspan>
+                    </text>
+                    <rect id="Rectangle-Copy-21" fill="#F7F5FF" x="14.0383562" y="98.5" width="155.424658" height="27" rx="8.04505814"></rect>
+                    <text id="Currently-raised-Copy" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="8.58139535" font-weight="normal" fill="#0F20E9">
+                        <tspan x="24.5671233" y="115">Currently raised</tspan>
+                    </text>
+                    <text id="$50,000" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="8.58139535" font-weight="bold" fill="#0F20E9">
+                        <tspan x="123.277649" y="115">$50,000</tspan>
+                    </text>
+                    <text id="Pool-cap-…………………………." font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="8.58139535" font-weight="normal">
+                        <tspan x="15.0410959" y="84.5" fill="#202938">Pool cap   </tspan>
+                        <tspan x="51.00921" y="84.5" fill="#E5E5E5">………………………….……..…..</tspan>
+                    </text>
+                    <text id="$100,000" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="8.58139535" font-weight="normal" fill="#202938">
+                        <tspan x="132.272827" y="84.5">$100,000</tspan>
+                    </text>
+                </g>
+                <g id="Group" transform="translate(31.000000, 255.000000)">
+                    <rect id="Rectangle-Copy-15" stroke="#EEEEEE" fill="#FFFFFF" x="0.5" y="0.5" width="182" height="146" rx="5.36337233"></rect>
+                    <path d="M177.636628,0.268168605 C179.043629,0.268168605 180.31743,0.838468681 181.239481,1.76051915 C182.161531,2.68256963 182.731831,3.9563705 182.731831,5.36337209 L182.731831,5.36337209 L182.731831,43.2318314 L0.268168605,43.2318314 L0.268168605,5.36337209 C0.268168605,3.9563705 0.838468681,2.68256963 1.76051915,1.76051915 C2.68256963,0.838468681 3.9563705,0.268168605 5.36337209,0.268168605 L5.36337209,0.268168605 Z" id="Rectangle-Copy-17" stroke="#979797" stroke-width="0.536337209" fill="#202938"></path>
+                    <text id="Tier-3" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="12.872093" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="73" y="26">Tier 3</tspan>
+                    </text>
+                    <rect id="Rectangle-Copy-18" fill="#E5E5E5" x="67.1835616" y="52.5" width="49.1342466" height="13.5" rx="4.02252907"></rect>
+                    <text id="Min-$100-Copy" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="6.43604651" font-weight="400" fill="#909090">
+                        <tspan x="78.3373414" y="62">Min </tspan>
+                        <tspan x="89.9712497" y="62" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-weight="bold">$100</tspan>
+                    </text>
+                    <rect id="Rectangle-Copy-19" fill="#E5E5E5" x="120.328767" y="52.5" width="49.1342466" height="13.5" rx="4.02252907"></rect>
+                    <text id="Max-$750" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="6.43604651" font-weight="400" fill="#909090">
+                        <tspan x="130.539767" y="62">Max </tspan>
+                        <tspan x="143.663268" y="62" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-weight="bold">$750</tspan>
+                    </text>
+                    <rect id="Rectangle-Copy-20" fill="#E5E5E5" x="14.0383562" y="52.5" width="49.1342466" height="13.5" rx="4.02252907"></rect>
+                    <text id="Fee-5%" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="6.43604651" font-weight="400" fill="#909090">
+                        <tspan x="28.2655996" y="62">Fee </tspan>
+                        <tspan x="39.6952388" y="62" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-weight="bold">5%</tspan>
+                    </text>
+                    <rect id="Rectangle-Copy-21" fill="#F7F5FF" x="14.0383562" y="98.5" width="155.424658" height="27" rx="8.04505814"></rect>
+                    <text id="Currently-raised-Copy" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="8.58139535" font-weight="normal" fill="#0F20E9">
+                        <tspan x="24.5671233" y="115">Currently raised</tspan>
+                    </text>
+                    <text id="$75,000" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="8.58139535" font-weight="bold" fill="#0F20E9">
+                        <tspan x="123.826556" y="115">$75,000</tspan>
+                    </text>
+                    <text id="Pool-cap-……………………..…" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="8.58139535" font-weight="normal">
+                        <tspan x="15.0410959" y="84.5" fill="#202938">Pool cap   </tspan>
+                        <tspan x="51.00921" y="84.5" fill="#E5E5E5">……………………..…..……..…..</tspan>
+                    </text>
+                    <text id="$100,000" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="8.58139535" font-weight="normal" fill="#202938">
+                        <tspan x="132.272827" y="84.5">$100,000</tspan>
+                    </text>
+                </g>
+                <g id="Group-12" transform="translate(230.000000, 255.000000)">
+                    <rect id="Rectangle" stroke="#DDDDDD" fill="#FFFFFF" x="0" y="0" width="317" height="235" rx="10"></rect>
+                    <text id="New-pool" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="16" font-weight="bold" fill="#081065">
+                        <tspan x="22" y="32">New pool</tspan>
+                    </text>
+                    <rect id="Rectangle-Copy-15" stroke="#EEEEEE" fill="#FFFFFF" x="22.5" y="46.5" width="273" height="167" rx="5.36337233"></rect>
+                    <g id="Group-8" transform="translate(139.038356, 172.500000)">
+                        <path d="M0,0 L137,0 L137,18.9549417 C137,23.3981047 133.398105,27 128.954942,27 L8.04505825,27 C3.60189527,27 -3.00858315e-15,23.3981047 0,18.9549417 L0,0 L0,0 Z" id="Rectangle-Copy-21" fill="#0F20E9"></path>
+                        <text id="Tier-4-(NFT)" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="8.58139535" font-weight="normal" fill="#FFFFFF">
+                            <tspan x="11.5287671" y="16.5">Tier 4 (NFT)</tspan>
+                        </text>
+                    </g>
+                    <g id="Group-10" transform="translate(139.038356, 116.500000)">
+                        <rect id="Rectangle-Copy-23" fill="#F7F5FF" x="0" y="0" width="137" height="27"></rect>
+                        <text id="Tier-2-(NFT)" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="8.58139535" font-weight="normal" fill="#6B70A3">
+                            <tspan x="11.5287671" y="16.5">Tier 2 (NFT)</tspan>
+                        </text>
+                    </g>
+                    <g id="Group-9" transform="translate(139.038356, 144.500000)">
+                        <rect id="Rectangle-Copy-25" fill="#F7F5FF" x="0" y="0" width="137" height="27"></rect>
+                        <text id="Tier-3-(NFT)" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="8.58139535" font-weight="normal" fill="#6B70A3">
+                            <tspan x="11.5287671" y="16.5">Tier 3 (NFT)</tspan>
+                        </text>
+                    </g>
+                    <g id="Group-11" transform="translate(139.038356, 60.500000)">
+                        <path d="M10,0 L127,0 C132.522847,-1.01453063e-15 137,4.4771525 137,10 L137,55 L137,55 L0,55 L0,10 C-6.76353751e-16,4.4771525 4.4771525,4.56724431e-15 10,0 Z" id="Rectangle-Copy-24" fill="#F7F5FF"></path>
+                        <text id="Tier-1-(NFT)" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="8.58139535" font-weight="normal" fill="#6B70A3">
+                            <tspan x="11.5287671" y="42.5">Tier 1 (NFT)</tspan>
+                        </text>
+                    </g>
+                    <g id="Group-6" transform="translate(36.038356, 60.500000)">
+                        <rect id="Rectangle-Copy-22" stroke="#EEEEEE" fill="#FFFFFF" x="0" y="0" width="95" height="27" rx="8.04505814"></rect>
+                        <text id="Tier-based" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="8.58139535" font-weight="normal" fill="#081065">
+                            <tspan x="11.720703" y="16.5">Tier based</tspan>
+                        </text>
+                        <g id="angle-down-solid" transform="translate(74.466736, 11.500000)" fill="#081065" fill-rule="nonzero" stroke="#FFFFFF">
+                            <path d="M6.49443952,6 C6.23857785,6 5.98259118,5.91629464 5.78760133,5.74888393 L0.787861737,1.46316964 C0.397257081,1.12834821 0.397257081,0.5859375 0.787861737,0.251116071 C1.17846639,-0.0837053571 1.81124594,-0.0837053571 2.20185059,0.251116071 L6.49443952,3.93214286 L10.7879659,0.251785714 C11.1785706,-0.0830357143 11.8113501,-0.0830357143 12.2019548,0.251785714 C12.5925594,0.586607143 12.5925594,1.12901786 12.2019548,1.46383929 L7.20221516,5.74955357 C7.00691283,5.91696429 6.75067617,6 6.49443952,6 Z" id="Path"></path>
+                        </g>
+                    </g>
+                    <g id="Group-3" transform="translate(36.000000, 95.000000)">
+                        <rect id="Rectangle-Copy-22" stroke="#EEEEEE" fill="#FFFFFF" x="0" y="0" width="95" height="22" rx="8.04505814"></rect>
+                        <text id="Fee-0%" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="8.58139535" font-weight="normal" fill="#081065">
+                            <tspan x="12" y="14">Fee                         0%</tspan>
+                        </text>
+                    </g>
+                    <g id="Group-4" transform="translate(36.000000, 124.000000)">
+                        <rect id="Rectangle-Copy-22" stroke="#EEEEEE" fill="#FFFFFF" x="0" y="0" width="95" height="22" rx="8.04505814"></rect>
+                        <text id="Min-$100" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="8.58139535" font-weight="normal" fill="#081065">
+                            <tspan x="12" y="14">Min                     $100</tspan>
+                        </text>
+                    </g>
+                    <g id="Group-5" transform="translate(36.000000, 153.000000)">
+                        <rect id="Rectangle-Copy-22" stroke="#EEEEEE" fill="#FFFFFF" x="0" y="0" width="95" height="22" rx="8.04505814"></rect>
+                        <text id="Max-$1000" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="8.58139535" font-weight="normal" fill="#081065">
+                            <tspan x="12" y="14">Max                 $1000</tspan>
+                        </text>
+                    </g>
+                    <g id="Group-7" transform="translate(139.038356, 60.500000)">
+                        <rect id="Rectangle-Copy-22" stroke="#EEEEEE" fill="#FFFFFF" x="0" y="0" width="137" height="27" rx="8.04505814"></rect>
+                        <text id="Select-tier" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" font-size="8.58139535" font-weight="normal" fill="#081065">
+                            <tspan x="7.72070302" y="16.5">Select tier</tspan>
+                        </text>
+                        <g id="angle-down-solid" transform="translate(115.466736, 11.500000)" fill="#081065" fill-rule="nonzero" stroke="#FFFFFF">
+                            <path d="M6.49443952,6 C6.23857785,6 5.98259118,5.91629464 5.78760133,5.74888393 L0.787861737,1.46316964 C0.397257081,1.12834821 0.397257081,0.5859375 0.787861737,0.251116071 C1.17846639,-0.0837053571 1.81124594,-0.0837053571 2.20185059,0.251116071 L6.49443952,3.93214286 L10.7879659,0.251785714 C11.1785706,-0.0830357143 11.8113501,-0.0830357143 12.2019548,0.251785714 C12.5925594,0.586607143 12.5925594,1.12901786 12.2019548,1.46383929 L7.20221516,5.74955357 C7.00691283,5.91696429 6.75067617,6 6.49443952,6 Z" id="Path"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

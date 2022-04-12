@@ -1,29 +1,26 @@
 import Head from 'next/head'
 
-import Banner from '../components/Banner'
 import Header from '../components/Header'
 import Hero from '../components/Hero'
-import Investors from '../components/Investors'
+import HowToPresail from '../components/HowToPresail';
 import Clients from '../components/Clients'
-import Explainer from '../components/Explainer'
-import Features from '../components/Features'
-import Hamza from '../components/Hamza'
+import Blog from '../components/Blog'
 import Footer from '../components/Footer'
+import Hamza from '../components/Hamza'
 
 export default function Home() {
   return (
     <div>
       <Head>
-        <title>Presail</title>
+        <title>Presail - fundraising tool for web 3.0</title>
+        <meta name="description" content="Raise funds in crypto, organize, and distribute tokens - all in one place. Whether you're a project, launchpad, VC or public community." key="title" />
       </Head> 
-      <div className="antialiased">
-        <Banner />
+      <div className="antialiased selection:bg-main selection:text-white">
         <Header />
         <Hero />
-        <Investors />
+        <HowToPresail />
         <Clients />
-        <Explainer />
-        <Features />
+        <Blog />
         <Hamza />
         <Footer />
       </div>
