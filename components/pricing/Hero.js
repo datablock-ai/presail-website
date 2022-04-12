@@ -30,7 +30,7 @@ export default function Hero() {
               <span className="text-main">0.25% of funds raised</span>
             </h1>
             <p className="mt-5 text-xl text-subgray">
-              Includes every feature we offer plus unlimited projects and unlimited users.
+              Includes unlimited projects and unlimited users.
             </p>
             <p className="mt-5 text-xl text-subgray">
               No commitments. No hidden costs. Pay for usage.
