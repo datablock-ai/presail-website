@@ -16,13 +16,13 @@ import { ChevronDownIcon } from '@heroicons/react/solid'
 const solutions = [
   {
     name: 'Sign up for free',
-    description: 'Thousand of members, with a lot of deals? No problem.',
+    description: 'Get started with everything you need. No commitments, no hidden cost.',
     href: 'https://app.presail.com/onboarding',
     icon: UserGroupIcon,
   },
   {
     name: 'Schedule demo',
-    description: 'Book a demo of the system with our Account Executive',
+    description: 'Book a demo of the system with our Account Executive.',
     href: 'https://calendly.com/nakazumi',
     icon: BookmarkIcon,
   },

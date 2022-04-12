@@ -6,7 +6,7 @@ const communities = [
     description: 'We support start-ups in the crypto space with capital, marketing and strategic partnerships.',
     role: 'Verified',
     email: 'janecooper@example.com',
-    website: 'https://google.com',
+    website: 'https://dutchcryptoinvestors.com/',
     imageUrl: '/clients/dutch-crypto-logo.webp'
   },
   {
