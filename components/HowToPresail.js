@@ -1,7 +1,6 @@
 import React from 'react';
 import TabList from './TabList';
 
-const defaultSelected = 'Fundraise';
 const list = [
   {
     tabText: 'Fundraise',
@@ -58,9 +57,9 @@ export default () => {
       <p className="mt-2 text-3xl font-extrabold sm:text-4xl text-center text-deep">
         See what's inside
       </p>
-    <div className="mx-auto pt-12 px-4 max-w-7xl sm:px-6 lg:px-8 mt-10 rounded-[20px] border border-[#DDDDDD]">
-      <TabList defaultSelected={defaultSelected} list={list} />
-    </div>
+      <div className="mx-auto pt-12 px-4 max-w-7xl sm:px-6 lg:px-8 mt-10 rounded-[20px] border border-[#DDDDDD]">
+        <TabList defaultSelected={list[0].tabText} list={list} />
+      </div>
     </div>
   );
 };
