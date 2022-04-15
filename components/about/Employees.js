@@ -36,6 +36,12 @@ const people = [
     imageUrl: '/team/bue.webp'
   },
   {
+    name: 'Even',
+    role: 'Account Executive',
+    imageUrl: '/team/even.webp',
+    telegram: 'Pacyos'
+  },
+  {
     name: 'Jacob',
     role: 'Developer',
     imageUrl: '/team/jacob.webp',
