@@ -1,28 +1,15 @@
 import { ChevronRightIcon } from '@heroicons/react/solid'
 const people = [
   {
-    name: 'Sebastian Almnes',
-    role: 'CEO',
-    imageUrl: '/team/sebastian.webp',
-    telegram: 'sebdatablock'
-  },
-  {
     name: 'Tomas Veiden',
     role: 'CTO',
     imageUrl: '/team/tomas.webp',
     telegram: 'TomasPresail'
   },
   {
-    name: 'Hamza Nebolsi',
-    role: 'Head of Product',
-    imageUrl: '/team/hamza.webp',
-    telegram: 'ZeroCap'
-  },
-  {
-    name: 'Milad Mirshahi',
-    role: 'Head of Communications',
-    imageUrl: '/team/milad.webp',
-    telegram: 'iNakazumi'
+    name: 'TBA',
+    role: 'Principal Developer',
+    imageUrl: '/team/hamza.webp'
   },
   {
     name: 'August',
@@ -36,16 +23,39 @@ const people = [
     imageUrl: '/team/bue.webp'
   },
   {
+    name: 'Jacob',
+    role: 'Developer',
+    imageUrl: '/team/jacob.webp',
+  },
+  {
+    name: 'TBA',
+    role: 'Head of Design',
+    imageUrl: '/team/hamza.webp'
+  },
+  {
     name: 'Even',
     role: 'Account Executive',
     imageUrl: '/team/even.webp',
     telegram: 'Pacyos'
   },
   {
-    name: 'Jacob',
-    role: 'Developer',
-    imageUrl: '/team/jacob.webp',
-  }
+    name: 'Milad Mirshahi',
+    role: 'Head of Communications',
+    imageUrl: '/team/milad.webp',
+    telegram: 'iNakazumi'
+  },
+  {
+    name: 'Hamza Nebolsi',
+    role: 'Head of Product',
+    imageUrl: '/team/hamza.webp',
+    telegram: 'ZeroCap'
+  },
+  {
+    name: 'Sebastian Almnes',
+    role: 'CEO',
+    imageUrl: '/team/sebastian.webp',
+    telegram: 'sebdatablock'
+  },
 ]
 
 export default function Employees() {
