@@ -35,8 +35,8 @@ export default function ValueProp() {
             <div className="sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
               <img
                 className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                src="https://miro.medium.com/max/826/1*Gi88D95zA-GsZ-t0CJ40KQ.gif"
-                alt="Inbox user interface"
+                src="/biometrics.gif"
+                alt="Presail KYC biometrics demo"
               />
             </div>
           </div>
@@ -72,8 +72,8 @@ export default function ValueProp() {
             <div className="sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
               <img
                 className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
-                src="https://miro.medium.com/max/818/1*u-4-2vFlxxEJUd2VM4y-_w.gif"
-                alt="Customer profile user interface"
+                src="/identification.gif"
+                alt="Presail KYC identification demo"
               />
             </div>
           </div>
