@@ -15,29 +15,27 @@ export default function ValueProp() {
               </div>
               <div className="mt-6">
                 <h2 className="text-3xl font-extrabold tracking-tight text-main">
-                  Your investors will love you for the experience
+                  Your investors will love you for chosing us
                 </h2>
                 <p className="mt-4 text-lg text-subgray">
-                  Raise funds in your own launchpad with complete oversight. We make it easy to manage and create flexible deals.
+                 With a smooth onboarding experience, they'll be good to go in a couple of minutes.
                 </p>
                 <div className="mt-6">
                   <ul className="list-disc text-subgray list-inside text-lg">
-                    <li>Manage all your deals and projects in one place.</li>
-                    <li>Create whitelist, tier-based and KYC-required deals.</li>
-                    <li>Add detailed project info and customize allocations.</li>
-                    <li>Set custom raise limits, minimum requirements and max caps.</li>
-                    <li>Add multiple tokens, rounds and complex vesting schedules.</li>
-                    <li>Easily locate investors and deals through a search bar.</li>
+                    <li>Our KYC coverage span across 200+ countries, and is available in 20 different languages.</li>
+                    <li>Each KYC require a selfie & identification (we run the AML check in the background).</li>
+                    <li>We've teamed up with Persona, the KYC provider for the largest companies in the world. They're CCPA , GDPR, SOC2, FERPA & HIPAA compliant.</li>
+                    <li>Minimum age requirement of 18.</li>
                   </ul>
                 </div>
               </div>
             </div>
           </div>
           <div className="mt-12 sm:mt-16 lg:mt-0">
-            <div className="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
+            <div className="sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
               <img
                 className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                src="https://tailwindui.com/img/component-images/inbox-app-screenshot-1.jpg"
+                src="https://miro.medium.com/max/826/1*Gi88D95zA-GsZ-t0CJ40KQ.gif"
                 alt="Inbox user interface"
               />
             </div>
@@ -55,28 +53,26 @@ export default function ValueProp() {
               </div>
               <div className="mt-6">
                 <h2 className="text-3xl font-extrabold tracking-tight text-main">
-                  Automate the contribution and distribution process
+                  Easy to manage
                 </h2>
                 <p className="mt-4 text-lg text-subgray">
-                  Receive contributions and distribute tokens in one interface, while providing investors with a full overview of their investments.
+                  By enabling KYC on a deal, your investors wont be able to access the deal until they've completed the KYC and passed AML.
+                  We handle all the heavy-lifting you just click enable.
                 </p>
                 <div className="mt-6">
                   <ul className="list-disc text-subgray list-inside text-lg">
-                    <li>Raise funds and get a detailed cap table of all investors.</li>
-                    <li>Distribute tokens to everyone with 1 tx. No claims needed.</li>
-                    <li>Investors get their own dashboard with all their contributions.</li>
-                    <li>Transactions are verified automatically on the blockchain.</li>
-                    <li>Token and NFT sales are supported on multiple chains.</li>
+                    <li>Access to individual investors KYC & AML verification and documentation is available for premium clients.</li>
+                    <li>Easily see which investors that have been verified, and which hasn't on your Investor page.</li>
                   </ul>
                 </div>
               </div>
             </div>
           </div>
           <div className="mt-12 sm:mt-16 lg:mt-0 lg:col-start-1">
-            <div className="pr-4 -ml-48 sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
+            <div className="sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
               <img
                 className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
-                src="https://tailwindui.com/img/component-images/inbox-app-screenshot-2.jpg"
+                src="https://miro.medium.com/max/818/1*u-4-2vFlxxEJUd2VM4y-_w.gif"
                 alt="Customer profile user interface"
               />
             </div>
