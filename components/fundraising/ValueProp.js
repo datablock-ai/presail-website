@@ -1,4 +1,3 @@
-/* This example requires Tailwind CSS v2.0+ */
 import { InboxIcon, SparklesIcon } from '@heroicons/react/outline'
 
 export default function ValueProp() {
@@ -10,17 +9,18 @@ export default function ValueProp() {
             <div>
               <div className="mt-6">
                 <h2 className="text-3xl font-extrabold tracking-tight text-main">
-                  Your investors will love you for chosing us
+                  Receive contributions with no hassle
                 </h2>
                 <p className="mt-4 text-lg text-subgray">
-                 With a smooth onboarding experience, they'll be good to go in a couple of minutes.
+                  Fundraising through Presail is as easy as it gets. And comes with a ton of benefits.
                 </p>
                 <div className="mt-6">
                   <ul className="list-disc text-subgray list-inside text-lg">
-                    <li>Our KYC coverage span across 200+ countries, and is available in 20 different languages.</li>
-                    <li>Each KYC require a selfie & identification (we run the AML check in the background).</li>
-                    <li>We've teamed up with Persona, the KYC provider for the largest companies in the world. They're CCPA , GDPR, SOC2, FERPA & HIPAA compliant.</li>
-                    <li>Minimum age requirement of 18.</li>
+                    <li>No need for google forms or spreadsheets.</li>
+                    <li>Transactions are verified automatically.</li>
+                    <li>Remove human errors</li>
+                    <li>No need to reconcile with etherscan/bscan</li>
+                    <li>Split SAFTs / mix rounds supported</li>
                   </ul>
                 </div>
               </div>
@@ -29,9 +29,9 @@ export default function ValueProp() {
           <div className="mt-12 sm:mt-16 lg:mt-0">
             <div className="sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
               <img
-                className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                src="/biometrics.gif"
-                alt="Presail KYC biometrics demo"
+                className="w-full rounded-xl lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+                src="/fundraise1.svg"
+                alt="Presail crypto fundraise"
               />
             </div>
           </div>
@@ -43,16 +43,17 @@ export default function ValueProp() {
             <div>
               <div className="mt-6">
                 <h2 className="text-3xl font-extrabold tracking-tight text-main">
-                  Easy to manage
+                  Tier based, NFT access, KYC? We have it.
                 </h2>
                 <p className="mt-4 text-lg text-subgray">
-                  By enabling KYC on a deal, your investors wont be able to access the deal until they've completed the KYC and passed AML.
-                  We handle all the heavy-lifting you just click enable.
+                  Only want people with your NFT to be able to invest, or want to give different allocation to certain people? 
                 </p>
                 <div className="mt-6">
                   <ul className="list-disc text-subgray list-inside text-lg">
-                    <li>Access to individual investors KYC & AML verification and documentation is available for premium clients.</li>
-                    <li>Easily see which investors that have been verified, and which hasn't on your Investor page.</li>
+                    <li>Set up your own tiers, groups or whitelists</li>
+                    <li>Create rules and access requirements</li>
+                    <li>Connect your NFT’s or tokens to your tiers</li>
+                    <li>Create multiple pools within a deal</li>
                   </ul>
                 </div>
               </div>
@@ -61,9 +62,9 @@ export default function ValueProp() {
           <div className="mt-12 sm:mt-16 lg:mt-0 lg:col-start-1">
             <div className="sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
               <img
-                className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
-                src="/identification.gif"
-                alt="Presail KYC identification demo"
+                className="w-full lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
+                src="/organize1.svg"
+                alt="Presail web 3.0 fundraise"
               />
             </div>
           </div>

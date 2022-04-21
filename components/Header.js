@@ -10,7 +10,9 @@ import {
   ChatIcon,
   BookmarkIcon,
   XIcon,
-  ShieldCheckIcon
+  ChevronDoubleRightIcon,
+  CurrencyDollarIcon,
+  FingerPrintIcon
 } from '@heroicons/react/outline'
 import { ChevronDownIcon } from '@heroicons/react/solid'
 
@@ -39,7 +41,19 @@ const features = [
     name: 'KYC & AML',
     description: 'Let us handle the KYC & AML of your investors.',
     href: '/kyc',
-    icon: ShieldCheckIcon,
+    icon: FingerPrintIcon,
+  },
+  {
+    name: 'Token Distributions',
+    description: 'Token vesting & distribution to your investors with a click of a button.',
+    href: '/token-distributions',
+    icon: ChevronDoubleRightIcon,
+  },
+  {
+    name: 'Fundraising',
+    description: 'Setup, and start raising in crypto in minutes.',
+    href: '/web3-fundraising',
+    icon: CurrencyDollarIcon,
   },
 ]
 const callsToAction = [

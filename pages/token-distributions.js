@@ -1,9 +1,9 @@
 import Head from 'next/head'
 
 import Header from '../components/Header'
-import Hero from '../components/kyc/Hero'
-import Stats from'../components/kyc/Stats'
-import ValueProp from '../components/kyc/ValueProp'
+import Hero from '../components/distributions/Hero'
+import Stats from'../components/distributions/Stats'
+import ValueProp from '../components/distributions/ValueProp'
 
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Raise crypto with KYC & AML | Presail</title>
+        <title>Token distributions | Presail</title>
       </Head> 
       <div className="antialiased selection:bg-main selection:text-white">
         <Header />
