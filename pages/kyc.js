@@ -3,7 +3,6 @@ import Head from 'next/head'
 import Header from '../components/Header'
 import Hero from '../components/kyc/Hero'
 import Stats from'../components/kyc/Stats'
-import SmallClients from '../components/SmallClients'
 import ValueProp from '../components/kyc/ValueProp'
 
 import Contact from '../components/Contact'

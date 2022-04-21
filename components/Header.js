@@ -52,7 +52,7 @@ const features = [
   {
     name: 'Fundraising',
     description: 'Setup, and start raising in crypto in minutes.',
-    href: '/kyc',
+    href: '/web3-fundraising',
     icon: CurrencyDollarIcon,
   },
 ]
