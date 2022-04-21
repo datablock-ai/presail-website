@@ -31,7 +31,7 @@ export default function ValueProp() {
               <img
                 className="w-full rounded-xl lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
                 src="/fundraise1.svg"
-                alt="Presail KYC biometrics demo"
+                alt="Presail crypto fundraise"
               />
             </div>
           </div>
@@ -64,7 +64,7 @@ export default function ValueProp() {
               <img
                 className="w-full lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
                 src="/organize1.svg"
-                alt="Presail KYC identification demo"
+                alt="Presail web 3.0 fundraise"
               />
             </div>
           </div>

@@ -27,9 +27,9 @@ export default function ValueProp() {
           <div className="mt-12 sm:mt-16 lg:mt-0">
             <div className="sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
               <img
-                className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                src="/biometrics.gif"
-                alt="Presail KYC biometrics demo"
+                className="w-full lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+                src="/distributions1.svg"
+                alt="Presail Token Distribution"
               />
             </div>
           </div>
@@ -57,9 +57,9 @@ export default function ValueProp() {
           <div className="mt-12 sm:mt-16 lg:mt-0 lg:col-start-1">
             <div className="sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
               <img
-                className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
-                src="/identification.gif"
-                alt="Presail KYC identification demo"
+                className="w-full lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
+                src="/distributions1.svg"
+                alt="Presail Token Distribution"
               />
             </div>
           </div>
