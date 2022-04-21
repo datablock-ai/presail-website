@@ -9,7 +9,7 @@ const people = [
   {
     name: 'TBA',
     role: 'Principal Developer',
-    imageUrl: '/team/hamza.webp'
+    imageUrl: '/team/tba1.jpg'
   },
   {
     name: 'August',
@@ -30,7 +30,7 @@ const people = [
   {
     name: 'TBA',
     role: 'Head of Design',
-    imageUrl: '/team/hamza.webp'
+    imageUrl: '/team/tba1.jpg'
   },
   {
     name: 'Even',

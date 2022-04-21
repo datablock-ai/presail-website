@@ -13,7 +13,7 @@ export default function Hero() {
             Raise crypto with KYC & AML
           </h1>
           <p className="max-w-xl my-5 mx-auto text-xl text-subgray">
-            Get KYC & AML out of the box. With no setup, you can choose on a deal-to-deal basis if you want to enable KYC & AML. And at no additional cost.
+            KYC & AML out of the box. No setup, you choose on a deal-to-deal basis if you want to enable it. No additional cost.
           </p>
           <a
             href="https://app.presail.com/onboarding"

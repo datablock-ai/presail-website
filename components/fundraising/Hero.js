@@ -13,7 +13,7 @@ export default function Hero() {
             Raise funds in crypto through Presail
           </h1>
           <p className="max-w-xl my-5 mx-auto text-xl text-subgray">
-            Set up your deal, and you're ready to let people invest in a matter of minutes. Give your investors an easy way to contribute, and know everything is available when you need it. Be it cap-table or making changes.
+            Set up your deal, and let people invest in a matter of minutes.
           </p>
           <a
             href="https://app.presail.com/onboarding"

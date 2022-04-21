@@ -10,16 +10,16 @@ export default function ValueProp() {
             <div>
               <div className="mt-6">
                 <h2 className="text-3xl font-extrabold tracking-tight text-main">
-                  Your investors will love you for chosing us
+                  Your investors will love you
                 </h2>
                 <p className="mt-4 text-lg text-subgray">
-                 With a smooth onboarding experience, they'll be good to go in a couple of minutes.
+                 A smooth onboarding experience, and good to go in minutes.
                 </p>
                 <div className="mt-6">
                   <ul className="list-disc text-subgray list-inside text-lg">
-                    <li>Our KYC coverage span across 200+ countries, and is available in 20 different languages.</li>
-                    <li>Each KYC require a selfie & identification (we run the AML check in the background).</li>
-                    <li>We've teamed up with Persona, the KYC provider for the largest companies in the world. They're CCPA , GDPR, SOC2, FERPA & HIPAA compliant.</li>
+                    <li>KYC coverage across 200+ countries, and in 20 different languages.</li>
+                    <li>Selfie & identification (we run the AML check in the background).</li>
+                    <li>CCPA , GDPR, SOC2, FERPA & HIPAA compliant.</li>
                     <li>Minimum age requirement of 18.</li>
                   </ul>
                 </div>
@@ -46,13 +46,13 @@ export default function ValueProp() {
                   Easy to manage
                 </h2>
                 <p className="mt-4 text-lg text-subgray">
-                  By enabling KYC on a deal, your investors wont be able to access the deal until they've completed the KYC and passed AML.
+                  Your investors wont be able to access the deal until they've completed the KYC and passed AML.
                   We handle all the heavy-lifting you just click enable.
                 </p>
                 <div className="mt-6">
                   <ul className="list-disc text-subgray list-inside text-lg">
-                    <li>Access to individual investors KYC & AML verification and documentation is available for premium clients.</li>
-                    <li>Easily see which investors that have been verified, and which hasn't on your Investor page.</li>
+                    <li>Get access to individual investors KYC & AML verification.</li>
+                    <li>See which investors that have been verified on your Investor Page.</li>
                   </ul>
                 </div>
               </div>
