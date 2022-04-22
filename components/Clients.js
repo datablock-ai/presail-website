@@ -29,8 +29,10 @@ export default function Clients() {
               Chat with us
               <ChatIcon className="ml-2 h-6 w-6 text-main" aria-hidden="true" />
             </a>
-
-            <img src="audited.webp" className="h-20 mt-8" alt="Audited by Hacken" width="170" height="80" />
+            <div className="flex">
+              <img src="audited.webp" className="h-20 mt-8" alt="Audited by Hacken" width="170" height="80" />
+              <img src="ey-regulation.webp" className="h-20 mt-8 ml-4 lg:ml-12" alt="Regulatory asssessed by EY" width="213" height="80" />
+            </div>
           </div>
           <div className="mt-8 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-0 lg:grid-cols-2">
             <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">

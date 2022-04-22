@@ -2,10 +2,10 @@ import Head from 'next/head'
 import Header from '../components/Header'
 import Hero from '../components/pricing/Hero'
 import Contact from '../components/Contact'
-import Premium from '../components/pricing/Premium'
 import SmallClients from '../components/SmallClients'
 import Footer from '../components/Footer'
 import Hamza from '../components/Hamza'
+import Hacken from '../components/communities/Hacken'
 
 export default function Pricing() {
   return (
@@ -17,7 +17,7 @@ export default function Pricing() {
       <div className="antialiased selection:bg-main selection:text-white">
         <Header />
         <Hero />
-        <Premium />
+        <Hacken />
         <SmallClients />
         <Contact />
         <Footer />
