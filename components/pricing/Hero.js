@@ -26,14 +26,12 @@ export default function Hero() {
         <div className="pb-16 xl:flex xl:items-center xl:justify-between">
           <div>
             <h1 className="text-4xl font-extrabold sm:text-5xl sm:tracking-tight">
-              <span className="text-deep">Our pricing is simple… </span>
+              <span className="text-deep"></span>
               <span className="text-main">0.25% of funds raised</span>
             </h1>
-            <p className="mt-5 text-xl text-subgray">
-              Includes unlimited projects and unlimited users.
-            </p>
-            <p className="mt-5 text-xl text-subgray">
-              No commitments. No hidden costs. Pay for usage.
+            <p className="mt-5 text-xl text-subgray max-w-lg">
+              With Presail you get a partner.
+              We're the people who'll jump into a Google meet with you, and chat with you 1:1
             </p>
           </div>
           <a

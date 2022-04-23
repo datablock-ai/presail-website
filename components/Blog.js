@@ -1,20 +1,20 @@
 /* This example requires Tailwind CSS v2.0+ */
 const posts = [
   {
-    title: 'The future of community-driven funding',
-    href: 'https://blog.presail.com/the-future-of-community-driven-funding-ecd59c5fb0a6',
-    category: { name: 'Article' },
+    title: 'Introducing Pools, Tiers & Mix Rounds / Split SAFTs',
+    href: 'https://blog.presail.com/presail-product-update-introducing-pools-tiers-mix-rounds-split-safts-efaea4f147ff',
+    category: { name: 'Announcement' },
     description:
-      'Investing is coming to the masses. Call it democratization, bottom-up, or consumerizing the private market. It’s happening.',
-    date: 'Mar 13, 2022',
-    datetime: '2020-03-13',
+      'Today, we are announcing our most impactful software update yet, with Pools, Tiers & Mix Rounds / Split SAFTs functionality.',
+    date: 'Apr 13, 2022',
+    datetime: '2020-04-13',
     imageUrl:
       'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=559&q=80',
-    readingTime: '5 min',
+    readingTime: '4 min',
     author: {
-      name: 'Sebastian Almnes',
+      name: 'Milad Mirshahi',
       imageUrl:
-        '/team/sebastian.webp',
+        '/team/milad.webp',
     },
   },
   {
