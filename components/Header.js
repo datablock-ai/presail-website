@@ -19,19 +19,19 @@ import { ChevronDownIcon } from '@heroicons/react/solid'
 const solutions = [
   {
     name: 'Sign up for free',
-    description: 'Get started with everything you need. No commitments, no hidden cost.',
+    description: 'Do  you just want to jump right in, and get your hands dirty?',
     href: 'https://app.presail.com/onboarding',
     icon: UserGroupIcon,
   },
   {
-    name: 'Schedule demo',
-    description: 'Book a demo of the system with our Account Executive.',
+    name: 'Schedule a walkthrough',
+    description: 'Book a walkthrough, and let Milad show you how Presail works.',
     href: 'https://calendly.com/nakazumi',
     icon: BookmarkIcon,
   },
   {
     name: 'Chat with us',
-    description: 'Got questions? Chat live with us on Telegram.',
+    description: 'Got questions? Send us a DM on Telegram.',
     href: 'https://t.me/iNakazumi',
     icon: ChatIcon,
   },

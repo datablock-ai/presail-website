@@ -31,7 +31,7 @@ export default function Hero() {
             </h1>
             <p className="mt-5 text-xl text-subgray max-w-lg">
               With Presail you get a partner.
-              We're the people who'll jump into a Google meet with you, and chat with you 1:1
+              We're the people who'll jump into a Google Meet with you, or chat with you 1:1
             </p>
           </div>
           <a

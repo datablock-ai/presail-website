@@ -10,7 +10,8 @@ export default function Clients() {
               Trusted by the best organizations
             </h2>
             <p className="mt-3 max-w-3xl text-lg text-subgray mb-8">
-              Our users have facilitated $100M+ through Presail. We're compliant, audited, and a public team with a registered entity. That's why the serious actors use us.
+              We care about two things. Always being one DM away, and that you know you can trust us.  That's why we invest in 
+              audits, security and regulatory assessments. And we think that's why the best brands like us.
             </p>
 
             <a
