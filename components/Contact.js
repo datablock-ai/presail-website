@@ -6,7 +6,7 @@ export default function Contact() {
           <span className="block text-deep">Ready to dive in?</span>
         </h2>
         <h2 className="text-3xl font-extrabold tracking-tight text-main sm:text-3xl">
-          <span className="block text-deep">Start for free today, and get $250K in raise credits</span>
+          <span className="block text-deep">Start for free today</span>
         </h2>
         <div className="mt-8 flex justify-center">
           <a

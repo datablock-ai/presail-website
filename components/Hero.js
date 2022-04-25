@@ -7,11 +7,6 @@ export default function Hero() {
         <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
           <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
             <div>
-              <div>
-                <span className="text-main text-xs sm:text-lg font-bold uppercase rounded-large bg-secondary py-3 px-5">
-                  <span className="pr-2">🎉</span> Get $250,000 in free raise credit
-                </span>
-              </div>
               <div className="mt-6">
                 <h1 className="text-3xl tracking-tight font-extrabold text-deep sm:text-5xl md:text-5xl">
                   Raise funds in crypto, organize and distribute tokens - <span className="text-main">all in one place.</span>
