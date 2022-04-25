@@ -11,7 +11,11 @@ export default function Clients() {
             </h2>
             <p className="mt-3 max-w-3xl text-lg text-subgray mb-8">
               We care about two things. Always being one DM away, and that you know you can trust us.  That's why we invest in 
-              audits, security and regulatory assessments. And we think that's why the best brands like us.
+              audits, security and regulatory assessments. And why the best brands like us.
+            </p>
+
+            <p className="mt-3 max-w-3xl text-lg text-subgray mb-8">
+              Presail is also backed by Kraken Ventures, Global Founders Capital, Skyfall, Weekend Fund, the COO of Axie Infinity & more.
             </p>
 
             <a
