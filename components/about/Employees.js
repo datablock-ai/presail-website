@@ -7,9 +7,9 @@ const people = [
     telegram: 'TomasPresail'
   },
   {
-    name: 'TBA',
+    name: 'Xurxo',
     role: 'Principal Developer',
-    imageUrl: '/team/tba2.jpg'
+    imageUrl: '/team/xurxo.webp'
   },
   {
     name: 'August',
