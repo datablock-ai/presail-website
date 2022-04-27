@@ -1,5 +1,21 @@
-/* This example requires Tailwind CSS v2.0+ */
 const posts = [
+  {
+    title: 'Presail Distributions V1',
+    href: 'https://blog.presail.com/announcing-presail-distributions-v1-bc1fdde69fd0',
+    category: { name: 'Announcement' },
+    description:
+      'I’m excited to announce the release of our token distribution feature. You can now raise funds, manage investors and distribute tokens in an automated way — using one app.',
+    date: 'Apr 27, 2022',
+    datetime: '2022-03-02',
+    imageUrl:
+      'https://miro.medium.com/max/1400/0*i1PnqSGGnUn3KDIb.png',
+    readingTime: '3 min',
+    author: {
+      name: 'August Haug',
+      imageUrl:
+        '/team/august.webp'
+    },
+  },
   {
     title: 'Introducing Pools, Tiers & Mix Rounds / Split SAFTs',
     href: 'https://blog.presail.com/presail-product-update-introducing-pools-tiers-mix-rounds-split-safts-efaea4f147ff',
@@ -28,23 +44,6 @@ const posts = [
     imageUrl:
       'https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=559&q=80',
     readingTime: '5 min',
-    author: {
-      name: 'Sebastian Almnes',
-      imageUrl:
-        '/team/sebastian.webp'
-    },
-  },
-  {
-    title: 'Presail closes $1.6M seed round to simplify Web 3.0 Investments',
-    href: 'https://blog.presail.com/presail-closes-1-6m-seed-round-to-simplify-web-3-0-investments-12324160dc4c',
-    category: { name: 'Announcement' },
-    description:
-      'The round was led by Skyfall Ventures, accompanied by industry-leading funds like Weekend Fund, Global Founders Capital, and Kraken Ventures.',
-    date: 'Mar 2, 2022',
-    datetime: '2022-03-02',
-    imageUrl:
-      '/founders.webp',
-    readingTime: '6 min',
     author: {
       name: 'Sebastian Almnes',
       imageUrl:
