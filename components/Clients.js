@@ -34,9 +34,10 @@ export default function Clients() {
               Chat with us
               <ChatIcon className="ml-2 h-6 w-6 text-main" aria-hidden="true" />
             </a>
-            <div className="flex">
-              <img src="audited.webp" className="h-20 mt-8" alt="Audited by Hacken" width="170" height="80" />
-              <img src="ey-regulation.webp" className="h-20 mt-8 ml-4 lg:ml-12" alt="Regulatory asssessed by EY" width="213" height="80" />
+            <div className="grid grid-flow-col auto-cols-max gap-4">
+              <img src="audited.webp" className="h-16 mt-8" alt="Audited by Hacken" height="64" width="135.6" />
+              <img src="ey-regulation.webp" className="h-16 mt-8" alt="Regulatory asssessed by EY" height="64" width="170.45" />
+              <img src="certik.webp" className="h-16 mt-8" height="64" width="108.55" alt="Audited by Certik" />
             </div>
           </div>
           <div className="mt-8 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-0 lg:grid-cols-2">
