@@ -3,8 +3,7 @@ const people = [
   {
     name: 'Tomas Veiden',
     role: 'CTO',
-    imageUrl: '/team/tomas.webp',
-    telegram: 'TomasPresail'
+    imageUrl: '/team/tomas.webp'
   },
   {
     name: 'Xurxo',
@@ -14,8 +13,7 @@ const people = [
   {
     name: 'August',
     role: 'Senior Developer',
-    imageUrl: '/team/august.webp',
-    telegram: 'lyf1n'
+    imageUrl: '/team/august.webp'
   },
   {
     name: 'Bue',
@@ -28,33 +26,29 @@ const people = [
     imageUrl: '/team/jacob.webp',
   },
   {
-    name: 'TBA',
+    name: 'Aleksander',
     role: 'Head of Design',
-    imageUrl: '/team/tba1.jpg'
+    imageUrl: '/team/aleksander.webp'
   },
   {
     name: 'Even',
     role: 'Account Executive',
-    imageUrl: '/team/even.webp',
-    telegram: 'Pacyos'
+    imageUrl: '/team/even.webp'
   },
   {
     name: 'Milad Mirshahi',
     role: 'Head of Communications',
-    imageUrl: '/team/milad.webp',
-    telegram: 'iNakazumi'
+    imageUrl: '/team/milad.webp'
   },
   {
     name: 'Hamza Nebolsi',
     role: 'Head of Product',
-    imageUrl: '/team/hamza.webp',
-    telegram: 'ZeroCap'
+    imageUrl: '/team/hamza.webp'
   },
   {
     name: 'Sebastian Almnes',
     role: 'CEO',
-    imageUrl: '/team/sebastian.webp',
-    telegram: 'sebdatablock'
+    imageUrl: '/team/sebastian.webp'
   },
 ]
 
@@ -78,8 +72,6 @@ export default function Employees() {
                     <div className="font-medium text-lg leading-6 space-y-1">
                       <h3 className="text-main">{person.name}</h3>
                       <p className="text-deep">{person.role}</p>
-                      <p className="text-deep text-sm pt-6 border-b-2 border-deep">Verified credentials</p>
-                      <p className="text-deep text-sm">Telegram: {person.telegram}</p>
                     </div>
                   </div>
                 </div>
