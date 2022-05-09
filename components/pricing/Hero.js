@@ -12,8 +12,8 @@ const features = [
   'Universal user base search',
   'Whitelisting and FCFS functionality (lift cap)',
   'Custom flexible forms (checkboxes and more)',
-  'Partial, full and bulk refunds (coming)',
-  'Token distributions / airdrop (coming)',
+  'Partial, full and bulk refunds',
+  'Token distributions / airdrop',
   'Dedicated customer success agent'
 ]
 
