@@ -27,7 +27,7 @@ export default function Hero() {
           <div>
             <h1 className="text-4xl font-extrabold sm:text-5xl sm:tracking-tight">
               <span className="text-deep"></span>
-              <span className="text-main">0.25% of funds raised</span>
+              <span className="text-main">0.50% of funds raised</span>
             </h1>
             <p className="mt-5 text-xl text-subgray max-w-lg">
               With Presail you get a partner.
