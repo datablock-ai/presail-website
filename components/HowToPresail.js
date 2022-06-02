@@ -27,7 +27,7 @@ const list = [
   },
   {
     tabText: 'Distribute / Airdrop',
-    title: 'One-click distribute according to your vesting (coming soon)',
+    title: 'One-click distribute according to your vesting',
     bullets: [
       'One-click distributions / airdrops',
       'No need for disperse/bulksender or other apps',
