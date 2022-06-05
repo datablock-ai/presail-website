@@ -27,7 +27,7 @@ export default function Clients() {
             </a>
 
             <a
-              href="https://t.me/iNakazumi"
+              href="https://t.me/pacyos"
               target="_blank"
               className="flex mt-3 sm:mt-0 sm:inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-large shadow-sm text-main bg-secondary focus:outline-none focus:ring-2 focus:ring-offset-2"
             >

@@ -32,7 +32,7 @@ const solutions = [
   {
     name: 'Chat with us',
     description: 'Got questions? Send us a DM on Telegram.',
-    href: 'https://t.me/iNakazumi',
+    href: 'https://t.me/pacyos',
     icon: ChatIcon,
   },
 ]
