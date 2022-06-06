@@ -34,7 +34,7 @@ export default function Clients() {
               Chat with us
               <ChatIcon className="ml-2 h-6 w-6 text-main" aria-hidden="true" />
             </a>
-            <div className="grid grid-flow-col auto-cols-max gap-4">
+            <div className="grid grid-flow-col-dense auto-cols-auto gap-4">
               <img src="audited.webp" className="h-16 mt-8" alt="Audited by Hacken" height="64" width="135.6" />
               <img src="ey-regulation.webp" className="h-16 mt-8" alt="Regulatory asssessed by EY" height="64" width="170.45" />
               <img src="certik.webp" className="h-16 mt-8" height="64" width="108.55" alt="Audited by Certik" />

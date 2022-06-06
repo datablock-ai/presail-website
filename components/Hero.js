@@ -22,9 +22,10 @@ export default function Hero() {
                     Get started now for free
                     <ArrowSmRightIcon className="ml-2 h-6 w-6 text-white" aria-hidden="true" />
                   </a>
+                  <img className="h-12 mt-8" src="/chains.webp" alt="Presail supported blockchains" />
 
                   <p className="mt-4 text-sm sm:text-lg text-subgray">
-                    No commitments. No hidden costs.
+                    Supporting a wide range of chains, and continously expanding
                   </p>
                 </div>
               </div>

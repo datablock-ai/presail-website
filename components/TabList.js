@@ -16,10 +16,7 @@ export default ({ defaultSelected, list }) => {
   return (
     <div className="p-3">
       <div
-        className="grid lg:gap-8 p-3 text-center"
-        style={{
-          gridTemplateColumns: `repeat(${list.length}, minmax(0, 1fr))`,
-        }}
+        className="grid lg:gap-8 p-3 text-center grid-cols-2 lg:grid-cols-4"
       >
         {list.map((item, index) => {
           const style =

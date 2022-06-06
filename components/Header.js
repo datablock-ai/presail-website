@@ -319,11 +319,6 @@ export default function Example() {
                     Pricing
                   </a>
                 </Link>
-                <Link href="/discovery">
-                  <a className="rounded-md text-base font-medium text-gray-900 hover:text-gray-700">
-                    Discover Communities
-                  </a>
-                </Link>
               </div>
               <div className="mt-6">
                 <a
