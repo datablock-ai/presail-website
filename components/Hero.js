@@ -9,10 +9,10 @@ export default function Hero() {
             <div>
               <div className="mt-6">
                 <h1 className="text-3xl tracking-tight font-extrabold text-deep sm:text-5xl md:text-5xl">
-                  Raise funds in crypto, organize and distribute tokens - <span className="text-main">all in one place.</span>
+                  Raise, organize and distribute tokens - <span className="text-main">all in one place.</span>
                 </h1>
                 <p className="mt-4 sm:text-lg text-subgray">
-                  Fundraising and management tool for web 3.0. Whether you're a VC, public community, project or launchpad.
+                  Token management for web 3.0. Whether you're a VC, public community, project or launchpad.
                 </p>
                 <div className="mt-6">
                   <a
