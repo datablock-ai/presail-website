@@ -1,5 +1,22 @@
 const posts = [
   {
+    title: 'Distribution support for Polygon, Fantom & Avalanche',
+    href: 'https://blog.presail.com/distribution-support-for-polygon-fantom-avalanche-b32c9525b9e6',
+    category: { name: 'Article' },
+    description:
+      'With our latest product update, we’ve added support for distributing tokens on Polygon, Fantom & Avalanche.',
+    date: 'Jun 1, 2022',
+    datetime: '2022-05-01',
+    imageUrl:
+      'https://miro.medium.com/max/1400/1*LL8H_mKfXkB3KGGNFshJ6w.png',
+    readingTime: '1 min',
+    author: {
+      name: 'Sebastian Almnes',
+      imageUrl:
+        '/team/sebastian.webp'
+    },
+  },
+  {
     title: 'Presail Distributions V1',
     href: 'https://blog.presail.com/announcing-presail-distributions-v1-bc1fdde69fd0',
     category: { name: 'Announcement' },
@@ -31,23 +48,6 @@ const posts = [
       name: 'Milad Mirshahi',
       imageUrl:
         '/team/milad.webp',
-    },
-  },
-  {
-    title: 'The benefits of raising money from a community',
-    href: 'https://blog.presail.com/the-benefits-of-raising-money-from-a-community-5b9fd8a26da3',
-    category: { name: 'Article' },
-    description:
-      'Community is at the core of web3. People are looking for companies to present a vision they can rally around and are willing to invest their time and money to help it succeed.',
-    date: 'Mar 10, 2022',
-    datetime: '2022-03-10',
-    imageUrl:
-      'https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=559&q=80',
-    readingTime: '5 min',
-    author: {
-      name: 'Sebastian Almnes',
-      imageUrl:
-        '/team/sebastian.webp'
     },
   },
 ]
