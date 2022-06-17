@@ -21,11 +21,6 @@ const people = [
     imageUrl: '/team/bue.webp'
   },
   {
-    name: 'Jacob',
-    role: 'Developer',
-    imageUrl: '/team/jacob.webp',
-  },
-  {
     name: 'Aleksander',
     role: 'Head of Design',
     imageUrl: '/team/aleksander.webp'
