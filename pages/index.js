@@ -12,8 +12,8 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Presail - fundraising tool for web 3.0</title>
-        <meta name="description" content="Raise funds in crypto, organize, and distribute tokens - all in one place. Whether you're a project, launchpad, VC or public community." key="title" />
+        <title>Presail - token management for web 3.0</title>
+        <meta name="description" content="Raise, manage and distribute tokens - all in one place. Whether you're a project, launchpad, VC or public community." key="title" />
       </Head> 
       <div className="antialiased selection:bg-main selection:text-white">
         <Header />
