@@ -19,10 +19,10 @@ export default function Clients() {
             </p>
 
             <a
-              href="https://app.presail.com/onboarding"
+              href="https://calendly.com/nakazumi"
               className="sm:mr-2 flex sm:inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-large shadow-sm text-white bg-main focus:outline-none focus:ring-2 focus:ring-offset-2"
             >
-              Get started now for free
+              Book a demo
               <ArrowSmRightIcon className="ml-2 h-6 w-6 text-white" aria-hidden="true" />
             </a>
 

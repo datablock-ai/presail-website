@@ -10,17 +10,10 @@ export default function Contact() {
         </h2>
         <div className="mt-8 flex justify-center">
           <a
-            href="https://app.presail.com/onboarding"
+            href="https://calendly.com/nakazumi"
             className="mx-2 inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-main"
           >
-            Sign up for free
-          </a>
-      
-          <a
-            href="https://calendly.com/nakazumi"
-            className="mx-2 inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-deep bg-secondary"
-          >
-            Schedule walkthrough
+            Book a demo
           </a>
 
           <a

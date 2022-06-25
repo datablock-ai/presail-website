@@ -6,11 +6,7 @@ export default function Hero() {
           <div className="space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none">
             <h2 className="text-3xl font-extrabold text-main tracking-tight sm:text-4xl">About us</h2>
             <p className="text-xl text-subgray max-w-4xl">
-              Community-driven funding allows anyone, anywhere, to come together and raise capital towards a common goal. 
-              Be it investing in an early-stage web 3.0 project in return for tokens or pooling funds to bid on a copy of the US constitution. 
-            </p>
-            <p className="text-xl text-subgray max-w-4xl">
-              Presail is about enabling these communities.
+              We're giving more people the opportunity to participate in the web 3.0 venture economy.
             </p>
           </div>
         </div>

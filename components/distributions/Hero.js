@@ -16,11 +16,11 @@ export default function Hero() {
             Presail takes care of managing your token distributions for you. We know your cap table, and you can send out the correct amount to all your investors with a click of a button.
           </p>
           <a
-            href="https://app.presail.com/onboarding"
+            href="https://calendly.com/nakazumi"
             type="button"
             className="inline-flex items-center px-6 py-3 border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-main focus:outline-none focus:ring-2 focus:ring-offset-2"
           >
-            Get started now
+            Book a demo 
             <ArrowSmRightIcon className="ml-3 h-5 w-5" aria-hidden="true" />
           </a>
         </div>

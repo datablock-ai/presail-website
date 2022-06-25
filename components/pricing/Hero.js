@@ -36,10 +36,10 @@ export default function Hero() {
             </p>
           </div>
           <a
-            href="https://app.presail.com/onboarding"
+            href="https://calendly.com/nakazumi"
             className="mt-8 w-full bg-main border border-transparent px-5 py-3 inline-flex items-center justify-center text-base font-medium rounded-md text-white sm:mt-10 sm:w-auto xl:mt-0"
           >
-            Get started today
+            Book a demo
             <ArrowSmRightIcon className="ml-2 h-6 w-6 text-white" aria-hidden="true" />
           </a>
         </div>

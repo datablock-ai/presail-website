@@ -12,14 +12,14 @@ export default function Hero() {
                   Raise, manage and distribute tokens - <span className="text-main">all in one place.</span>
                 </h1>
                 <p className="mt-4 sm:text-lg text-subgray">
-                  Token management for web 3.0. Whether you're a VC, public community, project or launchpad.
+                  Token management for web 3.0. Whether you're a VC, investment community, accelerator or a launchpad.
                 </p>
                 <div className="mt-6">
                   <a
-                    href="https://app.presail.com/onboarding"
+                    href="https://calendly.com/nakazumi"
                     className="mr-3 inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-large shadow-sm text-white bg-main focus:outline-none focus:ring-2 focus:ring-offset-2"
                   >
-                    Get started now for free
+                    Book a demo
                     <ArrowSmRightIcon className="ml-2 h-6 w-6 text-white" aria-hidden="true" />
                   </a>
                   <img className="h-12 mt-8" src="/chains.webp" alt="Presail supported blockchains" />
