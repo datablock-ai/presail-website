@@ -26,7 +26,7 @@ const resources = [
   {
     name: 'Due diligence checklist',
     description: 'How to evaluate projects. A checklist for running a diligence process for an early-stage crypto investment.',
-    href: 'https://saftproject.com/',
+    href: 'https://blog.presail.com/checklist-diligence-process-for-early-stage-crypto-investments-c7a221c92ea6',
     icon: BookmarkIcon,
   },
 ]
